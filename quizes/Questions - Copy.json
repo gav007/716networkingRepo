@@ -1,0 +1,1915 @@
+[
+    {
+        "question": "What does the acronym IoE represent?",
+        "options": {
+            "A": "Internet of Everyday",
+            "B": "Intelligence on Everything",
+            "C": "Internet of Everything",
+            "D": "Insight into Everything"
+        },
+        "answer": "C",
+        "feedback": "Internet of Everything is the term used for Internet-connected devices."
+    },
+    {
+        "question": "What is the workforce framework category that includes highly specialized review and evaluation of incoming cybersecurity information to determine if it is useful for intelligence?",
+        "options": {
+            "A": "Protect and Defend",
+            "B": "Oversight and Development",
+            "C": "Securely Provision",
+            "D": "Analyze"
+        },
+        "answer": "D",
+        "feedback": "The 'Analyze' category of the workforce framework includes specialty areas responsible for highly specialized review and evaluation of incoming cybersecurity information to determine its usefulness."
+    },
+    {
+        "question": "What does the term BYOD represent?",
+        "options": {
+            "A": "bring your own disaster",
+            "B": "bring your own device",
+            "C": "bring your own decision",
+            "D": "buy your own disaster"
+        },
+        "answer": "B",
+        "feedback": "The term bring-your-own-device is used to describe mobile devices such as iPhones, smartphones, tablets, and other devices."
+    },
+    {
+        "question": "What is an example of an Internet data domain?",
+        "options": {
+            "A": "Cisco",
+            "B": "Juniper",
+            "C": "Palo Alto",
+            "D": "Linkedin"
+        },
+        "answer": "D",
+        "feedback": "A data domain is a repository for data."
+    },
+    {
+        "question": "What type of attack uses many systems to flood the resources of a target, thus making the target unavailable?",
+        "options": {
+            "A": "ping sweep",
+            "B": "DDoS",
+            "C": "spoof",
+            "D": "DoS"
+        },
+        "answer": "B",
+        "feedback": "DDoS is an attack that involves multiple systems. DoS involves only a single attack system."
+    },
+    {
+        "question": "Pick three types of records that cyber criminals would be interested in stealing from organizations. (Choose three.)",
+        "options": {
+            "A": "medical",
+            "B": "game",
+            "C": "flight",
+            "D": "food",
+            "E": "rock",
+            "F": "employment",
+            "G": "education"
+        },
+        "answer": [
+            "A",
+            "F",
+            "G"
+        ],
+        "feedback": "The correct answers are: medical, education, employment"
+    },
+    {
+        "question": "What name is given to a amateur hacker?",
+        "options": {
+            "A": "red hat",
+            "B": "black hat",
+            "C": "script kiddie",
+            "D": "blue team"
+        },
+        "answer": "C",
+        "feedback": "Script kiddies is a term used to describe inexperienced hackers."
+    },
+    {
+        "question": "What does the term vulnerability mean?",
+        "options": {
+            "A": "a computer that contains sensitive information",
+            "B": "a weakness that makes a target susceptible to an attack",
+            "C": "a potential threat that a hacker creates",
+            "D": "a method of attack to exploit a target",
+            "E": "a known target or victim machine"
+        },
+        "answer": "B",
+        "feedback": "A vulnerability is not a threat, but it is a weakness that makes the PC or the software a target for attacks."
+    },
+    {
+        "question": "Thwarting cyber criminals includes which of the following? (Choose two.)",
+        "options": {
+            "A": "sharing cyber Intelligence information",
+            "B": "establishing early warning systems",
+            "C": "changing operating systems",
+            "D": "shutting down the network",
+            "E": "hiring hackers"
+        },
+        "answer": [
+            "A",
+            "B"
+        ],
+        "feedback": "Organization can join efforts to thwart cyber crime by establishing early warning systems and sharing cyber intelligence."
+    },
+    {
+        "question": "What type of an attack can disable a computer by forcing it to use memory or by overworking its CPU?",
+        "options": {
+            "A": "exhaustion",
+            "B": "algorithm",
+            "C": "DDoS",
+            "D": "APT"
+        },
+        "answer": "B",
+        "feedback": "Algorithm attacks can force computers to use memory or overwork the CPU."
+    },
+    {
+        "question": "What name is given to hackers who hack for a cause?",
+        "options": {
+            "A": "hacker",
+            "B": "white hat",
+            "C": "hactivist",
+            "D": "blue hat"
+        },
+        "answer": "C",
+        "feedback": "The term is used to describe gray hackers who rally and protect for a cause."
+    },
+    {
+        "type": "MC",
+        "question": "What is the main function of a power supply unit (PSU) in a computer?",
+        "options": {
+            "A": "Converts AC to DC power",
+            "B": "Boosts the power signal",
+            "C": "Supplies power to external devices",
+            "D": "Manages data storage"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "Which component is crucial for rendering video and images on a computer?",
+        "options": {
+            "A": "Sound card",
+            "B": "Network card",
+            "C": "Graphics card",
+            "D": "Hard drive"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary function of the CPU in a computer system?",
+        "options": {
+            "A": "To provide storage for data and applications",
+            "B": "To manage the computer's power supply",
+            "C": "To execute program instructions",
+            "D": "To connect external devices"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "How does RAM differ from a hard disk drive in terms of function?",
+        "options": {
+            "A": "RAM stores data permanently",
+            "B": "RAM is used for temporary storage while the system is running",
+            "C": "RAM is slower than a hard disk drive",
+            "D": "RAM is not essential for the system to operate"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary role of input devices in a computer system?",
+        "options": {
+            "A": "To display output from the computer",
+            "B": "To store user data",
+            "C": "To enter data into the computer",
+            "D": "To manage software installations"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary purpose of a bus in a computer system?",
+        "options": {
+            "A": "To store data permanently",
+            "B": "To transmit data between different components",
+            "C": "To cool down the internal components",
+            "D": "To enhance the graphical interface"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which component of the computer is primarily responsible for executing the fetch/execute cycle?",
+        "options": {
+            "A": "Hard drive",
+            "B": "Central Processing Unit (CPU)",
+            "C": "Random Access Memory (RAM)",
+            "D": "Graphics Processing Unit (GPU)"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which of the following best describes the binary number system?",
+        "options": {
+            "A": "A system that uses digits 0-9",
+            "B": "A system that uses only two digits, 0 and 1",
+            "C": "A system that uses hexadecimal digits",
+            "D": "A system used exclusively for character encoding"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "One byte is equivalent to:",
+        "options": {
+            "A": "8 bits",
+            "B": "1024 bits",
+            "C": "10 bits",
+            "D": "100 bits"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "Which component is primarily responsible for CPU and RAM communication?",
+        "options": {
+            "A": "Southbridge",
+            "B": "Northbridge",
+            "C": "BIOS",
+            "D": "Hard drive"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What command is used to update an IP address from the DHCP server?",
+        "options": {
+            "A": "ipconfig /release",
+            "B": "ipconfig /renew",
+            "C": "ipconfig /flushdns",
+            "D": "ipconfig /all"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "When might there be very little advantage when defragmenting your computer?",
+        "options": {
+            "A": "When the computer is new",
+            "B": "When the hard drive is almost full",
+            "C": "After installing new software",
+            "D": "When using SSD"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary function of a system call in an operating system?",
+        "options": {
+            "A": "To facilitate user settings customization",
+            "B": "To monitor system performance",
+            "C": "To provide an interface between a process and the operating system",
+            "D": "To update system software"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the Credential Manager used for in Windows?",
+        "options": {
+            "A": "Managing network settings",
+            "B": "Storing user passwords securely",
+            "C": "Controlling power settings",
+            "D": "Updating the operating system"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What does the 'fork()' system call do?",
+        "options": {
+            "A": "Terminates a process",
+            "B": "Executes a new program",
+            "C": "Sends a termination signal to a process",
+            "D": "Creates new process as copy of the calling process (mother/child)"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "Which would use a single-user, single-tasking operating system?",
+        "options": {
+            "A": "Mobile phones",
+            "B": "Mainframe computers",
+            "C": "Servers",
+            "D": "Gaming systems"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What does PaaS provide to its users apart from infrastructure?",
+        "options": {
+            "A": "Only hardware management",
+            "B": "Software platform and development tools",
+            "C": "Internet service",
+            "D": "Data encryption techniques"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which cloud service model involves businesses accessing computing resources like virtual servers over the internet?",
+        "options": {
+            "A": "SaaS",
+            "B": "PaaS",
+            "C": "IaaS",
+            "D": "DaaS"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is a system call in an operating system?",
+        "options": {
+            "A": "A method to boost system performance",
+            "B": "A mechanism that provides the interface between a process and the operating system",
+            "C": "A type of software that manages hardware devices",
+            "D": "A tool used for programming application interfaces"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is the effect of setting a 'Deny' permission for a group on a file?",
+        "options": {
+            "A": "It overrides any 'Allow' permissions",
+            "B": "It partially restricts access based on user settings",
+            "C": "It has no effect",
+            "D": "It encrypts the file"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "CPU Architectures: Which of the following CPU architectures is commonly used in personal computers?",
+        "options": {
+            "A": "ARM",
+            "B": "MIPS",
+            "C": "x86",
+            "D": "SPARC"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Memory Types: Which type of memory is volatile and requires power to maintain the stored information?",
+        "options": {
+            "A": "ROM",
+            "B": "EEPROM",
+            "C": "RAM",
+            "D": "Flash Memory"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Data Storage Capacity: Which of the following units represents the largest amount of data storage?",
+        "options": {
+            "A": "Gigabyte (GB)",
+            "B": "Terabyte (TB)",
+            "C": "Megabyte (MB)",
+            "D": "Kilobyte (KB)"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Networking Devices: Which device is primarily used to connect multiple devices on a LAN (Local Area Network) and can segment network traffic to reduce collisions?",
+        "options": {
+            "A": "Router",
+            "B": "Switch",
+            "C": "Modem",
+            "D": "Firewall"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Graphics Processing Unit (GPU): Which of the following is a common use case for a GPU in modern computing?",
+        "options": {
+            "A": "Managing file storage on hard drives",
+            "B": "Accelerating video rendering",
+            "C": "Performing routing functions for network traffic",
+            "D": "Executing high-speed printing tasks"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary role of the CPU in a computer system?",
+        "options": {
+            "A": "To store data permanently",
+            "B": "To provide connectivity to peripheral devices",
+            "C": "To execute instructions and process data",
+            "D": "To manage power supply"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which component acts as the backbone of a computer, interconnecting all other components?",
+        "options": {
+            "A": "Power Supply Unit (PSU)",
+            "B": "Hard Disk Drive (HDD)",
+            "C": "Motherboard",
+            "D": "Graphics Processing Unit (GPU)"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "When selecting a motherboard, what is crucial for ensuring compatibility and optimal performance?",
+        "options": {
+            "A": "Colour and design of the motherboard",
+            "B": "Size of the motherboard only",
+            "C": "Compatibility with CPU, RAM, and expansion slots",
+            "D": "The number of USB ports only"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What describes the data path from input to output in a computer system?",
+        "options": {
+            "A": "Data directly moves from input to output without processing",
+            "B": "Data is stored on the hard drive before being outputted",
+            "C": "Data travels through the system's buses, CPU, memory, and then to output devices",
+            "D": "Data is sent via the internet before being displayed on the output device"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "How do primary memory (RAM) and secondary storage devices differ in their roles?",
+        "options": {
+            "A": "Only RAM can store data permanently",
+            "B": "Secondary storage is used for temporary data processing",
+            "C": "RAM is volatile and used for temporary storage while executing programs, whereas secondary storage holds data permanently",
+            "D": "There is no significant difference; both serve the same purpose"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What does the southbridge chip manage in a computer system?",
+        "options": {
+            "A": "Processor operations",
+            "B": "RAM frequency",
+            "C": "Input/Output operations",
+            "D": "Graphics rendering"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is a primary benefit of upgrading RAM in a computer?",
+        "options": {
+            "A": "Increases hard drive storage",
+            "B": "Improves cooling efficiency",
+            "C": "Enhances multitasking capabilities",
+            "D": "Speeds up the power supply unit"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which component should you upgrade to significantly improve system boot and application load times?",
+        "options": {
+            "A": "GPU",
+            "B": "SSD",
+            "C": "PSU",
+            "D": "RAM"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What must be considered when upgrading a CPU to avoid compatibility issues?",
+        "options": {
+            "A": "The colour of the CPU",
+            "B": "The CPU's brand name",
+            "C": "The motherboard's chipset and socket type",
+            "D": "The wattage of the power supply unit"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "When upgrading to a new GPU, what motherboard feature is important to check for avoiding bottlenecks?",
+        "options": {
+            "A": "USB ports version",
+            "B": "PCIe slot version and bandwidth",
+            "C": "Number of audio jacks",
+            "D": "SATA II compatibility"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which upgrade can directly benefit from a motherboard supporting NVMe technology?",
+        "options": {
+            "A": "RAM",
+            "B": "SSD",
+            "C": "Cooling System",
+            "D": "Optical Drive"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What protocol is used for securely transferring files over the internet?",
+        "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "SSH",
+            "D": "SFTP"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What does VPN stand for and what is its primary purpose?",
+        "options": {
+            "A": "Virtual Private Network; to secure internet connections",
+            "B": "Variable Path Network; to manage network paths",
+            "C": "Virtual Path Node; to create virtual network topologies",
+            "D": "Verification Protocol Network; to verify data integrity"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "Which of the following is not a type of malware?",
+        "options": {
+            "A": "Trojan Horse",
+            "B": "Worm",
+            "C": "Spyware",
+            "D": "Encapsulation"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "Which data structure uses a first-in, first-out (FIFO) method?",
+        "options": {
+            "A": "Array",
+            "B": "Stack",
+            "C": "Queue",
+            "D": "Linked List"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "In object-oriented programming, what term is used to describe the process of deriving a new class from an existing class?",
+        "options": {
+            "A": "Polymorphism",
+            "B": "Encapsulation",
+            "C": "Inheritance",
+            "D": "Abstraction"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the purpose of the HTTP 404 status code?",
+        "options": {
+            "A": "To indicate a successful connection",
+            "B": "To indicate that a resource is not found on the server",
+            "C": "To indicate a server error",
+            "D": "To indicate that a request has been redirected"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which algorithm is known for being an effective public-key cryptosystem?",
+        "options": {
+            "A": "RSA",
+            "B": "SHA-256",
+            "C": "AES",
+            "D": "MD5"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary function of the Domain Name System (DNS)?",
+        "options": {
+            "A": "To encrypt data transmissions",
+            "B": "To distribute digital certificates",
+            "C": "To translate domain names into IP addresses",
+            "D": "To provide virtual network interfaces"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which of the following is a benefit of using cloud computing?",
+        "options": {
+            "A": "Increased data security",
+            "B": "Decreased scalability",
+            "C": "Reduced infrastructure costs",
+            "D": "Complete control over hardware"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is big data?",
+        "options": {
+            "A": "Data sets that are so large and complex that traditional data processing software cannot manage them effectively",
+            "B": "Data sets that are structured and easy to analyze",
+            "C": "Data that consists only of large files",
+            "D": "Data that is stored on big servers"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary purpose of the OSI Model in networking?",
+        "options": {
+            "A": "To define the physical structure of the network",
+            "B": "To provide a framework for creating and implementing networking standards",
+            "C": "To enhance the speed of network communications",
+            "D": "To determine the data capacity of a network"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What layer of the OSI Model is responsible for routing between networks?",
+        "options": {
+            "A": "Application Layer",
+            "B": "Presentation Layer",
+            "C": "Network Layer",
+            "D": "Data Link Layer"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which device operates primarily at the Access Layer in network design?",
+        "options": {
+            "A": "Router",
+            "B": "Switch",
+            "C": "Firewall",
+            "D": "Modem"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What protocol is used for routing information between networks?",
+        "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "SMTP",
+            "D": "BGP"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "Which version of the Internet Protocol is most widely used on the Internet today?",
+        "options": {
+            "A": "IPv4",
+            "B": "IPv6",
+            "C": "IPv8",
+            "D": "IPv5"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is a key function of the Transport Layer in the OSI model?",
+        "options": {
+            "A": "Routing data between networks",
+            "B": "Providing end-to-end communication services",
+            "C": "Formatting data for presentation",
+            "D": "Controlling physical network components"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which device is used to connect multiple networks and determine the optimal path for data to travel between them?",
+        "options": {
+            "A": "Router",
+            "B": "Switch",
+            "C": "Hub",
+            "D": "Repeater"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What does IP stand for in the context of networking?",
+        "options": {
+            "A": "Internet Provision",
+            "B": "Internal Protocol",
+            "C": "Internet Protocol",
+            "D": "Intranet Provision"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary purpose of subnetting in network design?",
+        "options": {
+            "A": "To increase the speed of the network",
+            "B": "To decrease network security",
+            "C": "To create smaller, more manageable network segments",
+            "D": "To eliminate the need for routers"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is meant by 'default gateway' in a network?",
+        "options": {
+            "A": "The device that stores the Internet",
+            "B": "The primary device for storing data",
+            "C": "The device that manages internal communications",
+            "D": "The device that routes outgoing traffic to different networks"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What technology allows different networks to communicate by translating private IP addresses to public ones?",
+        "options": {
+            "A": "Firewall",
+            "B": "NAT (Network Address Translation)",
+            "C": "VPN (Virtual Private Network)",
+            "D": "Proxy Server"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which protocol is essential for finding the MAC address associated with a known IP address?",
+        "options": {
+            "A": "ARP (Address Resolution Protocol)",
+            "B": "ICMP (Internet Control Message Protocol)",
+            "C": "RARP (Reverse Address Resolution Protocol)",
+            "D": "PPP (Point-to-Point Protocol)"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "In networking, what is a 'ping' used for?",
+        "options": {
+            "A": "To test the security of network",
+            "B": "To measure the speed of the Internet",
+            "C": "To verify that a specific IP address can accept requests",
+            "D": "To encrypt data transmissions"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which device is typically used to divide broadcast domains in a computer network?",
+        "options": {
+            "A": "Hub",
+            "B": "Modem",
+            "C": "Router",
+            "D": "Switch"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What does DHCP stand for and what is its function?",
+        "options": {
+            "A": "Dynamic Host Configuration Protocol; it dynamically assigns IP addresses to devices on a network",
+            "B": "Dedicated Host Control Protocol; it controls all host connections centrally",
+            "C": "Dynamic Hyper Control Protocol; it manages hyperlinks on the Internet",
+            "D": "Dedicated Host Configuration Protocol; it statically assigns IP addresses to devices"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the main benefit of using IPv6 over IPv4?",
+        "options": {
+            "A": "Faster data transfer speeds",
+            "B": "A larger address space",
+            "C": "More efficient encryption",
+            "D": "Simpler header format"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which layer of the OSI model ensures reliable data transmission across a network?",
+        "options": {
+            "A": "Session Layer",
+            "B": "Transport Layer",
+            "C": "Network Layer",
+            "D": "Physical Layer"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is a typical use of a VLAN?",
+        "options": {
+            "A": "To increase the Internet speed",
+            "B": "To create a single network within multiple locations",
+            "C": "To segment a network into smaller logical parts",
+            "D": "To connect multiple networks into one broadcast domain"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which IEEE standard is commonly associated with wireless networking?",
+        "options": {
+            "A": "802.3",
+            "B": "802.11",
+            "C": "802.5",
+            "D": "802.15"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is the function of the Data Link Layer in the OSI model?",
+        "options": {
+            "A": "It provides node-to-node data transfer — a function that detects and possibly corrects errors that may occur in the Physical layer.",
+            "B": "It deals with routing of packets between source and destination.",
+            "C": "It formats data to be presented to the application layer.",
+            "D": "It provides encryption and conversion of data."
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the main function of a firewall in a network?",
+        "options": {
+            "A": "To boost signal strength",
+            "B": "To manage data storage",
+            "C": "To control and filter network traffic",
+            "D": "To allocate IP addresses"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which layer of the OSI model is responsible for establishing, managing, and terminating sessions between applications?",
+        "options": {
+            "A": "Application Layer",
+            "B": "Presentation Layer",
+            "C": "Session Layer",
+            "D": "Transport Layer"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "In terms of network security, what is a 'honeypot'?",
+        "options": {
+            "A": "A tool that attracts attackers to distract them from accessing critical systems",
+            "B": "A type of firewall",
+            "C": "A software that prevents data breaches",
+            "D": "A method for encrypting network traffic"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "Which protocol is responsible for error reporting and diagnostics in IP networks?",
+        "options": {
+            "A": "TCP",
+            "B": "UDP",
+            "C": "ICMP",
+            "D": "ARP"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the function of a network switch?",
+        "options": {
+            "A": "To connect different network segments and route data packets",
+            "B": "To broadcast data to all devices on a network",
+            "C": "To provide wireless connectivity",
+            "D": "To connect devices on a LAN and filter traffic by MAC address"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "Which type of IP address is configured manually by an administrator in a way that it will not change unless manually modified?",
+        "options": {
+            "A": "Dynamic IP Address",
+            "B": "Static IP Address",
+            "C": "Shared IP Address",
+            "D": "Public IP Address"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What does SSL/TLS provide for data transmission over the internet?",
+        "options": {
+            "A": "Speed optimization",
+            "B": "Compression",
+            "C": "Encryption",
+            "D": "Routing"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What type of cable is commonly used in Ethernet networks?",
+        "options": {
+            "A": "Coaxial",
+            "B": "Fiber optic",
+            "C": "Twisted pair",
+            "D": "USB cable"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which network topology connects each device to a single central hub?",
+        "options": {
+            "A": "Star",
+            "B": "Ring",
+            "C": "Mesh",
+            "D": "Bus"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "Which of the following is an example of an application layer protocol in the OSI model?",
+        "options": {
+            "A": "HTTP",
+            "B": "TCP",
+            "C": "IP",
+            "D": "Ethernet"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "To which category of hypervisor does the Microsoft Virtual PC belong?",
+        "options": {
+            "A": "Type 1",
+            "B": "Type 2",
+            "C": "Type 3",
+            "D": "Type 4"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which statement describes a characteristic of cloud computing?",
+        "options": {
+            "A": "A business can connect directly to the Internet without the use of an ISP.",
+            "B": "Applications can be accessed over the Internet through a subscription.",
+            "C": "Devices can connect to the Internet through existing electrical wiring.",
+            "D": "Investment in new infrastructure is required in order to access the cloud."
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "A company uses a cloud-based payroll system. Which cloud computing technology is this company using?",
+        "options": {
+            "A": "browser as a service (BaaS)",
+            "B": "infrastructure as a service (IaaS)",
+            "C": "software as a service (SaaS)",
+            "D": "wireless as a service (WaaS)"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which cloud computing opportunity would provide the use of network hardware such as routers and switches for a particular company?",
+        "options": {
+            "A": "browser as a service (BaaS)",
+            "B": "infrastructure as a service (IaaS)",
+            "C": "software as a service (SaaS)",
+            "D": "wireless as a service (WaaS)"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which term is associated with Cloud computing?",
+        "options": {
+            "A": "teleworkers",
+            "B": "wireless",
+            "C": "tall servers",
+            "D": "virtualization"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "For a large enterprise deploying virtualized servers, what are two benefits of using a bare metal hypervisor solution instead of a hosted hypervisor solution? (Choose two.)",
+        "options": {
+            "A": "direct access to hardware resources",
+            "B": "increased efficiency",
+            "C": "enhanced security",
+            "D": "elimination of the need for management console software",
+            "E": "addition of an extra layer of abstraction"
+        },
+        "answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "What is the difference between a data center and cloud computing?",
+        "options": {
+            "A": "The data center makes use of more devices to process data.",
+            "B": "Cloud computing provides access to shared computing resources, while a data center is a facility that stores and processes data.",
+            "C": "Of the two, only cloud computing is located off-site.",
+            "D": "There is no difference. These terms can be used interchangeably.",
+            "E": "Data centers require cloud computing but cloud computing does not require data centers."
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which statement describes the concept of cloud computing?",
+        "options": {
+            "A": "separation of application from hardware",
+            "B": "separation of operating system from hardware",
+            "C": "separation of control plane from data plane",
+            "D": "separation of management plane from control plane"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "A college is exploring options to outsource the student email service to a cloud provider. Which two solutions will help the college to achieve the task? (Choose two.)",
+        "options": {
+            "A": "Gmail",
+            "B": "Dropbox",
+            "C": "OneDrive",
+            "D": "Virtual Desktop",
+            "E": "Exchange Online"
+        },
+        "answer": [
+            "A",
+            "E"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "How does cloud computing improve the performance and user experience of an online version of office productivity tools?",
+        "options": {
+            "A": "by providing application code as needed",
+            "B": "by downloading the application package to the local storage",
+            "C": "by ensuring a secure connection between the client and the service provider",
+            "D": "by connecting local hardware devices, such as a printer, to the service provider"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "A research and development group has members from different company locations. The group is looking for a central file storage solution to store research-related documents. What are two possible solutions? (Choose two.)",
+        "options": {
+            "A": "Gmail",
+            "B": "OneDrive",
+            "C": "Google Drive",
+            "D": "virtual desktop",
+            "E": "Exchange Online"
+        },
+        "answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "A small advertising company is considering outsourcing the information technology services to a cloud provider. The services would include user training, software licensing, and provisioning. What cloud service would the company consider purchasing?",
+        "options": {
+            "A": "IT as a service (ITaaS)",
+            "B": "platform as a service (PaaS)",
+            "C": "software as a service (SaaS)",
+            "D": "infrastructure as a service (IaaS)"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "The IT department in a company is looking for a solution to consolidate the functionality of several mission critical server computers into VMs on a few high performance host machines. Which two hypervisors should be considered? (Choose two.)",
+        "options": {
+            "A": "VMWare vSphere",
+            "B": "Oracle VM Server",
+            "C": "VMWare Workstation",
+            "D": "Oracle VM VirtualBox",
+            "E": "Windows 10 Hyper-V"
+        },
+        "answer": [
+            "A",
+            "E"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "What is a characteristic of a virtual machine running on a PC?",
+        "options": {
+            "A": "A virtual machine runs its own operating system.",
+            "B": "A virtual machine is not susceptible to threats and malicious attacks.",
+            "C": "A virtual machine needs a physical network adapter to connect to the Internet.",
+            "D": "The number of virtual machines that can be made available depends on the software resources of the host machine."
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary purpose of DHCP in a network?",
+        "options": {
+            "A": "To provide encryption for data in transit",
+            "B": "To assign dynamic IP addresses to devices",
+            "C": "To route packets between different networks",
+            "D": "To store data for network applications"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which feature of IPv6 addresses the limitation of IPv4 in terms of address space?",
+        "options": {
+            "A": "Stateless autoconfiguration",
+            "B": "Broadcast addressing",
+            "C": "128-bit address length",
+            "D": "Integrated security features"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What role does the Transport Layer play in data communication?",
+        "options": {
+            "A": "It provides node-to-node transfer",
+            "B": "It ensures reliable data transfer from end-to-end",
+            "C": "It manages data representation and encryption",
+            "D": "It routes packets across different networks"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which protocol operates at the Application Layer and is used for file transfer?",
+        "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "TCP",
+            "D": "IP"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "How does DHCP simplify network administration?",
+        "options": {
+            "A": "By automatically assigning IP addresses",
+            "B": "By encrypting data packets",
+            "C": "By reducing the number of cables needed",
+            "D": "By increasing the speed of network connections"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is a significant advantage of IPv6 over IPv4?",
+        "options": {
+            "A": "Smaller header size",
+            "B": "Larger address space",
+            "C": "Faster packet processing",
+            "D": "Compatibility with legacy systems"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which layer of the OSI model is responsible for end-to-end communication over a network?",
+        "options": {
+            "A": "Session Layer",
+            "B": "Transport Layer",
+            "C": "Network Layer",
+            "D": "Physical Layer"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which of the following is a service provided by the Application Layer?",
+        "options": {
+            "A": "Segmentation of data",
+            "B": "Routing of packets",
+            "C": "Email services",
+            "D": "Modulation and demodulation"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the main function of a DHCP relay?",
+        "options": {
+            "A": "To forward DHCP messages between clients and servers on different subnets",
+            "B": "To provide backup services for data",
+            "C": "To encrypt DHCP messages",
+            "D": "To block unauthorized DHCP messages"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "Which statement best describes the difference between IPv4 and IPv6?",
+        "options": {
+            "A": "IPv6 allows for optional encryption and IPv4 does not.",
+            "B": "IPv4 addresses are longer than IPv6 addresses.",
+            "C": "IPv6 provides a larger address space compared to IPv4.",
+            "D": "IPv4 has better support for mobile networks than IPv6."
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "In DHCP, what is the purpose of the 'lease' concept?",
+        "options": {
+            "A": "To limit the time a device can hold an IP address",
+            "B": "To secure the IP address transactions",
+            "C": "To provide permanent IP addresses to clients",
+            "D": "To prioritize IP address assignment"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What distinguishes the Application Layer from other layers in the OSI model?",
+        "options": {
+            "A": "It is responsible for physical network connections",
+            "B": "It provides the interface between the applications and the underlying network",
+            "C": "It handles the routing of data",
+            "D": "It ensures reliable packet delivery"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary benefit of IPv6’s simplified header compared to IPv4?",
+        "options": {
+            "A": "Faster processing by routers",
+            "B": "More options for encryption",
+            "C": "Backward compatibility with IPv4",
+            "D": "Higher data integrity"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "Which Transport Layer protocol would be best for a real-time video conference application?",
+        "options": {
+            "A": "TCP",
+            "B": "UDP",
+            "C": "SCTP",
+            "D": "ICMP"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "In the context of network services, what does NAT stand for and what is its primary function?",
+        "options": {
+            "A": "Network Address Translation, translates public IP addresses to private IP addresses",
+            "B": "Network Access Translation, grants access to network services",
+            "C": "Network Allocation Table, allocates network resources",
+            "D": "Network Address Transition, manages IP address changes"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is one of the main roles of the Application Layer in data networking?",
+        "options": {
+            "A": "Error detection and correction",
+            "B": "Data transport across a network",
+            "C": "Management of data exchange for applications",
+            "D": "Physical data transfer"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Why is DHCP considered a crucial service in large networks?",
+        "options": {
+            "A": "It reduces the administrative burden of assigning IP addresses",
+            "B": "It encrypts network traffic",
+            "C": "It increases the speed of network connections",
+            "D": "It filters malicious data transmissions"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "How does the Application Layer differentiate from the Presentation Layer in the OSI model?",
+        "options": {
+            "A": "The Application Layer handles syntax and semantics of the data",
+            "B": "The Application Layer provides services directly to user applications",
+            "C": "The Presentation Layer establishes, manages, and terminates connections",
+            "D": "The Presentation Layer routes data between nodes"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What advantage does IPv6 have over IPv4 in terms of routing efficiency?",
+        "options": {
+            "A": "IPv6 supports automatic address configuration",
+            "B": "IPv6 addresses require less memory in routing tables",
+            "C": "IPv6 has a simpler header that enhances routing efficiency",
+            "D": "IPv6 uses smaller packets that are faster to route"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the key function of transport protocols like TCP and UDP at the Transport Layer?",
+        "options": {
+            "A": "To manage data transmission sessions",
+            "B": "To package data for routing",
+            "C": "To ensure the orderly transmission of packets",
+            "D": "To direct data packets to their destination IP addresses"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the first step in building a home network?",
+        "options": {
+            "A": "Connecting to the Internet",
+            "B": "Purchasing a network router",
+            "C": "Setting up a wireless access point",
+            "D": "Identifying devices to be connected"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "Which device is necessary to connect your home network to the Internet?",
+        "options": {
+            "A": "Modem",
+            "B": "Switch",
+            "C": "Hub",
+            "D": "Firewall"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the purpose of network security in a home network?",
+        "options": {
+            "A": "To speed up the network connection",
+            "B": "To prevent unauthorized access to the network",
+            "C": "To increase the number of devices that can connect",
+            "D": "To reduce the cost of Internet service"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which security measure should be applied when configuring a home Wi-Fi network?",
+        "options": {
+            "A": "Using WEP encryption",
+            "B": "Setting a strong Wi-Fi password",
+            "C": "Connecting as many devices as possible",
+            "D": "Disabling the network SSID broadcast"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which setting on your router is important to adjust when you want to manage how devices connect to the Internet?",
+        "options": {
+            "A": "NAT settings",
+            "B": "SSID configuration",
+            "C": "DHCP settings",
+            "D": "QoS settings"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What function does a firewall serve in a home network?",
+        "options": {
+            "A": "It boosts the signal strength of the network",
+            "B": "It allows for more devices to connect to the Internet",
+            "C": "It protects the network from external threats",
+            "D": "It manages the allocation of IP addresses"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "When setting up a home network, what is the best placement for a wireless router?",
+        "options": {
+            "A": "Next to large metal objects",
+            "B": "Far from where devices are used",
+            "C": "In a central location",
+            "D": "Inside a cabinet for aesthetic reasons"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the advantage of configuring device security settings from the network router?",
+        "options": {
+            "A": "It can block all Internet traffic",
+            "B": "It allows for individual device management",
+            "C": "It restricts the number of devices on the network",
+            "D": "It provides a central point of control for all devices"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "Why is it important to keep your network devices' firmware updated?",
+        "options": {
+            "A": "To ensure the fastest Internet connection",
+            "B": "To comply with ISP requirements",
+            "C": "To maintain device compatibility",
+            "D": "To fix security vulnerabilities"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What should be considered when choosing a service provider for connecting to the Internet?",
+        "options": {
+            "A": "The color of the cables provided",
+            "B": "The number of email accounts offered",
+            "C": "The bandwidth and type of service",
+            "D": "The number of routers available"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is the primary function of Cisco switches in a network?",
+        "options": {
+            "A": "To provide wireless connectivity",
+            "B": "To direct traffic between different networks",
+            "C": "To connect devices within the same network and facilitate communication",
+            "D": "To serve as the point where the ISP connects to the network"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which feature is commonly used in Cisco routers to facilitate the routing of traffic between different networks?",
+        "options": {
+            "A": "Power over Ethernet",
+            "B": "Quality of Service",
+            "C": "Internet Protocol Security",
+            "D": "Routing Information Protocol"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What is the Cisco IOS?",
+        "options": {
+            "A": "A user interface for managing Cisco devices",
+            "B": "The operating system used on Cisco devices",
+            "C": "A protocol used for network management",
+            "D": "A software used for network modeling"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "Which command in the Cisco IOS command line can be used to display the current configuration of a device?",
+        "options": {
+            "A": "show running-config",
+            "B": "copy running-config startup-config",
+            "C": "display current-config",
+            "D": "config terminal"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the purpose of the 'enable' command on a Cisco router?",
+        "options": {
+            "A": "To restart the router",
+            "B": "To exit the current configuration mode",
+            "C": "To enter privileged EXEC mode",
+            "D": "To view the default settings"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "When building a small Cisco network, what is the first device you should configure?",
+        "options": {
+            "A": "The modem",
+            "B": "The switch",
+            "C": "The router",
+            "D": "The firewall"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "Which tool is essential for troubleshooting common network problems in a Cisco network?",
+        "options": {
+            "A": "Network sniffer",
+            "B": "Packet tracer",
+            "C": "Cable tester",
+            "D": "Protocol analyzer"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is a common symptom of a problem with a router's configuration in a Cisco network?",
+        "options": {
+            "A": "High CPU usage on a server",
+            "B": "Inability to connect to the wireless network",
+            "C": "Slow Internet speeds",
+            "D": "Routing loops or incorrect routing information"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What should you check first when a Cisco device fails to start?",
+        "options": {
+            "A": "If the device is plugged in",
+            "B": "The configuration register settings",
+            "C": "The version of the IOS",
+            "D": "The integrity of backup files"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "What is the best practice when configuring a new Cisco router for a small network?",
+        "options": {
+            "A": "Use default settings for quicker setup",
+            "B": "Configure the router remotely",
+            "C": "Update the IOS to the latest version before configuring",
+            "D": "Set the router to boot from the network"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is a secure virtual network called that uses the public network?",
+        "options": {
+            "A": "IDS",
+            "B": "Firewall",
+            "C": "NAC",
+            "D": "VPN",
+            "E": "IPS",
+            "F": "MPLS"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What type of cybersecurity laws protect you from an organization that might want to share your sensitive data?",
+        "options": {
+            "A": "nonrepudiation",
+            "B": "privacy",
+            "C": "confidentiality",
+            "D": "integrity",
+            "E": "authentication"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What principle prevents the disclosure of information to unauthorized people, resources, and processes?",
+        "options": {
+            "A": "availability",
+            "B": "confidentiality",
+            "C": "integrity",
+            "D": "nonrepudiation",
+            "E": "accounting"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What is a method of sending information from one device to another using removable media?",
+        "options": {
+            "A": "LAN",
+            "B": "sneaker net",
+            "C": "wired",
+            "D": "wireless",
+            "E": "infrared",
+            "F": "packet"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "What mechanism can organizations use to prevent accidental changes by authorized users?",
+        "options": {
+            "A": "backups",
+            "B": "encryption",
+            "C": "version control",
+            "D": "SHA-1",
+            "E": "hashing"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What name is given to any changes to the original data such as users manually modifying data, programs processing and changing data, and equipment failures?",
+        "options": {
+            "A": "backup",
+            "B": "deletion",
+            "C": "corruption",
+            "D": "modification",
+            "E": "integrity",
+            "F": "dissemination"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What service determines which resources a user can access along with the operations that a user can perform?",
+        "options": {
+            "A": "accounting",
+            "B": "authentication",
+            "C": "authorization",
+            "D": "token",
+            "E": "biometric"
+        },
+        "answer": "C"
+    },
+    {
+        "type": "MC",
+        "question": "What is identified by the first dimension of the cybersecurity cube?",
+        "options": {
+            "A": "safeguards",
+            "B": "rules",
+            "C": "knowledge",
+            "D": "goals",
+            "E": "tools"
+        },
+        "answer": "D"
+    },
+    {
+        "type": "MC",
+        "question": "What name is given to a storage device connected to a network?",
+        "options": {
+            "A": "DAS",
+            "B": "NAS",
+            "C": "SAN",
+            "D": "RAID",
+            "E": "Cloud"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "For the purpose of authentication, what three methods are used to verify identity? (Choose three.)",
+        "options": {
+            "A": "something you do",
+            "B": "where you are",
+            "C": "something you are",
+            "D": "something you know",
+            "E": "something you have"
+        },
+        "answer": [
+            "D",
+            "E",
+            "C"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "Which two methods help to ensure data integrity? (Choose two.)",
+        "options": {
+            "A": "authorization",
+            "B": "hashing",
+            "C": "data consistency checks",
+            "D": "availability",
+            "E": "privacy",
+            "F": "repudiation"
+        },
+        "answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "What are two common hash functions? (Choose two.)",
+        "options": {
+            "A": "ECC",
+            "B": "RC4",
+            "C": "MD5",
+            "D": "SHA",
+            "E": "RSA",
+            "F": "Blowfish"
+        },
+        "answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "What are the three foundational principles of the cybersecurity domain? (Choose three.)",
+        "options": {
+            "A": "confidentiality",
+            "B": "encryption",
+            "C": "security",
+            "D": "integrity",
+            "E": "availability",
+            "F": "policy"
+        },
+        "answer": [
+            "A",
+            "D",
+            "E"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "What are three access control security services? (Choose three.)",
+        "options": {
+            "A": "accounting",
+            "B": "authorization",
+            "C": "access",
+            "D": "authentication",
+            "E": "availability",
+            "F": "repudiation"
+        },
+        "answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "Which two methods help to ensure confidentiality? (Choose two.)",
+        "options": {
+            "A": "authorization",
+            "B": "nonrepudiation",
+            "C": "encryption",
+            "D": "authentication",
+            "E": "availability",
+            "F": "integrity"
+        },
+        "answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "What are the three states of data? (Choose three.)",
+        "options": {
+            "A": "in-transit",
+            "B": "in-cloud",
+            "C": "encrypted",
+            "D": "at rest",
+            "E": "in-process",
+            "F": "suspended"
+        },
+        "answer": [
+            "A",
+            "D",
+            "E"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "A user is asked to evaluate the security posture of a company by looking at past attempts to break into the company and evaluating the threats and exposures to create a report. Which type of risk analysis could the user perform?",
+        "options": {
+            "A": "qualitative",
+            "B": "subjective",
+            "C": "opinion",
+            "D": "objective"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "A user is purchasing a new server for the company data center and wants disk striping with parity on three disks. Which RAID level should the user implement?",
+        "options": {
+            "A": "5",
+            "B": "0",
+            "C": "1",
+            "D": "1+0"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "A user is hired to prepare a report to Congress about which industries should be required to maintain five nine availability. Which three industries should the user include in the report? (Choose three.)",
+        "options": {
+            "A": "public safety",
+            "B": "retail",
+            "C": "finance",
+            "D": "food service",
+            "E": "healthcare",
+            "F": "education"
+        },
+        "answer": [
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "A user is redesigning a network for a small company and wants to ensure security at a reasonable price by deploying multiple defenses at various points of the network. What approach is the user implementing?",
+        "options": {
+            "A": "attack based",
+            "B": "layered",
+            "C": "risk based",
+            "D": "structured"
+        },
+        "answer": "B"
+    },
+    {
+        "type": "MC",
+        "question": "A user needs to add redundancy to the routers in a company. What are the three options the user can use? (Choose three.)",
+        "options": {
+            "A": "STP",
+            "B": "GLBP",
+            "C": "IPFIX",
+            "D": "HSRP",
+            "E": "RAID",
+            "F": "VRRP"
+        },
+        "answer": [
+            "B",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "type": "MC",
+        "question": "During which phase of an incident response plan are lessons learned applied?",
+        "options": {
+            "A": "recovery",
+            "B": "analyze",
+            "C": "preparation",
+            "D": "containment",
+            "E": "detection",
+            "F": "post-incident"
+        },
+        "answer": "F"
+    },
+    {
+        "type": "MC",
+        "question": "A user wants to build redundancy into the network in case of a switch failure but wants to prevent Layer 2 looping. What would the user implement in the network?",
+        "options": {
+            "A": "Spanning Tree Protocol",
+            "B": "VRRP",
+            "C": "GLBP",
+            "D": "HSRP"
+        },
+        "answer": "A"
+    },
+    {
+        "type": "MC",
+        "question": "A user has completed a six-month project to identify all data locations and catalog them. What are two steps the user can take to classify the data? (Choose two.)",
+        "options": {
+            "A": "Determine how often data is backed up",
+            "B": "Treat all the data the same",
+            "C": "Determine the user of the data",
+            "D": "Establish the owner of the data",
+            "E": "Identify sensitivity of the data",
+            "F": "Determine permissions for the data"
+        },
+        "answer": [
+            "D",
+            "E"
+        ]
+    }
+]

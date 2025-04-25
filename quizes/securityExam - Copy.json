@@ -1,0 +1,1375 @@
+[
+  {
+    "type": "MC",
+    "question": "A user is asked to evaluate the security posture of a company by looking at past attempts to break into the company and evaluating the threats and exposures to create a report. Which type of risk analysis could the user perform?",
+    "options": {
+        "A": "qualitative (based on opinions and scenarios)",
+        "B": "subjective",
+        "C": "opinion",
+        "D": "objective"
+    },
+    "answer": "A",
+    "explanation": "Qualitative risk analysis involves assessing the impact and likelihood of risks through scenarios and opinions, which helps in understanding non-measurable factors."
+  },
+  {
+    "type": "MC",
+    "question": "A user is purchasing a new server for the company data center and wants disk striping with parity on three disks. Which RAID (Redundant Array of Independent Disks) level should the user implement?",
+    "options": {
+        "A": "5",
+        "B": "0",
+        "C": "1",
+        "D": "1+0"
+    },
+    "answer": "A",
+    "explanation": "RAID 5 provides disk striping with parity, offering a good balance of performance, storage efficiency, and data security."
+  },
+  {
+    "type": "MC",
+    "question": "A consultant is hired to prepare a report to Congress on which industries should be required to maintain five nine availability (99.999% uptime). Which three industries should the user include in a report? (Choose three.)",
+    "options": {
+        "A": "public safety",
+        "B": "retail",
+        "C": "finance",
+        "D": "food service",
+        "E": "healthcare",
+        "F": "education"
+    },
+    "answer": ["A", "C", "E"],
+    "explanation": "Industries such as public safety, finance, and healthcare require high availability due to their critical impact on public welfare and economic stability."
+  },
+  {
+    "type": "MC",
+    "question": "A user is redesigning a network for a small company and wants to ensure security at a reasonable price. The user deploys a new application-aware firewall with intrusion detection capabilities on the ISP (Internet Service Provider) connection and installs a second firewall to separate the company network from the public network, along with an IPS (Intrusion Prevention System) on the internal network. What approach is the user implementing?",
+    "options": {
+        "A": "attack based",
+        "B": "layered",
+        "C": "risk based",
+        "D": "structured"
+    },
+    "answer": "B",
+    "explanation": "A layered security approach is being implemented, using multiple security measures at different network layers to provide comprehensive protection."
+  },
+  {
+    "type": "MC",
+    "question": "A user needs to add redundancy to the routers in a company. What are the three options the user can use? (Choose three.)",
+    "options": {
+        "A": "STP (Spanning Tree Protocol)",
+        "B": "GLBP (Gateway Load Balancing Protocol)",
+        "C": "IPFIX (IP Flow Information Export)",
+        "D": "HSRP (Hot Standby Router Protocol)",
+        "E": "RAID (Redundant Array of Independent Disks)",
+        "F": "VRRP (Virtual Router Redundancy Protocol)"
+    },
+    "answer": ["B", "D", "F"],
+    "explanation": "GLBP, HSRP, and VRRP are all redundancy protocols that provide high availability and redundancy for routing paths."
+  },
+  {
+    "type": "MC",
+    "question": "A user is asked to perform a risk analysis of a company using the company asset database that contains a list of all equipment. Which type of risk analysis could be performed?",
+    "options": {
+        "A": "quantitative (assigning a monetary value to assets)",
+        "B": "qualitative (based on opinions and scenarios)",
+        "C": "hardware",
+        "D": "exposure factor"
+    },
+    "answer": "A",
+    "explanation": "Quantitative risk analysis involves assigning monetary values to assets, which helps in calculating potential financial loss."
+  },
+  {
+    "type": "MC",
+    "question": "During which phase of an incident response plan are lessons learned applied after a security breach at a major corporation?",
+    "options": {
+        "A": "recovery",
+        "B": "analyze",
+        "C": "preparation",
+        "D": "containment",
+        "E": "detection",
+        "F": "post-incident"
+    },
+    "answer": "F",
+    "explanation": "The post-incident phase involves applying lessons learned to improve future security measures and response strategies."
+  },
+  {
+    "type": "MC",
+    "question": "A user was hired by a company to provide a highly available network infrastructure. The user wants to build redundancy into the network in case of a switch failure, but wants to prevent Layer 2 looping. What would the user implement in the network?",
+    "options": {
+        "A": "Spanning Tree Protocol (STP)",
+        "B": "VRRP (Virtual Router Redundancy Protocol)",
+        "C": "GLBP (Gateway Load Balancing Protocol)",
+        "D": "HSRP (Hot Standby Router Protocol)"
+    },
+    "answer": "A",
+    "explanation": "Spanning Tree Protocol (STP) is used to prevent Layer 2 looping issues while providing path redundancy in the network."
+  },
+  {
+    "type": "MC",
+    "question": "A user has completed a six-month project to identify all data locations and catalog the location. The next step is to classify the data and produce some criteria on data sensitivity. Which two steps can the user take to classify the data? (Choose two.)",
+    "options": {
+        "A": "Determine how often data is backed up",
+        "B": "Treat all the data the same",
+        "C": "Determine the user of the data",
+        "D": "Establish the owner of the data",
+        "E": "Identify the sensitivity of the data",
+        "F": "Determine permissions for the data"
+    },
+    "answer": ["D", "E"],
+    "explanation": "Establishing the owner of the data and identifying its sensitivity are crucial steps in data classification, helping to determine how the data should be handled and protected."
+  },
+  {
+    "type": "MC",
+    "question": "Companies may have different operation centers that handle different issues with IT operations. If an issue is related to network infrastructure, what operation center would be responsible?",
+    "options": {
+        "A": "HR (Human Resources)",
+        "B": "SOC (Security Operations Center)",
+        "C": "NOC (Network Operations Center)",
+        "D": "HVAC (Heating, Ventilation, and Air Conditioning)"
+    },
+    "answer": "C",
+    "explanation": "The NOC (Network Operations Center) is responsible for overseeing the network infrastructure of an organization."
+  },
+  {
+    "type": "MC",
+    "question": "After a security audit for an organization, multiple accounts were found to have privileged access to systems and devices. Which three best practices for securing privileged accounts should be included in the audit report? (Choose three.)",
+    "options": {
+        "A": "No one should have privileged access.",
+        "B": "Only the CIO (Chief Information Officer) should have privileged access.",
+        "C": "Only managers should have privileged access.",
+        "D": "Enforce the principle of least privilege.",
+        "E": "Secure password storage.",
+        "F": "Reduce the number of privileged accounts."
+    },
+    "answer": ["D", "E", "F"],
+    "explanation": "Best practices include enforcing the principle of least privilege to limit access rights, securing password storage to protect credentials, and reducing the number of privileged accounts to minimize potential attack vectors."
+  },
+  {
+    "type": "MC",
+    "question": "The CIO wants to secure data on company laptops by implementing file encryption using Windows BitLocker. Which two things are needed to implement this solution? (Choose two.)",
+    "options": {
+        "A": "EFS (Encrypting File System)",
+        "B": "password management",
+        "C": "TPM (Trusted Platform Module)",
+        "D": "USB stick",
+        "E": "at least two volumes",
+        "F": "backup"
+    },
+    "answer": ["C", "D"],
+    "explanation": "BitLocker encryption typically requires a TPM for storing encryption keys securely and a USB stick for recovery key storage in case of TPM failure or when the TPM is unavailable."
+  },
+  {
+    "type": "MC",
+    "question": "A new PC is taken out of the box, started up and connected to the Internet. After downloading and installing patches, and updating antivirus, what further action can harden the operating system?",
+    "options": {
+        "A": "Give the computer a nonroutable address.",
+        "B": "Install a hardware firewall.",
+        "C": "Remove the administrator account.",
+        "D": "Disconnect the computer from the network.",
+        "E": "Remove unnecessary programs and services.",
+        "F": "Turn off the firewall."
+    },
+    "answer": "E",
+    "explanation": "Removing unnecessary programs and services reduces the attack surface of the system, enhancing its security by limiting potential entry points for attackers."
+  },
+  {
+    "type": "MC",
+    "question": "A user is asked to analyze the current state of a computer operating system. Against what should the user compare the current operating system to identify potential vulnerabilities?",
+    "options": {
+        "A": "a pentest",
+        "B": "a baseline",
+        "C": "a whitelist",
+        "D": "a blacklist",
+        "E": "a vulnerability scan"
+    },
+    "answer": "B",
+    "explanation": "Comparing the current state of an operating system to a security baseline helps identify deviations that may introduce vulnerabilities."
+  },
+  {
+    "type": "MC",
+    "question": "The manager of a department suspects someone is trying to break into computers at night. What logging would you enable to find out if this is the case?",
+    "options": {
+        "A": "operating system",
+        "B": "audit",
+        "C": "Windows",
+        "D": "syslog"
+    },
+    "answer": "B",
+    "explanation": "Enabling audit logging is crucial for tracking unauthorized access attempts and can help in investigating potential security breaches."
+  },
+  {
+    "type": "MC",
+    "question": "Why is WPA2 considered better than WPA for wireless networks?",
+    "options": {
+        "A": "mandatory use of AES (Advanced Encryption Standard) algorithms",
+        "B": "reduced processing time",
+        "C": "supports TKIP (Temporal Key Integrity Protocol)",
+        "D": "reduced keyspace"
+    },
+    "answer": "A",
+    "explanation": "WPA2 is superior to WPA because it mandates the use of AES algorithms, which are more secure than the TKIP used in WPA."
+  },
+  {
+    "type": "MC",
+    "question": "A company wants to implement biometric access to its data center. The company is concerned with false acceptances. What type of error is false acceptance?",
+    "options": {
+        "A": "CER (Crossover Error Rate)",
+        "B": "Type I",
+        "C": "false rejection",
+        "D": "Type II"
+    },
+    "answer": "D",
+    "explanation": "A Type II error, or false acceptance, occurs when a security system incorrectly allows access to an unauthorized user."
+  },
+  {
+    "type": "MC",
+    "question": "A user calls the help desk complaining that the password to access the wireless network has changed without warning. The user is allowed to change the password, but it occurs again. What might be happening?",
+    "options": {
+        "A": "weak password",
+        "B": "user laptop",
+        "C": "rogue access point",
+        "D": "user error",
+        "E": "password policy"
+    },
+    "answer": "C",
+    "explanation": "A rogue access point could be mimicking a legitimate network, misleading users to connect and potentially capturing sensitive information such as passwords."
+  },
+  {
+    "type": "MC",
+    "question": "A user is proposing the purchase of a patch management solution for a company. What benefits does patch management provide? (Choose three.)",
+    "options": {
+        "A": "Patches can be chosen by the user.",
+        "B": "Updates can be forced on systems immediately.",
+        "C": "Computers require a connection to the Internet to receive patches.",
+        "D": "Administrators can approve or deny patches.",
+        "E": "Patches can be written quickly.",
+        "F": "Updates cannot be circumvented."
+    },
+    "answer": ["B", "D", "F"],
+    "explanation": "Patch management ensures timely application of patches with the ability to enforce updates immediately, provides control over patch approval, and ensures that updates are applied universally without being bypassed."
+  },
+  {
+    "type": "MC",
+    "question": "Why should WEP (Wired Equivalent Privacy) not be used in wireless networks today?",
+    "options": {
+        "A": "easily crackable",
+        "B": "its age",
+        "C": "its use of clear text passwords",
+        "D": "its lack of support",
+        "E": "its lack of encryption"
+    },
+    "answer": "A",
+    "explanation": "WEP is easily crackable due to fundamental security flaws in how it encrypts data, making it inadequate for protecting modern wireless networks."
+  },
+  {
+    "type": "MC",
+    "question": "The manager of desktop support wants to minimize downtime for workstations that crash or have other software-related issues. What are three advantages of using disk cloning? (Choose three.)",
+    "options": {
+        "A": "can provide a full system backup",
+        "B": "ensures system compatibility",
+        "C": "creates greater diversity",
+        "D": "cuts down on number of staff needed",
+        "E": "easier to deploy new computers within the organization",
+        "F": "ensures a clean imaged machine"
+    },
+    "answer": ["A", "E", "F"],
+    "explanation": "Disk cloning provides a full system backup, facilitates rapid deployment of pre-configured systems, and ensures that newly deployed machines start with a clean, standardized setup."
+  },
+  {
+    "type": "MC",
+    "question": "What are three types of power issues that a technician should be concerned about? (Choose three.)",
+    "options": {
+        "A": "spike",
+        "B": "blackout",
+        "C": "brownout",
+        "D": "spark",
+        "E": "fuzzing",
+        "F": "flicker"
+    },
+    "answer": ["A", "B", "C"],
+    "explanation": "Power spikes, blackouts, and brownouts can cause significant harm to electronic devices, potentially leading to data loss or hardware damage."
+  },
+  {
+    "type": "MC",
+    "question": "What is an example of an Internet data domain?",
+    "options": {
+        "A": "Cisco",
+        "B": "Palo Alto",
+        "C": "Linkedin",
+        "D": "Juniper"
+    },
+    "answer": "C",
+    "explanation": "LinkedIn is an example of an Internet domain where data is stored and accessed by users globally, primarily for professional networking."
+  },
+  {
+    "type": "MC",
+    "question": "What does the acronym IoE represent?",
+    "options": {
+        "A": "Internet of Everyday",
+        "B": "Intelligence on Everything",
+        "C": "Internet of Everything",
+        "D": "Insight into Everything"
+    },
+    "answer": "C",
+    "explanation": "IoE (Internet of Everything) represents the networked connection of people, process, data, and things, enhancing the convergence of the digital and physical worlds."
+  },
+  {
+    "type": "MC",
+    "question": "What type of an attack can disable a computer by forcing it to use memory or by overworking its CPU?",
+    "options": {
+        "A": "exhaustion",
+        "B": "APT (Advanced Persistent Threat)",
+        "C": "algorithm",
+        "D": "DDoS (Distributed Denial of Service)"
+    },
+    "answer": "A",
+    "explanation": "An exhaustion attack specifically aims to deplete system resources, such as memory or CPU, thus rendering the system unresponsive or slowed significantly."
+  },
+  {
+    "type": "MC",
+    "question": "What is the workforce framework category that includes highly specialized review and evaluation of incoming cybersecurity information to determine if it is useful for intelligence?",
+    "options": {
+        "A": "Protect and Defend",
+        "B": "Oversight and Development",
+        "C": "Securely Provision",
+        "D": "Analyze"
+    },
+    "answer": "D",
+    "explanation": "The 'Analyze' category within a cybersecurity workforce framework focuses on the interpretation and assessment of cybersecurity information to support strategic decision-making."
+  },
+  {
+    "type": "MC",
+    "question": "Thwarting cyber criminals includes which of the following? (Choose two.)",
+    "options": {
+        "A": "hiring hackers",
+        "B": "establishing early warning systems",
+        "C": "changing operating systems",
+        "D": "shutting down the network",
+        "E": "sharing cyber Intelligence information"
+    },
+    "answer": ["B", "E"],
+    "explanation": "Establishing early warning systems and sharing cyber intelligence information are proactive measures to detect and respond to threats more effectively."
+  },
+  {
+    "type": "MC",
+    "question": "What name is given to hackers who hack for a cause?",
+    "options": {
+        "A": "hacktivist",
+        "B": "white hat",
+        "C": "hacker",
+        "D": "blue hat"
+    },
+    "answer": "A",
+    "explanation": "Hacktivists are hackers who break into computer systems for a cause or to promote a political agenda, often to expose, embarrass, or otherwise challenge political entities."
+  },
+  {
+    "type": "MC",
+    "question": "What does the term BYOD represent?",
+    "options": {
+        "A": "buy your own disaster",
+        "B": "bring your own decision",
+        "C": "bring your own disaster",
+        "D": "bring your own device"
+    },
+    "answer": "D",
+    "explanation": "BYOD, or Bring Your Own Device, refers to a policy allowing employees to bring personally owned devices (like laptops, tablets, and smartphones) to their workplace, and to use those devices to access privileged company information and applications."
+  },
+  {
+    "type": "MC",
+    "question": "What name is given to an amateur hacker?",
+    "options": {
+        "A": "script kiddie",
+        "B": "red hat",
+        "C": "black hat",
+        "D": "blue team"
+    },
+    "answer": "A",
+    "explanation": "A 'script kiddie' is a derogatory term for an amateur hacker who uses existing computer scripts or code to hack into computers, lacking the expertise to write their own."
+  },
+  {
+    "type": "MC",
+    "question": "What does the term vulnerability mean?",
+    "options": {
+        "A": "a potential threat that a hacker creates",
+        "B": "a known target or victim machine",
+        "C": "a method of attack to exploit a target",
+        "D": "a weakness that makes a target susceptible to an attack",
+        "E": "a computer that contains sensitive information"
+    },
+    "answer": "D",
+    "explanation": "A vulnerability refers to a flaw or weakness in a system's design, implementation, operation or management that could be exploited to compromise the system's security objectives."
+  },
+  {
+    "type": "MC",
+    "question": "What type of attack uses many systems to flood the resources of a target, thus making the target unavailable?",
+    "options": {
+        "A": "spoof",
+        "B": "DDoS (Distributed Denial of Service)",
+        "C": "ping sweep",
+        "D": "DoS (Denial of Service)"
+    },
+    "answer": "B",
+    "explanation": "A DDoS (Distributed Denial of Service) attack involves multiple compromised systems attacking a single target, causing denial of service for users of the targeted system."
+  },
+    {
+        "type": "MC",
+        "question": "What are two common hash functions? (Choose two.)",
+        "options": {
+            "A": "RC4",
+            "B": "ECC",
+            "C": "Blowfish",
+            "D": "SHA",
+            "E": "MD5",
+            "F": "RSA"
+        },
+        "answer": ["D", "E"],
+        "explanation": "SHA and MD5 are common hash functions that use complex mathematical algorithms to compute hash values."
+    },
+    {
+        "type": "MC",
+        "question": "What three methods help to ensure system availability? (Choose three.)",
+        "options": {
+            "A": "integrity checking",
+            "B": "fire extinguishers",
+            "C": "up-to-date operating systems",
+            "D": "equipment maintenance",
+            "E": "system backups",
+            "F": "system resiliency"
+        },
+        "answer": ["C", "D", "E"],
+        "explanation": "System availability is ensured through measures such as maintaining up-to-date operating systems, regular equipment maintenance, and implementing system backups."
+    },
+    {
+        "type": "MC",
+        "question": "What are the three foundational principles of the cybersecurity domain? (Choose three.)",
+        "options": {
+            "A": "integrity",
+            "B": "security",
+            "C": "confidentiality",
+            "D": "encryption",
+            "E": "policy",
+            "F": "availability"
+        },
+        "answer": ["C", "A", "F"],
+        "explanation": "The three foundational security principles in cybersecurity are confidentiality, integrity, and availability."
+    },
+    {
+        "type": "MC",
+        "question": "Which two methods help to ensure data integrity? (Choose two.)",
+        "options": {
+            "A": "data consistency checks",
+            "B": "authorization",
+            "C": "hashing",
+            "D": "availability",
+            "E": "repudiation",
+            "F": "privacy"
+        },
+        "answer": ["A", "C"],
+        "explanation": "Data integrity is ensured through methods such as data consistency checks and hashing."
+    },
+    {
+        "type": "MC",
+        "question": "What is a method of sending information from one device to another using removable media?",
+        "options": {
+            "A": "sneaker net",
+            "B": "infrared",
+            "C": "LAN",
+            "D": "wired",
+            "E": "wireless",
+            "F": "packet"
+        },
+        "answer": "A",
+        "explanation": "Sneaker net refers to hand-delivering information using removable media."
+    },
+    {
+        "type": "MC",
+        "question": "What principle prevents the disclosure of information to unauthorized people, resources, and processes?",
+        "options": {
+            "A": "accounting",
+            "B": "confidentiality",
+            "C": "integrity",
+            "D": "availability",
+            "E": "nonrepudiation"
+        },
+        "answer": "B",
+        "explanation": "The security principle of confidentiality prevents the disclosure of information to unauthorized entities."
+    },
+    {
+        "type": "MC",
+        "question": "What mechanism can organizations use to prevent accidental changes by authorized users?",
+        "options": {
+            "A": "version control",
+            "B": "backups",
+            "C": "encryption",
+            "D": "hashing",
+            "E": "SHA-1"
+        },
+        "answer": "A",
+        "explanation": "Version control ensures that accidental changes by authorized users are prevented by managing different versions of data."
+    },
+    {
+        "type": "MC",
+        "question": "What service determines which resources a user can access along with the operations that a user can perform?",
+        "options": {
+            "A": "authorization",
+            "B": "token",
+            "C": "biometric",
+            "D": "authentication",
+            "E": "accounting"
+        },
+        "answer": "A",
+        "explanation": "Authorization determines the resources and operations that a user can access based on their permissions."
+    },
+    {
+        "type": "MC",
+        "question": "Which two reasons describe why WEP is a weak protocol? (Choose two.)",
+        "options": {
+            "A": "The default settings cannot be modified.",
+            "B": "Everyone on the network uses a different key.",
+            "C": "The key is static and repeats on a congested network.",
+            "D": "The key is transmitted in clear text.",
+            "E": "WEP uses the same encryption features as Bluetooth."
+        },
+        "answer": ["C", "D"],
+        "explanation": "WEP is considered weak because its key is transmitted in clear text, making it vulnerable to interception. Additionally, the key is static and repeats on a congested network, which increases the likelihood of unauthorized access."
+    },
+    {
+        "type": "MC",
+        "question": "What type of attack targets an SQL database using the input field of a user?",
+        "options": {
+            "A": "buffer overflow",
+            "B": "XML injection",
+            "C": "SQL injection",
+            "D": "Cross-site scripting"
+        },
+        "answer": "C",
+        "explanation": "SQL injection involves inserting malicious SQL statements into input fields of a website to manipulate or extract data from an SQL database."
+    },
+    {
+        "type": "MC",
+        "question": "What is the meaning of the term logic bomb?",
+        "options": {
+            "A": "a malicious program that hides itself in a legitimate program",
+            "B": "a malicious virus",
+            "C": "a malicious worm",
+            "D": "a malicious program that uses a trigger to awaken the malicious code"
+        },
+        "answer": "D",
+        "explanation": "A logic bomb is a type of malware that remains inactive until a specific trigger event occurs, at which point it executes malicious code."
+    },
+    {
+        "type": "MC",
+        "question": "What are two common indicators of spam mail? (Choose two.)",
+        "options": {
+            "A": "The email has keywords in it.",
+            "B": "The email has misspelled words or punctuation errors or both.",
+            "C": "The email is from your supervisor.",
+            "D": "The email has an attachment that is a receipt for a recent purchase.",
+            "E": "The email is from a friend.",
+            "F": "The email has no subject line."
+        },
+        "answer": ["B", "F"],
+        "explanation": "Common indicators of spam mail include misspelled words or punctuation errors, as well as emails with no subject line, which are often associated with unsolicited or malicious content."
+    },
+    {
+        "type": "MC",
+        "question": "What is the difference between a virus and a worm?",
+        "options": {
+            "A": "Viruses hide in legitimate programs but worms do not.",
+            "B": "Viruses self-replicate but worms do not.",
+            "C": "Worms require a host file but viruses do not.",
+            "D": "Worms self-replicate but viruses do not."
+        },
+        "answer": "D",
+        "explanation": "While both viruses and worms are types of malware, worms are capable of self-replication and spreading across networks without user intervention, whereas viruses typically require user action to spread."
+    },
+    {
+        "type": "MC",
+        "question": "What is a vulnerability that allows criminals to inject scripts into web pages viewed by users?",
+        "options": {
+            "A": "Cross-site scripting",
+            "B": "buffer overflow",
+            "C": "XML injection",
+            "D": "SQL injection"
+        },
+        "answer": "A",
+        "explanation": "Cross-site scripting (XSS) is a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, potentially leading to the theft of sensitive data or unauthorized access."
+    },
+    {
+        "type": "MC",
+        "question": "What does a rootkit modify?",
+        "options": {
+            "A": "Empty the browser cache.",
+            "B": "Keep software up to date.",
+            "C": "Defragment the hard disk.",
+            "D": "screen savers",
+            "E": "programs",
+            "F": "Use antivirus software.",
+            "G": "Delete unused software.",
+            "H": "Microsoft Word",
+            "I": "Notepad",
+            "J": "operating system"
+        },
+        "answer": "J",
+        "explanation": "A rootkit typically modifies the operating system to create a backdoor for remote access, allowing attackers to maintain control over a compromised system."
+    },
+    {
+        "type": "MC",
+        "question": "A criminal is using software to obtain information about the computer of a user. What is the name of this type of software?",
+        "options": {
+            "A": "adware",
+            "B": "spyware",
+            "C": "virus",
+            "D": "phishing"
+        },
+        "answer": "B",
+        "explanation": "Spyware is a type of malware designed to secretly collect information about a user's computer activities and transmit it to third parties without the user's consent."
+    },
+    {
+        "type": "MC",
+        "question": "What are two of the tactics used by a social engineer to obtain personal information from an unsuspecting target? (Choose two.)",
+        "options": {
+            "A": "compassion",
+            "B": "honesty",
+            "C": "intimidation",
+            "D": "integrity",
+            "E": "urgency"
+        },
+        "answer": ["C", "E"],
+        "explanation": "Social engineers often use intimidation tactics to pressure individuals into divulging personal information or create a sense of urgency to prompt immediate action, both of which can lead to the disclosure of sensitive data."
+    },
+    {
+        "type": "MC",
+        "question": "Which term describes the sending of a short deceptive SMS message used to trick a target into visiting a website?",
+        "options": {
+            "A": "grayware",
+            "B": "spam",
+            "C": "smishing",
+            "D": "impersonation"
+        },
+        "answer": "C",
+        "explanation": "Smishing, also known as SMS phishing, involves sending deceptive text messages to trick recipients into visiting malicious websites or providing sensitive information."
+    },
+    {
+        "type": "MC",
+        "question": "What is the name given to a program or program code that bypasses normal authentication?",
+        "options": {
+            "A": "virus",
+            "B": "Trojan",
+            "C": "ransomware",
+            "D": "worm",
+            "E": "backdoor"
+        },
+        "answer": "E",
+        "explanation": "A backdoor is a type of program or code intentionally designed to bypass normal authentication mechanisms, allowing unauthorized access to a system or network."
+    },
+    {
+        "type": "MC",
+        "question": "What are two ways to protect a computer from malware? (Choose two.)",
+        "options": {
+            "A": "Delete unused software.",
+            "B": "Keep software up to date.",
+            "C": "Empty the browser cache.",
+            "D": "Defragment the hard disk.",
+            "E": "Use antivirus software."
+        },
+        "answer": ["B", "E"],
+        "explanation": "To protect a computer from malware, it's important to keep software up to date to patch vulnerabilities and use antivirus software to detect and remove malicious threats."
+    },
+    {
+        "type": "MC",
+        "question": "A computer is presenting a user with a screen requesting payment before the user data is allowed to be accessed by the same user. What type of malware is this?",
+        "options": {
+            "A": "a type of ransomware",
+            "B": "a type of worm",
+            "C": "a type of virus",
+            "D": "a type of logic bomb"
+        },
+        "answer": "A",
+        "explanation": "This scenario describes ransomware, which encrypts or restricts access to a user's data and demands payment in exchange for decryption or restoration of access."
+    },
+    {
+        "type": "MC",
+        "question": "What is the name for the type of software that generates revenue by generating annoying pop-ups?",
+        "options": {
+            "A": "spyware",
+            "B": "adware",
+            "C": "trackers",
+            "D": "pop-ups"
+        },
+        "answer": "B",
+        "explanation": "Adware is a type of malware that generates revenue for its creators by displaying intrusive advertisements, often in the form of annoying pop-up windows, on a user's computer."
+    },
+    {
+        "type": "MC",
+        "question": "What is the term used to describe an email that is targeting a specific person employed at a financial institution?",
+        "options": {
+            "A": "target phishing",
+            "B": "spam",
+            "C": "spyware",
+            "D": "spear phishing",
+            "E": "vishing"
+        },
+        "answer": "D",
+        "explanation": "Spear phishing is a targeted form of phishing attack that tailors malicious emails to specific individuals, often those employed at financial institutions or other high-value targets."
+    },
+    {
+        "type": "MC",
+        "question": "An attacker is sitting in front of a store and wirelessly copies emails and contact lists from nearby unsuspecting user devices. What type of attack is this?",
+        "options": {
+            "A": "smishing",
+            "B": "bluejacking",
+            "C": "RF jamming",
+            "D": "bluesnarfing"
+        },
+        "answer": "D",
+        "explanation": "Bluesnarfing involves the unauthorized access and copying of data from nearby devices via Bluetooth connections, typically without the knowledge or consent of the device owners."
+    },
+    {
+        "type": "MC",
+        "question": "What is the term used when a malicious party sends a fraudulent email disguised as being from a legitimate, trusted source?",
+        "options": {
+            "A": "vishing",
+            "B": "backdoor",
+            "C": "social engineering",
+            "D": "phishing",
+            "E": "Trojan"
+        },
+        "answer": "D",
+        "explanation": "Phishing is a form of cyber attack where fraudulent emails are sent, often masquerading as trusted entities, with the intention of tricking recipients into divulging sensitive information or installing malware."
+    },
+    {
+        "type": "MC",
+        "question": "What occurs on a computer when data goes beyond the limits of a buffer?",
+        "options": {
+            "A": "a buffer overflow",
+            "B": "cross-site scripting",
+            "C": "an SQL injection",
+            "D": "a system exception"
+        },
+        "answer": "A",
+        "explanation": "A buffer overflow occurs when data is written to a buffer and exceeds its capacity, potentially overwriting adjacent memory locations and leading to unpredictable behavior or exploitation by attackers."
+    },
+  {
+    "type": "MC",
+    "question": "What term is used to describe the technology that replaces sensitive information with a nonsensitive version?",
+    "options": {
+      "A": "blanking",
+      "B": "masking",
+      "C": "hiding",
+      "D": "retracting",
+      "E": "whiteout"
+    },
+    "answer": "B",
+    "explanation": "Data masking replaces sensitive information with nonsensitive information. After replacement, the nonsensitive version looks and acts like the original."
+  },
+  {
+    "type": "MC",
+    "question": "Which 128-bit block cipher encryption algorithm does the US government use to protect classified information?",
+    "options": {
+      "A": "Vignere",
+      "B": "Triple Data Encryption Standard (3DES)",
+      "C": "Advanced Encryption Standard (AES)",
+      "D": "Caesar",
+      "E": "Skipjack"
+    },
+    "answer": "C",
+    "explanation": "The Advanced Encryption Standard (AES) is used to protect classified information by the U.S. government and is a strong algorithm that uses longer key lengths."
+  },
+  {
+    "type": "MC",
+    "question": "Which type of cipher is able to encrypt a fixed-length block of plaintext into a 128-bit block of ciphertext at any one time?",
+    "options": {
+      "A": "stream",
+      "B": "hash",
+      "C": "block",
+      "D": "transform",
+      "E": "symmetric"
+    },
+    "answer": "C",
+    "explanation": "Block ciphers transform a fixed-length block of plaintext into a block of ciphertext. To decrypt the ciphertext, the same secret key to encrypt is used in reverse."
+  },
+  {
+    "type": "MC",
+    "question": "Which three devices represent examples of physical access controls? (Choose three.)",
+    "options": {
+      "A": "firewalls",
+      "B": "routers",
+      "C": "locks",
+      "D": "swipe cards",
+      "E": "video cameras",
+      "F": "servers"
+    },
+    "answer": ["C", "D", "E"],
+    "explanation": "Physical access controls include locks, swipe cards, and video cameras."
+  },
+  {
+    "type": "MC",
+    "question": "What encryption algorithm uses one key to encrypt data and a different key to decrypt data?",
+    "options": {
+      "A": "one-time pad",
+      "B": "asymmetric",
+      "C": "transposition",
+      "D": "symmetric"
+    },
+    "answer": "B",
+    "explanation": "Asymmetric encryption uses one key to encrypt data and a different key to decrypt data."
+  },
+  {
+    "type": "MC",
+    "question": "What encryption algorithm uses the same pre-shared key to encrypt and decrypt data?",
+    "options": {
+      "A": "one-time pad",
+      "B": "symmetric",
+      "C": "hash",
+      "D": "asymmetric"
+    },
+    "answer": "B",
+    "explanation": "Symmetric encryption algorithms use the same pre-shared key to encrypt and decrypt data."
+  },
+  {
+    "type": "MC",
+    "question": "What term is used to describe concealing data in another file such as a graphic, audio, or other text file?",
+    "options": {
+      "A": "obfuscation",
+      "B": "masking",
+      "C": "hiding",
+      "D": "steganography"
+    },
+    "answer": "D",
+    "explanation": "Steganography conceals data in a file such as a graphic, audio, or other text file and is used to prevent extra attention to the encrypted data because the data is not easily viewed."
+  },
+  {
+    "type": "MC",
+    "question": "Which asymmetric algorithm provides an electronic key exchange method to share the secret key?",
+    "options": {
+      "A": "Data Encryption Standard (DES)",
+      "B": "Wired Equivalent Privacy (WEP)",
+      "C": "hashing",
+      "D": "Rivest-Shamir-Adleman (RSA)",
+      "E": "Diffie-Hellman"
+    },
+    "answer": "E",
+    "explanation": "Diffie-Hellman provides an electronic exchange method to share a secret key and is used by multiple secure protocols."
+  },
+  {
+    "type": "MC",
+    "question": "What term is used to describe the technology that replaces sensitive information with a nonsensitive version?",
+    "options": {
+      "A": "blanking",
+      "B": "masking",
+      "C": "hiding",
+      "D": "retracting",
+      "E": "whiteout"
+    },
+    "answer": "B",
+    "explanation": "Data masking is a data security technique in which sensitive data is replaced with equivalent nonsensitive data, allowing the data to remain usable without compromising its security."
+  },
+  {
+    "type": "MC",
+    "question": "Which 128-bit block cipher encryption algorithm does the US government use to protect classified information?",
+    "options": {
+      "A": "Vignere",
+      "B": "Triple Data Encryption Standard (3DES)",
+      "C": "Advanced Encryption Standard (AES)",
+      "D": "Caesar",
+      "E": "Skipjack"
+    },
+    "answer": "C",
+    "explanation": "The Advanced Encryption Standard (AES) is a 128-bit block cipher that has been adopted by the U.S. government and many others worldwide for secure data encryption."
+  },
+  {
+    "type": "MC",
+    "question": "Which type of cipher is able to encrypt a fixed-length block of plaintext into a 128-bit block of ciphertext at any one time?",
+    "options": {
+      "A": "stream",
+      "B": "hash",
+      "C": "block",
+      "D": "transform",
+      "E": "symmetric"
+    },
+    "answer": "C",
+    "explanation": "Block ciphers encrypt data in fixed-size blocks, typically of 128 bits, transforming plaintext blocks into ciphertext blocks."
+  },
+  {
+    "type": "MC",
+    "question": "Which three devices represent examples of physical access controls? (Choose three.)",
+    "options": {
+      "A": "firewalls",
+      "B": "routers",
+      "C": "locks",
+      "D": "swipe cards",
+      "E": "video cameras",
+      "F": "servers"
+    },
+    "answer": ["C", "D", "E"],
+    "explanation": "Physical access controls such as locks, swipe cards, and video cameras are used to secure physical spaces by controlling entry and monitoring activity."
+  },
+  {
+    "type": "MC",
+    "question": "What encryption algorithm uses one key to encrypt data and a different key to decrypt data?",
+    "options": {
+      "A": "one-time pad",
+      "B": "asymmetric",
+      "C": "transposition",
+      "D": "symmetric"
+    },
+    "answer": "B",
+    "explanation": "Asymmetric encryption, also known as public-key cryptography, uses a pair of keys, where one key is used for encryption and a different, but related, key is used for decryption."
+  },
+  {
+    "type": "MC",
+    "question": "What encryption algorithm uses the same pre-shared key to encrypt and decrypt data?",
+    "options": {
+      "A": "one-time pad",
+      "B": "symmetric",
+      "C": "hash",
+      "D": "asymmetric"
+    },
+    "answer": "B",
+    "explanation": "Symmetric encryption uses the same key (or pre-shared key) for both encryption and decryption, making it essential to keep the key secure."
+  },
+  {
+    "type": "MC",
+    "question": "What term is used to describe concealing data in another file such as a graphic, audio, or other text file?",
+    "options": {
+      "A": "obfuscation",
+      "B": "masking",
+      "C": "hiding",
+      "D": "steganography"
+    },
+    "answer": "D",
+    "explanation": "Steganography is the practice of hiding information within other non-secret, visible files such as images, audio files, or other media to avoid detection."
+  },
+  {
+    "type": "MC",
+    "question": "Which asymmetric algorithm provides an electronic key exchange method to share the secret key?",
+    "options": {
+      "A": "Data Encryption Standard (DES)",
+      "B": "Wired Equivalent Privacy (WEP)",
+      "C": "hashing",
+      "D": "Rivest-Shamir-Adleman (RSA)",
+      "E": "Diffie-Hellman"
+    },
+    "answer": "E",
+    "explanation": "Diffie-Hellman is an algorithm used to enable two parties to jointly establish a shared secret key over an insecure channel, used primarily for secure key exchange."
+  },
+  {
+    "type": "MC",
+    "question": "What term is used to describe the technology that replaces sensitive information with a nonsensitive version?",
+    "options": {
+      "A": "blanking",
+      "B": "masking",
+      "C": "hiding",
+      "D": "retracting"
+    },
+    "answer": "B",
+    "explanation": "Masking is the process of hiding sensitive information with altered, dummy data."
+  },
+  {
+    "type": "MC",
+    "question": "Which 128-bit block cipher encryption algorithm does the US government use to protect classified information?",
+    "options": {
+      "A": "Vignere",
+      "B": "Triple Data Encryption Standard (3DES)",
+      "C": "Advanced Encryption Standard (AES)",
+      "D": "Caesar"
+    },
+    "answer": "C",
+    "explanation": "AES is widely adopted globally and is known for its strength and efficiency in protecting classified information."
+  },
+  {
+    "type": "MC",
+    "question": "Which type of cipher is able to encrypt a fixed-length block of plaintext into a 128-bit block of ciphertext at any one time?",
+    "options": {
+      "A": "stream",
+      "B": "hash",
+      "C": "block",
+      "D": "transform"
+    },
+    "answer": "C",
+    "explanation": "Block ciphers encrypt data in fixed-size blocks, typically providing strong security."
+  },
+  {
+    "type": "MC",
+    "question": "Which three devices represent examples of physical access controls? (Choose three.)",
+    "options": {
+      "A": "firewalls",
+      "B": "routers",
+      "C": "locks",
+      "D": "swipe cards",
+      "E": "video cameras"
+    },
+    "answer": ["C", "D", "E"],
+    "explanation": "Locks, swipe cards, and video cameras are all used to physically secure and control access to facilities."
+  },
+  {
+    "type": "MC",
+    "question": "What encryption algorithm uses one key to encrypt data and a different key to decrypt data?",
+    "options": {
+      "A": "one-time pad",
+      "B": "asymmetric",
+      "C": "transposition",
+      "D": "symmetric"
+    },
+    "answer": "B",
+    "explanation": "Asymmetric encryption uses a pair of public and private keys for encryption and decryption."
+  },
+  {
+    "type": "MC",
+    "question": "What encryption algorithm uses the same pre-shared key to encrypt and decrypt data?",
+    "options": {
+      "A": "one-time pad",
+      "B": "symmetric",
+      "C": "hash",
+      "D": "asymmetric"
+    },
+    "answer": "B",
+    "explanation": "Symmetric encryption uses a single key to both encrypt and decrypt information."
+  },
+  {
+    "type": "MC",
+    "question": "What term is used to describe concealing data in another file such as a graphic, audio, or other text file?",
+    "options": {
+      "A": "obfuscation",
+      "B": "masking",
+      "C": "hiding",
+      "D": "steganography"
+    },
+    "answer": "D",
+    "explanation": "Steganography involves hiding data within another file to obscure the data's presence."
+  },
+  {
+    "type": "MC",
+    "question": "Which asymmetric algorithm provides an electronic key exchange method to share the secret key?",
+    "options": {
+      "A": "Data Encryption Standard (DES)",
+      "B": "Wired Equivalent Privacy (WEP)",
+      "C": "hashing",
+      "D": "Rivest-Shamir-Adleman (RSA)",
+      "E": "Diffie-Hellman"
+    },
+    "answer": "E",
+    "explanation": "Diffie-Hellman is a method used for securely exchanging cryptographic keys over a public channel."
+  },
+  {
+    "type": "MC",
+    "question": "Which three protocols use asymmetric key algorithms? (Choose three.)",
+    "options": {
+      "A": "Telnet",
+      "B": "Advanced Encryption Standard (AES)",
+      "C": "Secure Sockets Layer (SSL)",
+      "D": "Secure File Transfer Protocol (SFTP)",
+      "E": "Secure Shell (SSH)",
+      "F": "Pretty Good Privacy (PGP)"
+    },
+    "answer": ["C", "E", "F"],
+    "explanation": "SSL, SSH, and PGP all utilize asymmetric cryptography to secure communications."
+  },
+  {
+    "type": "MC",
+    "question": "Which two terms are used to describe cipher keys? (Choose two.)",
+    "options": {
+      "A": "key length",
+      "B": "key space",
+      "C": "key randomness",
+      "D": "keylogging"
+    },
+    "answer": ["A", "B"],
+    "explanation": "Key length and key space are critical attributes in defining the strength and security of a cipher."
+  },
+  {
+    "type": "MC",
+    "question": "A warning banner that lists the negative outcomes of breaking company policy is displayed each time a computer user logs in to the machine. What type of access control is implemented?",
+    "options": {
+      "A": "preventive",
+      "B": "masking",
+      "C": "deterrent",
+      "D": "detective"
+    },
+    "answer": "C",
+    "explanation": "Deterrent controls are designed to discourage violations of security policies."
+  },
+  {
+    "type": "MC",
+    "question": "Which three processes are examples of logical access controls? (Choose three.)",
+    "options": {
+      "A": "biometrics to validate physical characteristics",
+      "B": "fences to protect the perimeter of a building",
+      "C": "swipe cards to allow access to a restricted area",
+      "D": "firewalls to monitor traffic",
+      "E": "intrusion detection system (IDS) to watch for suspicious network activity",
+      "F": "guards to monitor security screens"
+    },
+    "answer": ["A", "D", "E"],
+    "explanation": "Biometrics, firewalls, and IDS are logical measures to protect against unauthorized access and monitor systems."
+  },
+  {
+    "type": "MC",
+    "question": "What is the name of the method in which letters are rearranged to create the ciphertext?",
+    "options": {
+      "A": "transposition",
+      "B": "enigma",
+      "C": "substitution",
+      "D": "one-time pad"
+    },
+    "answer": "A",
+    "explanation": "Transposition ciphers rearrange the letters of the plaintext to create ciphertext without altering the actual letters used."
+  },
+  {
+    "type": "MC",
+    "question": "What is the term used to describe the science of making and breaking secret codes?",
+    "options": {
+      "A": "spoofing",
+      "B": "jamming",
+      "C": "factorization",
+      "D": "cryptology"
+    },
+    "answer": "D",
+    "explanation": "Cryptology encompasses both cryptography (making codes) and cryptanalysis (breaking codes)."
+  },
+  {
+    "type": "MC",
+    "question": "Which term describes the technology that protects software from unauthorized access or modification?",
+    "options": {
+      "A": "access control",
+      "B": "watermarking",
+      "C": "copyright",
+      "D": "trademark"
+    },
+    "answer": "B",
+    "explanation": "Watermarking is used to protect software by embedding a mark that identifies the software's copyright or ownership."
+  },
+  {
+    "type": "MC",
+    "question": "What are three examples of administrative access controls? (Choose three.)",
+    "options": {
+      "A": "background checks",
+      "B": "guard dogs",
+      "C": "hiring practices",
+      "D": "encryption",
+      "E": "intrusion detection system (IDS)",
+      "F": "policies and procedures"
+    },
+    "answer": ["A", "C", "F"],
+    "explanation": "Administrative controls such as background checks, hiring practices, and policies help manage and enforce security within an organization."
+  },
+  {
+    "type": "MC",
+    "question": "What type of cipher encrypts plaintext one byte or one bit at a time?",
+    "options": {
+      "A": "hash",
+      "B": "elliptical",
+      "C": "enigma",
+      "D": "stream"
+    },
+    "answer": "D",
+    "explanation": "Stream ciphers encrypt data one byte or one bit at a time, making them suitable for streaming data."
+  },
+  {
+    "type": "MC",
+    "question": "What cryptographic algorithm is used by the NSA and includes the use of elliptical curves for digital signature generation and key exchange?",
+    "options": {
+      "A": "IDEA",
+      "B": "RSA",
+      "C": "ECC",
+      "D": "El-Gamal"
+    },
+    "answer": "C",
+    "explanation": "Elliptic Curve Cryptography (ECC) is known for its efficiency and strong security, used for both digital signatures and key exchange."
+  },
+  {
+    "type": "MC",
+    "question": "What could be a solution for slow Internet at the Application layer?",
+    "options": {
+      "A": "Increase bandwidth",
+      "B": "Check for bandwidth-heavy applications and manage their usage",
+      "C": "Replace network cables",
+      "D": "Reconfigure routers"
+    },
+    "answer": "B",
+    "explanation": "Managing the usage of bandwidth-heavy applications can help alleviate slow Internet issues at the Application layer."
+  },
+  {
+    "type": "MC",
+    "question": "How can dropped connections at the Physical layer be resolved?",
+    "options": {
+      "A": "Increase bandwidth",
+      "B": "Check and replace faulty cables or hardware",
+      "C": "Manage application bandwidth usage",
+      "D": "Reconfigure routers"
+    },
+    "answer": "B",
+    "explanation": "Dropped connections at the Physical layer can often be resolved by checking and replacing faulty cables or hardware."
+  },
+  {
+    "type": "MC",
+    "question": "What is a possible solution to network congestion at the Network layer?",
+    "options": {
+      "A": "Check for bandwidth-heavy applications",
+      "B": "Replace network cables",
+      "C": "Reconfigure routers or add more bandwidth",
+      "D": "Manage user access levels"
+    },
+    "answer": "C",
+    "explanation": "Reconfiguring routers or adding more bandwidth are common solutions to relieve network congestion at the Network layer."
+  },
+  {
+    "type": "MC",
+    "question": "What action should a technician take for a PC moved across VLANs?",
+    "options": {
+      "A": "Replace the PC's network cable",
+      "B": "Assign a new IP address to the PC",
+      "C": "Reconfigure the port on the new switch to be part of the correct VLAN",
+      "D": "Increase the PC's memory"
+    },
+    "answer": "C",
+    "explanation": "When a PC is moved across VLANs, the port on the new switch needs to be reconfigured to ensure it is part of the correct VLAN that the employee’s PC was initially on."
+  },
+  {
+    "type": "MC",
+    "question": "What is a Class C address subnet mask using VLSM for up to 30 devices?",
+    "options": {
+      "A": "255.255.255.0",
+      "B": "255.255.255.128",
+      "C": "255.255.255.192",
+      "D": "255.255.255.224"
+    },
+    "answer": "D",
+    "explanation": "Using Variable Length Subnet Masking (VLSM), a subnet mask for up to 30 devices in a Class C address could be 255.255.255.224."
+  },
+  {
+    "type": "MC",
+    "question": "What is the difference between WLAN and WAN network topologies?",
+    "options": {
+      "A": "WLAN is used over small geographic areas, while WAN covers larger areas",
+      "B": "WLAN uses wired connections, while WAN uses wireless connections",
+      "C": "WLAN is for internet connections only, while WAN is for both internet and intranet",
+      "D": "WLAN connects different networks together, WAN connects devices within a single network"
+    },
+    "answer": "A",
+    "explanation": "The key difference between WLAN (Wireless Local Area Network) and WAN (Wide Area Network) topologies is that WLAN is typically used over small geographic areas such as a home or office, while WAN spans over large geographical areas and can be composed of multiple LANs connected together."
+  },
+  {
+    "type": "MC",
+    "question": "What are the advantages of fiber optic cabling over copper cabling?",
+    "options": {
+      "A": "Faster data transmission",
+      "B": "Higher bandwidth",
+      "C": "Longer distance transmission without signal loss",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Fiber optic cables offer faster data transmission, higher bandwidth, and can carry data over longer distances without signal quality loss compared to copper cabling."
+  },
+  {
+    "type": "MC",
+    "question": "What does 'full-duplex' mean in relation to Ethernet LANs?",
+    "options": {
+      "A": "Data can only be sent",
+      "B": "Data can only be received",
+      "C": "Data can be sent and received at the same time",
+      "D": "Data is sent after a time delay"
+    },
+    "answer": "C",
+    "explanation": "In full-duplex mode for Ethernet LANs, data can be sent and received simultaneously, enhancing network speed and efficiency."
+  },
+  {
+    "type": "MC",
+    "question": "At which OSI model layer does a router operate?",
+    "options": {
+      "A": "Layer 1",
+      "B": "Layer 3",
+      "C": "Layer 5",
+      "D": "Layer 7"
+    },
+    "answer": "B",
+    "explanation": "A router operates at Layer 3, the Network layer of the OSI model."
+  },
+  {
+    "type": "MC",
+    "question": "At which OSI model layer does a web server operate?",
+    "options": {
+      "A": "Layer 1",
+      "B": "Layer 3",
+      "C": "Layer 5",
+      "D": "Layer 7"
+    },
+    "answer": "D",
+    "explanation": "A web server operates at Layer 7, the Application layer of the OSI model."
+  },
+  {
+    "type": "MC",
+    "question": "What is the client-server computer networking model?",
+    "options": {
+      "A": "A decentralized service offering model",
+      "B": "A peer-to-peer network model",
+      "C": "A centralized service request model",
+      "D": "A model where all devices act as servers"
+    },
+    "answer": "C",
+    "explanation": "The client-server model is a centralized approach where a server provides services and clients request to use those services."
+  },
+  {
+    "type": "MC",
+    "question": "What is the role of a firewall in network security?",
+    "options": {
+      "A": "To provide a user interface",
+      "B": "To monitor and manage data packets based on security rules",
+      "C": "To assign IP addresses",
+      "D": "To store data"
+    },
+    "answer": "B",
+    "explanation": "A firewall is a network security device that monitors incoming and outgoing network traffic and permits or blocks data packets based on a set of security rules."
+  },
+  {
+    "type": "MC",
+    "question": "What is the purpose of a DHCP server?",
+    "options": {
+      "A": "To encrypt data",
+      "B": "To provide a user interface",
+      "C": "To monitor network traffic",
+      "D": "To automatically assign IP addresses to devices"
+    },
+    "answer": "D",
+    "explanation": "A DHCP server automatically assigns IP addresses to devices on a network to facilitate communication with other devices and the internet."
+  },
+  {
+    "type": "MC",
+    "question": "What is the purpose of the FTP protocol?",
+    "options": {
+      "A": "To encrypt data communications",
+      "B": "To transfer files between a client and a server on a network",
+      "C": "To assign IP addresses",
+      "D": "To monitor network traffic"
+    },
+    "answer": "B",
+    "explanation": "FTP, File Transfer Protocol, is used to transfer files between a client and a server across a network."
+  },
+  {
+    "type": "MC",
+    "question": "What does 'virtualization' mean in the context of computing?",
+    "options": {
+      "A": "Creating a physical machine",
+      "B": "Installing a new operating system",
+      "C": "Creating a virtual version of a resource like a server or desktop",
+      "D": "Removing old hardware"
+    },
+    "answer": "C",
+    "explanation": "Virtualization refers to creating a virtual version of something, such as computer hardware platforms or storage devices, often to run multiple operating systems or applications on a single physical machine."
+  },
+  {
+    "type": "MC",
+    "question": "What is the main reason for the transition from IPv4 to IPv6?",
+    "options": {
+      "A": "IPv6 is faster",
+      "B": "IPv4 has run out of unique IP addresses",
+      "C": "IPv6 is more secure",
+      "D": "IPv4 is obsolete"
+    },
+    "answer": "B",
+    "explanation": "The transition from IPv4 to IPv6 is mainly due to the exhaustion of unique IP addresses available under IPv4, whereas IPv6 provides a vastly larger address space."
+  }
+  ]
+
+   
+
+
+

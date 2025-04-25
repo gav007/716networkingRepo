@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #e3f2fd, #90caf9);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            background: rgb(245, 245, 245);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1e88e5, #42a5f5);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .question-container {
+            padding: 20px;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .question h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        label {
+            display: block;
+            margin: 8px 0;
+            padding: 10px;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        label:hover {
+            background: #e3f2fd;
+            border-color: #1e88e5;
+            transform: scale(1.02);
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            background: linear-gradient(90deg, #1e88e5, #42a5f5);
+            color: white;
+            cursor: pointer;
+            border-radius: 8px;
+            width: 100%;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background: linear-gradient(90deg, #1565c0, #1e88e5);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        .feedback {
+            margin-top: 20px;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            border-radius: 8px;
+            background: #e3f2fd;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        .feedback.correct {
+            border-left-color: #2e7d32;
+            background: #e8f5e9;
+        }
+
+        .feedback.incorrect {
+            border-left-color: #d32f2f;
+            background: #ffebee;
+        }
+
+        .final-score {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #555;
+            margin: 20px 0;
+            animation: zoomIn 0.6s ease-in-out;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .actions button {
+            flex: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            background: #f4f5f7;
+        }
+
+        footer a {
+            color: #1e88e5;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            CCNA Intro to Networking TU/716 Quiz
+        </header>
+        <div class="question-container" id="quiz-container">
+            <div id="question-area"></div>
+            <div id="feedback-area"></div>
+            <button id="submit-answer-btn">Submit Answer</button>
+            <button id="next-btn" style="display: none;">Next</button>
+        </div>
+        <div class="final-score" id="final-score" style="display: none;">
+            <p>Your score will appear here.</p>
+        </div>
+        <div class="actions" id="final-actions" style="display: none;">
+            <button id="retry-btn">Try Again</button>
+            <button id="netacad-btn">Go to NetAcad</button>
+        </div>
+        <footer>
+            &copy; 2025 NetWorkGav Quiz App | <a href="https://www.netacad.com/" target="_blank">Contact Support</a>
+        </footer>
+    </div>
+    <script>
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let userAnswers = [];
+        let score = 0;
+
+        async function loadQuestions() {
+            const response = await fetch('http://localhost:5000/get-questions?num_questions=10');
+            questions = await response.json();
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            const questionArea = document.getElementById('question-area');
+            const feedbackArea = document.getElementById('feedback-area');
+            const question = questions[currentQuestionIndex];
+
+            questionArea.innerHTML = `
+                <div class="question">
+                    <h2>${currentQuestionIndex + 1}. ${question.question}</h2>
+                    ${Object.keys(question.options).map(key => `
+                        <label>
+                            <input type="checkbox" name="answer" value="${key}">
+                            ${key}. ${question.options[key]}
+                        </label>
+                    `).join('')}
+                </div>
+            `;
+
+            feedbackArea.innerHTML = ''; // Clear feedback
+            document.getElementById('submit-answer-btn').style.display = 'inline';
+            document.getElementById('next-btn').style.display = 'none';
+        }
+
+        document.getElementById('submit-answer-btn').addEventListener('click', () => {
+            handleAnswer();
+        });
+
+        document.getElementById('next-btn').addEventListener('click', () => {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                displayQuestion();
+            } else {
+                showFinalScore();
+            }
+        });
+
+        document.getElementById('retry-btn').addEventListener('click', () => {
+            currentQuestionIndex = 0;
+            score = 0;
+            userAnswers = [];
+            document.getElementById('final-score').style.display = 'none';
+            document.getElementById('final-actions').style.display = 'none';
+            document.getElementById('quiz-container').style.display = 'block';
+            loadQuestions();
+        });
+
+        document.getElementById('netacad-btn').addEventListener('click', () => {
+            window.open('https://www.netacad.com/', '_blank');
+        });
+
+        function handleAnswer() {
+            const feedbackArea = document.getElementById('feedback-area');
+            const question = questions[currentQuestionIndex];
+            const selectedOptions = Array.from(document.querySelectorAll('input[name="answer"]:checked')).map(input => input.value);
+            const correctAnswers = Array.isArray(question.answer) ? question.answer : [question.answer];
+
+            // Save the user's answer
+            userAnswers.push({
+                question: question.question,
+                user_answers: selectedOptions,
+                correct_answers: correctAnswers
+            });
+
+            // Check correctness
+            const isCorrect = JSON.stringify(selectedOptions.sort()) === JSON.stringify(correctAnswers.sort());
+            if (isCorrect) score++;
+
+            // Display feedback
+            feedbackArea.innerHTML = `
+                <div class="feedback ${isCorrect ? 'correct' : 'incorrect'}">
+                    ${!isCorrect ? `<p><strong>Explanation:</strong> ${question.feedback}</p>` : ''}
+                    <p><strong>Correct Answer:</strong> ${correctAnswers.join(', ')}</p>
+                </div>
+            `;
+
+            // Adjust buttons
+            document.getElementById('submit-answer-btn').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'inline';
+        }
+
+        function showFinalScore() {
+            const questionContainer = document.getElementById('quiz-container');
+            const finalScore = document.getElementById('final-score');
+            const finalActions = document.getElementById('final-actions');
+
+            questionContainer.style.display = 'none';
+            finalScore.style.display = 'block';
+            finalActions.style.display = 'flex';
+            finalScore.innerHTML = `
+                <p>You scored ${score}/${questions.length}</p>
+                <p>That's ${(score / questions.length * 100).toFixed(2)}%!</p>
+            `;
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>

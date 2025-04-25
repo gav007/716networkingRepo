@@ -1,0 +1,2611 @@
+
+
+[
+{
+"type": "MC",
+"question": "What are three important considerations when installing a CPU on a motherboard? (Choose three.)",
+"options": {
+"A": "The CPU is correctly aligned and placed in the socket.",
+"B": "Maximum insertion force is applied to the load lever so the CPU is locked in place.",
+"C": "The CPU contacts are first cleaned with isopropyl alcohol.",
+"D": "The CMOS EPROM battery is removed prior to installing the CPU.",
+"E": "Antistatic precautions are taken.",
+"F": "The CPU heat sink and fan assembly are correctly installed."
+},
+"answer": ["A", "E", "F"],
+"feedback": "The CPU is sensitive to static discharges. Minimum force should be needed to lock the CPU load lever. Clean contacts only if necessary with proper precautions."
+},
+{
+"type": "MC",
+"question": "What is a good safety precaution to take when opening a computer case?",
+"options": {
+"A": "Place tape over the case edges that are sharp.",
+"B": "Remove the cover of the computer case before installing or removing parts.",
+"C": "Remove the connections to the front panel before extending the case fully open.",
+"D": "Ensure that any loose clothing stays in constant contact with the case when handling internal components."
+},
+"answer": "A",
+"feedback": "Placing tape over sharp case edges prevents physical harm. Loose clothing should be secured before working inside a computer."
+},
+{
+"type": "MC",
+"question": "What does the 'A' in P-A-S-S remind a person to do while using a fire extinguisher?",
+"options": {
+"A": "Activate the fire extinguisher.",
+"B": "Adjust the pressure.",
+"C": "Aim the fire extinguisher at the base of the fire.",
+"D": "Aim the fire extinguisher at the flames."
+},
+"answer": "C",
+"feedback": "The 'A' in P-A-S-S stands for aiming the extinguisher at the base of the fire, not at the flames."
+},
+{
+"type": "MC",
+"question": "When a new PC is being built, which component has the most influence when selecting the case and power supply?",
+"options": {
+"A": "Sound card",
+"B": "Hard disk type",
+"C": "Video card",
+"D": "RAM module",
+"E": "Motherboard"
+},
+"answer": "E",
+"feedback": "The motherboard determines the type of case and power supply needed based on its form factor."
+},
+{
+"type": "MC",
+"question": "Which two factors must be considered when replacing old RAM modules in a PC? (Choose two.)",
+"options": {
+"A": "The new RAM must be compatible with the motherboard.",
+"B": "The new RAM must be compatible with BIOS or UEFI.",
+"C": "The new RAM must match the old RAM in terms of capacity and speed.",
+"D": "The speed of the new RAM must be supported by the chipset.",
+"E": "The power supply must provide the voltage required by the new RAM."
+},
+"answer": ["A", "D"],
+"feedback": "New RAM must be compatible with the motherboard and its speed supported by the chipset."
+},
+{
+"type": "MC",
+"question": "Which type of drive is typically installed in a 5.25 inch (13.34 cm) bay?",
+"options": {
+"A": "Hard drive",
+"B": "SSD",
+"C": "Optical drive",
+"D": "Flash drive"
+},
+"answer": "C",
+"feedback": "Optical drives are installed in 5.25 inch drive bays that are accessed from the front of the case."
+},
+{
+"type": "MC",
+"question": "Which type of motherboard expansion slot has four types ranging from x1 to x16 with each type having a different length of expansion slot?",
+"options": {
+"A": "PCIe",
+"B": "SATA",
+"C": "PCI",
+"D": "AGP"
+},
+"answer": "A",
+"feedback": "The PCIe bus has four types of slots: x1, x4, x8, and x16, each with varying lengths."
+},
+{
+"type": "MC",
+"question": "A technician is installing a new high-end video adapter card into an expansion slot on a motherboard. What may be needed to operate this video adapter card?",
+"options": {
+"A": "PCIe x 8 expansion slot",
+"B": "24-pin ATX power connector",
+"C": "PCI expansion slot",
+"D": "Two 8-pin power connectors"
+},
+"answer": "D",
+"feedback": "High-performance video adapter cards often require multiple power connectors, such as two 8-pin connectors."
+},
+{
+"type": "MC",
+"question": "How is a power supply commonly attached to a tower case?",
+"options": {
+"A": "Retention bar",
+"B": "Standoffs",
+"C": "Restraining strap",
+"D": "Screws"
+},
+"answer": "D",
+"feedback": "A power supply is attached to a tower case using screws aligned with case holes."
+},
+{
+"type": "MC",
+"question": "A technician is replacing a power supply. Which two factors should the technician consider when obtaining the replacement part? (Choose two.)",
+"options": {
+"A": "Wattage",
+"B": "Number of internal fans",
+"C": "Output voltage",
+"D": "Type of case",
+"E": "Input voltage level of 12 or 5 VDC"
+},
+"answer": ["A", "D"],
+"feedback": "A technician should consider the type of motherboard, wattage, type of case, and number/type of connectors when choosing a power supply."
+},
+{
+"type": "MC",
+"question": "Which type of motherboard expansion slot sends data one bit at a time over a serial bus?",
+"options": {
+"A": "PATA",
+"B": "RAM",
+"C": "PCI",
+"D": "PCIe"
+},
+"answer": "D",
+"feedback": "A PCIe expansion slot connects to a serial bus that sends data one bit at a time at a much faster rate than older PCI slots."
+},
+{
+"type": "MC",
+"question": "Which PC motherboard bus is used to connect the CPU to RAM and other motherboard components?",
+"options": {
+"A": "PCIe",
+"B": "PCI",
+"C": "SATA",
+"D": "Front-side"
+},
+"answer": "D",
+"feedback": "The front-side bus (FSB) connects the CPU to RAM, expansion cards, and other motherboard components. Its speed is crucial when selecting motherboards and RAM."
+},
+{
+"type": "MC",
+"question": "Where is buffered memory commonly used?",
+"options": {
+"A": "Business PCs",
+"B": "Gaming computers",
+"C": "Servers",
+"D": "Gaming laptops",
+"E": "Tablets"
+},
+"answer": "C",
+"feedback": "Buffered memory is used in systems with large amounts of RAM, such as servers and high-end workstations, as it improves reliability."
+},
+{
+"type": "MC",
+"question": "A technician has been asked to order a replacement internal SATA HDD. Between which two form factors will the technician have to choose? (Choose two.)",
+"options": {
+"A": "2.5 inch (6.35 cm)",
+"B": "2.25 inch (5.72 cm)",
+"C": "6.25 inch (15.88 cm)",
+"D": "5.5 inch (13.97 cm)",
+"E": "3.5 inch (8.89 cm)"
+},
+"answer": ["A", "E"],
+"feedback": "For tower computers, internal HDDs come in 3.5 inch and 2.5 inch form factors. SSDs often use the 2.5 inch form factor."
+},
+{
+"type": "MC",
+"question": "A technician has been asked to upgrade a processor and needs to do some research. The computer is just a couple of years old. What are two types of processor packages that could be used inside the computer? (Choose two.)",
+"options": {
+"A": "ISA",
+"B": "PGA",
+"C": "PCIe",
+"D": "LGA",
+"E": "GDDR"
+},
+"answer": ["B", "D"],
+"feedback": "Modern CPUs use either pin grid array (PGA) or land grid array (LGA) architectures for socket compatibility."
+},
+{
+"type": "MC",
+"question": "A student is looking to add memory in order to speed up a tower computer. Which type of memory module should the student be looking for?",
+"options": {
+"A": "DIMM",
+"B": "SODIMM",
+"C": "DIP",
+"D": "SIMM"
+},
+"answer": "A",
+"feedback": "Tower computers use dual inline memory modules (DIMMs) in their memory slots, which can be DDR3 or DDR4."
+},
+{
+"type": "MC",
+"question": "While shopping for a replacement motherboard, a customer decides to also purchase a new mechanical hard drive and asks the technical salesperson for advice. Which storage interface should the salesperson recommend for the motherboard and new drive?",
+"options": {
+"A": "SATA",
+"B": "EIDE",
+"C": "RAID 5",
+"D": "IDE"
+},
+"answer": "A",
+"feedback": "Modern mechanical hard drives use SATA interfaces. Legacy drives used IDE and EIDE."
+},
+{
+"type": "MC",
+"question": "A customer comes into a computer parts and service store. The customer is looking for a device to display a promotional presentation to a large audience at a conference. What device should the store owner recommend to accomplish the required task?",
+"options": {
+"A": "AR headset",
+"B": "Projector",
+"C": "Magstripe reader",
+"D": "Joystick or gamepad"
+},
+"answer": "B",
+"feedback": "A projector is ideal for displaying a presentation to a large audience at a conference."
+},
+{
+"type": "MC",
+"question": "Which characteristic describes a SIMM?",
+"options": {
+"A": "Chips that run at clock speeds of 800 MHz and have a connector with 240 pins.",
+"B": "Chips that require constant power to function and are often used for cache memory.",
+"C": "A small circuit board that holds several memory chips and has a 30- or 72-pin configuration.",
+"D": "Chips whose contents can be 'flashed' for deletion and are often used to store BIOS."
+},
+"answer": "C",
+"feedback": "SIMMs are small circuit boards that hold several memory chips and have a 30- or 72-pin configuration."
+},
+{
+"type": "MC",
+"question": "Which component controls the communications and interactions between the CPU and other components on the motherboard?",
+"options": {
+"A": "CMOS",
+"B": "BIOS",
+"C": "RAM",
+"D": "Chipset"
+},
+"answer": "D",
+"feedback": "The chipset manages communication between the CPU and other motherboard components."
+},
+{
+"type": "MC",
+"question": "Which two statements describe a characteristic of GDDR Synchronous Dynamic RAM? (Choose two.)",
+"options": {
+"A": "It processes massive amounts of data at the fastest speeds.",
+"B": "It is used in conjunction with a dedicated GPU.",
+"C": "It is used for main memory.",
+"D": "It has a low power consumption and is used for cache memory."
+},
+"answer": ["A", "B"],
+"feedback": "GDDR SDRAM processes large amounts of data quickly and is used with dedicated GPUs."
+},
+{
+"type": "MC",
+"question": "A technician looks at a motherboard and sees a 24-pin connector. What component would connect to the motherboard through the use of this 24-pin connector?",
+"options": {
+"A": "SATA drive",
+"B": "Floppy drive",
+"C": "Video card",
+"D": "Power supply",
+"E": "PATA optical drive"
+},
+"answer": "D",
+"feedback": "The 24-pin connector is used to connect the power supply to the motherboard."
+},
+{
+"type": "MC",
+"question": "A customer has a computer for a home business, but wants to have another computer as a web server. What would be the best solution for the customer to share the monitor, mouse, and keyboard between the two computers?",
+"options": {
+"A": "Multipurpose device",
+"B": "Access point",
+"C": "USB hub",
+"D": "Network switch",
+"E": "KVM switch"
+},
+"answer": "E",
+"feedback": "A KVM switch allows a single monitor, mouse, and keyboard to control multiple computers."
+},
+{
+"type": "MC",
+"question": "A technician is building a thick client workstation that would be used to run a database and wants to ensure the best protection against errors. What type of memory would be best suited for this?",
+"options": {
+"A": "ECC",
+"B": "DDR3",
+"C": "DDR2",
+"D": "RDRAM"
+},
+"answer": "A",
+"feedback": "ECC (Error-Correcting Code) memory is ideal for protecting against data corruption in high-reliability systems like database servers."
+},
+{
+"type": "MC",
+"question": "Which two devices are considered input devices? (Choose two.)",
+"options": {
+"A": "Digital camera",
+"B": "Projector",
+"C": "Biometric authentication device",
+"D": "Speakers",
+"E": "Printer"
+},
+"answer": ["A", "C"],
+"feedback": "Input devices include digital cameras and biometric authentication devices."
+},
+{
+"type": "MC",
+"question": "Which adapter would a technician install in a desktop computer to enable a video signal to be recorded from a video recorder to the computer hard drive?",
+"options": {
+"A": "Video adapter",
+"B": "Video capture card",
+"C": "Network interface card",
+"D": "TV tuner card"
+},
+"answer": "B",
+"feedback": "A video capture card allows video signals to be recorded onto a computer hard drive."
+},
+{
+"type": "MC",
+"question": "Which two components usually interface directly with the Southbridge chipset on the motherboard? (Choose two.)",
+"options": {
+"A": "Video card",
+"B": "Hard drive",
+"C": "PCIe slots",
+"D": "RAM",
+"E": "USB ports"
+},
+"answer": ["B", "E"],
+"feedback": "The Southbridge chipset interfaces with components like USB ports and hard drives."
+},
+{
+"type": "MC",
+"question": "Which unit of measurement is used to indicate the hard drive speed?",
+"options": {
+"A": "Revolutions per minute",
+"B": "Pages per minute",
+"C": "Gigabytes",
+"D": "Clusters per minute"
+},
+"answer": "A",
+"feedback": "Hard drive speed is measured in revolutions per minute (RPM)."
+},
+{
+"type": "MC",
+"question": "What is an active cooling solution for a PC?",
+"options": {
+"A": "Use a painted computer case.",
+"B": "Add a heatsink to the CPU.",
+"C": "Reduce the speed of the CPU.",
+"D": "Add an additional case fan."
+},
+"answer": "D",
+"feedback": "An additional case fan is an active cooling solution that helps dissipate heat."
+},
+{
+"type": "MC",
+"question": "Why is it important to ground both computers and network devices?",
+"options": {
+"A": "To ensure that the power supply is limited to an output of 110V DC.",
+"B": "To provide a path of least resistance for stray current.",
+"C": "To facilitate the flow of current from the power supply to the computer case.",
+"D": "To ensure that both the power supplied and the power used is in sync with the ground voltage."
+},
+"answer": "B",
+"feedback": "Grounding provides a path of least resistance for stray current, reducing the risk of damage."
+},
+{
+"type": "MC",
+"question": "Which type of device would be used on a laptop to verify the identity of a user?",
+"options": {
+"A": "A biometric identification device",
+"B": "A digitizer",
+"C": "A touch screen",
+"D": "A MIDI device"
+},
+"answer": "A",
+"feedback": "A biometric identification device, such as a fingerprint scanner, verifies user identity."
+},
+{
+"type": "MC",
+"question": "What three voltages are commonly provided by the power supply to the various components inside the computer? (Choose three.)",
+"options": {
+"A": "5 volts",
+"B": "3.3 volts",
+"C": "9 volts",
+"D": "12 volts",
+"E": "24 volts",
+"F": "48 volts"
+},
+"answer": ["A", "B", "D"],
+"feedback": "Power supplies commonly provide 3.3V, 5V, and 12V for different computer components."
+},
+{
+"type": "MC",
+"question": "Which two activities are normally controlled by the Northbridge part of the chipset? (Choose two.)",
+"options": {
+"A": "Communication between the CPU and the sound card.",
+"B": "Communication between the CPU and the I/O ports.",
+"C": "Access to the RAM.",
+"D": "Communication between the CPU and the hard drive.",
+"E": "Access to the video card."
+},
+"answer": ["C", "E"],
+"feedback": "The Northbridge controls high-speed communication, including access to RAM and video cards."
+},
+{
+"type": "MC",
+"question": "Which statement describes the proper use of an anti-static wrist strap?",
+"options": {
+"A": "An anti-static wrist strap should not be used in conjunction with an antistatic mat.",
+"B": "For optimum grounding, the clip should be attached to a painted section of the computer case.",
+"C": "The anti-static wrist strip should not be attached to any grounded object.",
+"D": "An anti-static wrist strap should make contact with the skin."
+},
+"answer": "D",
+"feedback": "For effective grounding, an anti-static wrist strap must make direct contact with the skin."
+},
+{
+"type": "MC",
+"question": "From which type of data storage does the CPU load information for processing during normal operation?",
+"options": {
+"A": "Hard drive",
+"B": "SSD",
+"C": "ROM",
+"D": "RAM"
+},
+"answer": "D",
+"feedback": "RAM is the storage medium from which the CPU loads information during processing."
+},
+{
+"type": "MC",
+"question": "Which statement describes a characteristic of SRAM in a PC?",
+"options": {
+"A": "It is used as main RAM in a PC.",
+"B": "It has a connector with 240 pins.",
+"C": "It is used for cache memory.",
+"D": "It has the highest power consumption."
+},
+"answer": "C",
+"feedback": "SRAM is commonly used for cache memory due to its high speed and reliability."
+},
+{
+"type": "MC",
+"question": "Hard drives in a grocery warehouse keep failing because of vibrations in the warehouse environment. What would be a possible solution for this high failure rate?",
+"options": {
+"A": "Install each computer in a specialized high airflow case.",
+"B": "Install a more powerful power supply in each computer.",
+"C": "Install an SSD drive in each computer.",
+"D": "Install an antistatic mat under each computer."
+},
+"answer": "C",
+"feedback": "SSDs are more resistant to physical vibrations, making them ideal for environments like warehouses."
+},
+{
+"type": "MC",
+"question": "What makes CRT monitor disposal dangerous for a technician who is handling the disposal?",
+"options": {
+"A": "Potential explosive materials",
+"B": "Potential health-damaging chemicals",
+"C": "Potential residual high voltage",
+"D": "Potential breathing hazards"
+},
+"answer": "C",
+"feedback": "CRT monitors can retain residual high voltage even after being unplugged, which can be hazardous during disposal."
+},
+{
+"type": "MC",
+"question": "What is one purpose of adjusting the clock speed within the BIOS configuration settings?",
+"options": {
+"A": "To allow the computer to run slower and cooler",
+"B": "To change the order of the bootable partitions",
+"C": "To disable devices that are not needed or used by the computer",
+"D": "To allow a computer to run multiple operating systems in files or partitions"
+},
+"answer": "A",
+"feedback": "Adjusting the clock speed can reduce the heat generated by the CPU, allowing the system to run cooler and more efficiently."
+},
+{
+"type": "MC",
+"question": "Which statement describes the capability of an HDMI version 1.4 type A port?",
+"options": {
+"A": "It can be used for 4K and 8K resolutions.",
+"B": "It can change a monitor's refresh rate to match the source device output rate.",
+"C": "It supports high premium speeds of up to 48 Gbps.",
+"D": "It uses a 20-pin connector for delivering high-bandwidth video and audio signals."
+},
+"answer": "B",
+"feedback": "HDMI 1.4 Type A ports can adjust the monitor's refresh rate to match the source device output rate for smoother video playback."
+},
+{
+"type": "MC",
+"question": "Which is a BIOS security feature that can prevent data from being read from a hard drive even if the hard drive is moved to another computer?",
+"options": {
+"A": "BIOS passwords",
+"B": "Secure boot",
+"C": "Drive encryption",
+"D": "RAID"
+},
+"answer": "C",
+"feedback": "Drive encryption secures the data on a hard drive, preventing unauthorized access even if the drive is moved."
+},
+{
+"type": "MC",
+"question": "What characteristic of electricity is expressed in watts?",
+"options": {
+"A": "The amount of electrons flowing through a circuit per second",
+"B": "The amount of work required to move electrons through a circuit",
+"C": "The work required to move electrons through a circuit multiplied by the number of electrons flowing through a circuit per second",
+"D": "The resistance to the flow of current in a circuit"
+},
+"answer": "C",
+"feedback": "Watts represent the power, which is calculated as the product of voltage (work required) and current (electron flow)."
+},
+{
+"type": "MC",
+"question": "Which condition refers to a reduced voltage level of AC power that lasts for an extended period of time?",
+"options": {
+"A": "Sag",
+"B": "Brownout",
+"C": "Surge",
+"D": "Spike"
+},
+"answer": "B",
+"feedback": "A brownout is a prolonged period of reduced voltage that can affect electronic devices."
+},
+{
+"type": "MC",
+"question": "What data is stored in the CMOS memory chip?",
+"options": {
+"A": "User login information",
+"B": "BIOS settings",
+"C": "Device drivers",
+"D": "Windows configuration settings"
+},
+"answer": "B",
+"feedback": "The CMOS memory chip stores BIOS settings, such as boot order and system clock information."
+},
+{
+"type": "MC",
+"question": "How does an inline UPS protect computer equipment against electrical power brownouts and blackouts?",
+"options": {
+"A": "By grounding excess electrical voltage",
+"B": "By stopping the flow of voltage to the computer",
+"C": "By using a battery to supply a constant level of voltage",
+"D": "By switching from main power to a standby power source"
+},
+"answer": "C",
+"feedback": "An inline UPS provides a constant voltage supply from its battery, protecting devices from power fluctuations."
+},
+{
+"type": "MC",
+"question": "A user playing a game on a gaming PC with a standard EIDE 5400 RPM hard drive finds the performance unsatisfactory. Which hard drive upgrade would improve performance while providing more reliability and more energy efficiency?",
+"options": {
+"A": "A 7200 RPM EIDE hard drive",
+"B": "A 7200 RPM SATA hard drive",
+"C": "A 10,000 RPM SATA hard drive",
+"D": "An SSD"
+},
+"answer": "D",
+"feedback": "Upgrading to an SSD provides faster performance, greater reliability, and improved energy efficiency compared to traditional hard drives."
+},
+{
+"type": "MC",
+"question": "Which type of interface was originally developed for high-definition televisions and is also popular to use with computers to connect audio and video devices?",
+"options": {
+"A": "HDMI",
+"B": "VGA",
+"C": "FireWire",
+"D": "DVI"
+},
+"answer": "A",
+"feedback": "HDMI was initially developed for high-definition TVs and is commonly used with computers for audio and video connections."
+},
+{
+"type": "MC",
+"question": "What component is most suspect if a burning electronics smell is evident?",
+"options": {
+"A": "CPU",
+"B": "Power supply",
+"C": "Hard drive",
+"D": "RAM module"
+},
+"answer": "B",
+"feedback": "A burning electronics smell often indicates a failure in the power supply, which contains components prone to overheating and burning."
+},
+{
+"type": "MC",
+"question": "In which step of the troubleshooting process would a technician have to do more research on the Internet or within the computer manual in order to solve a problem?",
+"options": {
+"A": "Document findings, actions, and outcomes.",
+"B": "Test the theory to determine the cause.",
+"C": "Establish a plan of action to resolve the problem and implement the solution.",
+"D": "Verify full system functionality and, if applicable, implement preventive measures.",
+"E": "Identify the problem."
+},
+"answer": "C",
+"feedback": "Researching during the troubleshooting process often occurs when establishing a plan of action to resolve the problem and implement a solution."
+},
+{
+"type": "MC",
+"question": "Which two types of data should be backed up before troubleshooting a computer for a customer? (Choose two.)",
+"options": {
+"A": "Driver files for the hard disk",
+"B": "Documents that are created by the customer",
+"C": "Windows operating system files",
+"D": "BIOS system file",
+"E": "Internet Explorer favorites files"
+},
+"answer": ["B", "E"],
+"feedback": "Customer-created documents and browser favorites are valuable and should be backed up before troubleshooting."
+},
+{
+"type": "MC",
+"question": "An employee reports that the output of a workstation display is distorted. The technician checks the manufacturer website and downloads the latest version of the video driver. After the video driver is installed, what should the technician do next?",
+"options": {
+"A": "Schedule the next system checkup with the employee.",
+"B": "Open a video editing application to verify the video performance.",
+"C": "Move the display card to another slot to see if the video performs better.",
+"D": "Log the previous and current version numbers of the video driver."
+},
+"answer": "B",
+"feedback": "Opening a video editing application allows the technician to test the performance of the new video driver in a real-use scenario."
+},
+{
+"type": "MC",
+"question": "What is the next step after a possible solution is implemented during a troubleshooting process?",
+"options": {
+"A": "Identify other possible causes for the problem.",
+"B": "Test another possible solution.",
+"C": "Document the cause and the solution for the problem.",
+"D": "Verify the full system functionality and apply maintenance procedures."
+},
+"answer": "D",
+"feedback": "After implementing a solution, verifying the system's functionality ensures the problem has been resolved."
+},
+{
+"type": "MC",
+"question": "An employee reports that the antivirus software cannot obtain updates. The support technician notices that the license for the software has expired. The technician adds a new license to the software and completes the update service. What should the technician do next?",
+"options": {
+"A": "Run a full virus scan on the computer.",
+"B": "Download advanced antivirus software from another vendor.",
+"C": "Review the Event Viewer for the date and time that the last software update was performed.",
+"D": "Record the new license number in the log."
+},
+"answer": "A",
+"feedback": "Running a full virus scan ensures that the computer is secure after updating the antivirus software."
+},
+{
+"type": "MC",
+"question": "A web designer installed the latest video editing software and now notices that when the application loads, it responds slowly. Also, the hard disk LED is constantly flashing when the application is in use. What is a solution to solve the performance problem?",
+"options": {
+"A": "Replacing the video card with a model that has a DVI output",
+"B": "Upgrading to a faster CPU",
+"C": "Replacing the hard disk with a faster model",
+"D": "Adding more RAM"
+},
+"answer": "D",
+"feedback": "Adding more RAM reduces the reliance on the hard drive for virtual memory, improving performance for memory-intensive applications."
+},
+{
+"type": "MC",
+"question": "What is a primary benefit of preventive maintenance on a PC?",
+"options": {
+"A": "It assists the user in software development.",
+"B": "It extends the life of the components.",
+"C": "It enhances the troubleshooting processes.",
+"D": "It simplifies PC use for the end user."
+},
+"answer": "B",
+"feedback": "Preventive maintenance reduces wear and tear, extending the life of PC components."
+},
+{
+"type": "MC",
+"question": "What mechanism is used in a laser printer to permanently fuse the toner to the paper?",
+"options": {
+"A": "Electrical charge",
+"B": "Light",
+"C": "Pressure",
+"D": "Heat"
+},
+"answer": "D",
+"feedback": "Heat is used in the fuser assembly of a laser printer to permanently bond toner to paper."
+},
+{
+"type": "MC",
+"question": "What corrective action would a technician take in response to a print spooler error?",
+"options": {
+"A": "Restart the print spooler",
+"B": "Clean the printer",
+"C": "Update the printer driver",
+"D": "Reboot the printer"
+},
+"answer": "A",
+"feedback": "Restarting the print spooler often resolves issues where print jobs are stuck or failing."
+},
+{
+"type": "MC",
+"question": "A small company is moving towards sharing printers to reduce the number of printers used within the company. The technician has security concerns. What security risk is associated with sharing a printer?",
+"options": {
+"A": "Replay attacks",
+"B": "Shoulder surfing",
+"C": "Data privacy",
+"D": "Dumpster diving"
+},
+"answer": "C",
+"feedback": "Sharing printers can pose a data privacy risk as print jobs may be intercepted or viewed by unauthorized users."
+},
+{
+"type": "MC",
+"question": "A technician recorded that a new fuser roller unit was installed in a laser printer to solve a printing problem. Which step in the troubleshooting process did the technician just perform?",
+"options": {
+"A": "Testing a theory to determine the cause of the problem",
+"B": "Documenting findings, actions, and outcomes",
+"C": "Verifying the solution and system functionality",
+"D": "Identifying the problem"
+},
+"answer": "B",
+"feedback": "Documenting findings is a critical part of the troubleshooting process to maintain a clear record of actions taken."
+},
+{
+"type": "MC",
+"question": "A technician is installing a printer that will be directly connected to a computer. Why does the technician not connect the printer initially during the installation process?",
+"options": {
+"A": "The Microsoft download site needs to be searched first for the printer driver.",
+"B": "The printer driver might need to be installed first before the printer is connected.",
+"C": "The printer needs to be configured first.",
+"D": "The OS of the workstation needs to be updated first."
+},
+"answer": "B",
+"feedback": "Installing the printer driver before connecting the printer ensures that the printer is recognized properly during setup."
+},
+{
+"type": "MC",
+"question": "A technician is programming a wireless printer to connect to the wireless network and communicate wirelessly with nearby devices. Which two wireless modes are used for wireless printer connectivity? (Choose two.)",
+"options": {
+"A": "Ad hoc",
+"B": "IR",
+"C": "Cloud-based",
+"D": "Hands-free",
+"E": "Infrastructure"
+},
+"answer": ["A", "E"],
+"feedback": "Wireless printers typically use ad hoc mode for direct device-to-device communication or infrastructure mode for network-based connectivity."
+},
+{
+"type": "MC",
+"question": "Which device can scan a document and attach the scan to an email?",
+"options": {
+"A": "Automatic document feeder",
+"B": "Thermal printer",
+"C": "Networked MFD",
+"D": "Laser printer"
+},
+"answer": "C",
+"feedback": "A networked multifunction device (MFD) can scan documents and send them directly via email."
+},
+{
+"type": "MC",
+"question": "How can the life of a thermal printer be extended?",
+"options": {
+"A": "Keep the paper dry in a low humidity environment.",
+"B": "Clean the heating element regularly with isopropyl alcohol.",
+"C": "Clean the inside of the printer with a vacuum cleaner with a HEPA filter.",
+"D": "Wipe the outside of the printer with a damp cloth."
+},
+"answer": "B",
+"feedback": "Regular cleaning of the heating element with isopropyl alcohol helps maintain the performance and longevity of a thermal printer."
+},
+{
+"type": "MC",
+"question": "What would cause an inkjet printer to fail to print any pages?",
+"options": {
+"A": "The printer software is set to toner save.",
+"B": "The ink cartridge is empty.",
+"C": "The printer is loaded with a paper type other than photo paper.",
+"D": "The printer ribbon is worn out."
+},
+"answer": "B",
+"feedback": "An empty ink cartridge prevents the inkjet printer from printing any pages."
+},
+{
+"type": "MC",
+"question": "What corrective action should be taken if a printer is printing faded images?",
+"options": {
+"A": "Replace the toner cartridge",
+"B": "Clean the printer",
+"C": "Secure loose printer cables",
+"D": "Update the print driver"
+},
+"answer": "A",
+"feedback": "Replacing the toner cartridge resolves issues with faded prints as the toner supply may be depleted."
+},
+{
+"type": "MC",
+"question": "Which is a characteristic of a Type 2 hypervisor?",
+"options": {
+"A": "Best suited for enterprise environments",
+"B": "Has direct access to server hardware resources",
+"C": "Does not require management console software",
+"D": "Installs directly on hardware"
+},
+"answer": "C",
+"feedback": "Type 2 hypervisors run on a host operating system and do not require separate management software."
+},
+{
+"type": "MC",
+"question": "Which two business and technical challenges does implementing virtualization within a data center help businesses to overcome? (Choose two.)",
+"options": {
+"A": "Operating system license requirements",
+"B": "Virus and spyware attacks",
+"C": "Power and air conditioning",
+"D": "Server hardware needs",
+"E": "Physical footprint"
+},
+"answer": ["C", "E"],
+"feedback": "Virtualization reduces the physical footprint of servers and helps optimize power and air conditioning in data centers."
+},
+{
+"type": "MC",
+"question": "What is the main function of a hypervisor?",
+"options": {
+"A": "It is software used to coordinate and prepare data for analysis.",
+"B": "It is used to create and manage multiple VM instances on a host machine.",
+"C": "It is a device that synchronizes a group of sensors.",
+"D": "It is used by ISPs to monitor cloud computing resources."
+},
+"answer": "B",
+"feedback": "A hypervisor allows multiple virtual machines (VMs) to run on a single host, managing resources for each VM."
+},
+{
+"type": "MC",
+"question": "What technology allows users to access data anywhere and at any time?",
+"options": {
+"A": "Cloud computing",
+"B": "Virtualization",
+"C": "Micromarketing",
+"D": "Data analytics"
+},
+"answer": "A",
+"feedback": "Cloud computing provides users with remote access to data and applications from any location."
+},
+{
+"type": "MC",
+"question": "Which Cloud computing service would be best for an organization that does not have the technical knowledge to host and maintain applications at their local site?",
+"options": {
+"A": "IaaS",
+"B": "SaaS",
+"C": "PaaS",
+"D": "ITaaS"
+},
+"answer": "B",
+"feedback": "Software as a Service (SaaS) offers a hosted application environment, removing the need for technical expertise on-site."
+},
+{
+"type": "MC",
+"question": "Which cloud model provides services for a specific organization or entity?",
+"options": {
+"A": "A community cloud",
+"B": "A public cloud",
+"C": "A private cloud",
+"D": "A hybrid cloud"
+},
+"answer": "C",
+"feedback": "Private clouds are dedicated to a single organization, providing secure and customized services."
+},
+{
+"type": "MC",
+"question": "How does virtualization help with disaster recovery within a data center?",
+"options": {
+"A": "Guarantee of power",
+"B": "Supply of consistent air flow",
+"C": "Support of live migration",
+"D": "Improvement of business practices"
+},
+"answer": "C",
+"feedback": "Live migration allows virtual machines to move between physical servers, ensuring minimal downtime during disaster recovery."
+},
+{
+"type": "MC",
+"question": "Which technology automatically and rapidly re-configures network topologies to achieve flexible and responsive networks?",
+"options": {
+"A": "Hybrid cloud computing",
+"B": "Hosted hypervisor",
+"C": "Software-defined networking",
+"D": "Infrastructure as a Service"
+},
+"answer": "C",
+"feedback": "Software-defined networking (SDN) enables dynamic changes in network configuration to adapt to varying demands."
+},
+{
+"type": "MC",
+"question": "Which type of Hypervisor is implemented when a user with a laptop running the Mac OS installs a Windows virtual OS instance?",
+"options": {
+"A": "Type 2",
+"B": "Virtual machine",
+"C": "Type 1",
+"D": "Bare metal"
+},
+"answer": "A",
+"feedback": "Type 2 hypervisors run on a host operating system, making them suitable for environments like Mac OS hosting a Windows virtual machine."
+},
+{
+"type": "MC",
+"question": "What are two advantages of using PC virtualization? (Choose two.)",
+"options": {
+"A": "It prevents viruses and worms from functioning in a virtualized environment.",
+"B": "It boosts the performance of the host machine through virtualization.",
+"C": "It allows multiple operating systems to run on a single PC simultaneously.",
+"D": "It allows network threat identification.",
+"E": "It can provide cost savings."
+},
+"answer": ["C", "E"],
+"feedback": "PC virtualization allows multiple operating systems on one machine, reducing hardware costs and providing operational flexibility."
+},{
+"type": "MC",
+"question": "What term is used to describe a logical drive that can be formatted to store data?",
+"options": {
+"A": "Volume",
+"B": "Track",
+"C": "Partition",
+"D": "Sector",
+"E": "Cluster"
+},
+"answer": "C",
+"feedback": "A partition is a logical division of a hard drive that can be formatted to store data."
+},
+{
+"type": "MC",
+"question": "A user installs a new sound card driver in a computer that is working properly. After the installation of the drivers for the new sound card, the computer fails to boot. Which quick fix can the user implement to return to the previous working state?",
+"options": {
+"A": "Boot to Last Known Good Configuration.",
+"B": "Boot to Recovery Console.",
+"C": "Boot to Start Windows Normally.",
+"D": "Boot to Emergency Recovery State."
+},
+"answer": "A",
+"feedback": "Booting to Last Known Good Configuration restores the system to the last working state without affecting personal files."
+},
+{
+"type": "MC",
+"question": "Which statement describes dynamic disks in a PC that is running Windows 10 Pro?",
+"options": {
+"A": "They have the ability to create volumes that span across more than one disk.",
+"B": "A partition created on a dynamic disk can be shrunk without deleting the partition first.",
+"C": "More space can be added to a partition by extending it into adjacent, unallocated space, as long as it is contiguous.",
+"D": "Free space can only be added from the same disk to extend the volume."
+},
+"answer": "A",
+"feedback": "Dynamic disks support advanced storage features like creating volumes that span multiple physical disks."
+},
+{
+"type": "MC",
+"question": "Which term best describes the process of breaking a program into smaller parts that can be loaded as needed by the operating system?",
+"options": {
+"A": "Multiuser",
+"B": "Multiprocessing",
+"C": "Multitasking",
+"D": "Multithreading"
+},
+"answer": "D",
+"feedback": "Multithreading allows a program to be divided into smaller threads that can run independently, improving efficiency."
+},
+{
+"type": "MC",
+"question": "When would the PXE option be used when repairing a PC?",
+"options": {
+"A": "The computer needs a replacement operating system.",
+"B": "There is no response from the mouse or keyboard.",
+"C": "A newly installed application caused the system to perform erratically.",
+"D": "The display cannot be seen clearly."
+},
+"answer": "A",
+"feedback": "The PXE (Preboot Execution Environment) option is used to boot a computer remotely for operating system installation or recovery."
+},
+{
+"type": "MC",
+"question": "What are two default account types provided by Windows 10? (Choose two.)",
+"options": {
+"A": "Standard User",
+"B": "DefaultAccount",
+"C": "Guest",
+"D": "Users",
+"E": "Administrator"
+},
+"answer": ["A", "E"],
+"feedback": "Windows 10 provides Standard User and Administrator accounts as default account types."
+},
+{
+"type": "MC",
+"question": "Which operation in Windows 10 is limited to users with Administrator privileges only?",
+"options": {
+"A": "Modify user settings.",
+"B": "Install software programs.",
+"C": "Run applications.",
+"D": "Change system settings."
+},
+"answer": "B",
+"feedback": "Installing software programs requires Administrator privileges to ensure system security and control."
+},
+{
+"type": "MC",
+"question": "Which file system is used to access files over a network?",
+"options": {
+"A": "CDFS",
+"B": "NTFS",
+"C": "NFS",
+"D": "FAT"
+},
+"answer": "C",
+"feedback": "NFS (Network File System) is used for accessing files over a network."
+},
+{
+"type": "MC",
+"question": "A technician wishes to deploy Windows 10 Pro upgrade to a group of employee PCs on the network and ensure that the user state migrates successfully. Which tool would the technician use to do this?",
+"options": {
+"A": "User State Migration",
+"B": "PCmover Express",
+"C": "Windows Easy Transfer",
+"D": "Windows 10 Update Assistant"
+},
+"answer": "A",
+"feedback": "The User State Migration Tool (USMT) is designed to migrate user accounts, files, and settings during a Windows upgrade."
+},
+{
+"type": "MC",
+"question": "Which statement accurately describes the GUID partition table?",
+"options": {
+"A": "It is commonly used in computers with UEFI firmware.",
+"B": "It is not supported by Windows 10 Home edition.",
+"C": "It is 512 bytes long and contains the boot loader.",
+"D": "It cannot be used in a multiboot environment."
+},
+"answer": "A",
+"feedback": "The GUID Partition Table (GPT) is used in systems with UEFI firmware and supports larger drives and more partitions."
+},
+{
+"type": "MC",
+"question": "A high technology company has an issue with unauthorized people gaining access into the company by following an authorized employee through the secure entrance. Which two measures could help with this security breach? (Choose two.)",
+"options": {
+"A": "Security guard that checks IDs",
+"B": "Biometrics",
+"C": "Mantrap",
+"D": "Employee smart ID",
+"E": "Multifactor authentication"
+},
+"answer": ["A", "C"],
+"feedback": "Mantraps and security guards checking IDs prevent unauthorized individuals from tailgating through secure entrances."
+},
+{
+"type": "MC",
+"question": "What are signatures as they relate to security threats?",
+"options": {
+"A": "The beginning or end of a malware segment that has a specific cyclic redundancy check number",
+"B": "One or more code patterns within a specific type of malware",
+"C": "The checksum associated with each specific type of malware that is stored in a virus table",
+"D": "A unique encryption code used by a known attacker"
+},
+"answer": "B",
+"feedback": "Signatures are specific code patterns used by antivirus software to identify malware."
+},
+{
+"type": "MC",
+"question": "Which type of firewall serves as a relay between users and servers on the Internet, inspects all traffic, and allows or denies traffic based on a set of rules?",
+"options": {
+"A": "Stateful packet firewall",
+"B": "Operating system firewall",
+"C": "Packet filtering firewall",
+"D": "Proxy firewall"
+},
+"answer": "D",
+"feedback": "Proxy firewalls act as intermediaries and inspect all traffic based on defined rules, ensuring secure communication."
+},
+{
+"type": "MC",
+"question": "How can users working on a shared computer keep their personal browsing history hidden from other workers that may use this computer?",
+"options": {
+"A": "Move any downloaded files to the recycle bin.",
+"B": "Reboot the computer after closing the web browser.",
+"C": "Operate the web browser in private browser mode.",
+"D": "Use only an encrypted connection to access websites."
+},
+"answer": "C",
+"feedback": "Private browser mode prevents the browser from saving history, cookies, and other personal data."
+},
+{
+"type": "MC",
+"question": "A user calls the help desk reporting that a laptop is not performing as expected. Upon checking the laptop, a technician notices that some system files have been renamed and file permissions have changed. What could cause these problems?",
+"options": {
+"A": "The file system has been encrypted.",
+"B": "The file system is corrupted.",
+"C": "The laptop is infected by a virus.",
+"D": "The display driver is corrupted."
+},
+"answer": "C",
+"feedback": "A virus can alter system files and permissions, leading to performance and access issues."
+},
+{
+"type": "MC",
+"question": "Which security technique or device wipes the data from a hard drive by being placed near the drive platter for at least 2 minutes?",
+"options": {
+"A": "Degaussing wand",
+"B": "Erase scope",
+"C": "EFS",
+"D": "Low-level format",
+"E": "Biometric scanner"
+},
+"answer": "A",
+"feedback": "A degaussing wand erases data on magnetic storage by disrupting the magnetic field."
+},
+{
+"type": "MC",
+"question": "Which web security feature should the technician demonstrate to detect and filter phishing websites, analyze websites for suspicious items, and check downloads against a list of known malicious files and sites?",
+"options": {
+"A": "SmartScreen Filter",
+"B": "AutoPlay",
+"C": "Firewall",
+"D": "ActiveX Filter"
+},
+"answer": "A",
+"feedback": "SmartScreen Filter is a web security feature in Internet Explorer and Edge that provides protection against malicious websites and files."
+},
+{
+"type": "MC",
+"question": "After confirming the removal of a virus from a computer, how should the technician ensure and verify the full functionality of the system?",
+"options": {
+"A": "Gather information from a number of sources to clearly identify the problem.",
+"B": "Talk with the user to determine the cause of the problem.",
+"C": "Document the problem and the procedures performed to solve it.",
+"D": "Check for the latest OS patches and updates."
+},
+"answer": "D",
+"feedback": "Installing the latest OS patches and updates ensures that the system is secure and functioning optimally after virus removal."
+},
+{
+"type": "MC",
+"question": "Which two algorithms are used for hash encoding to guarantee the integrity of data? (Choose two.)",
+"options": {
+"A": "SHA",
+"B": "CHAP checksum",
+"C": "MD5",
+"D": "VPN",
+"E": "SSL"
+},
+"answer": ["A", "C"],
+"feedback": "SHA and MD5 are cryptographic hash functions used to verify the integrity of data."
+},
+{
+"type": "MC",
+"question": "A user receives a phone call from a person who claims to represent IT services and then asks that user for confirmation of username and password for auditing purposes. Which security threat does this phone call represent?",
+"options": {
+"A": "Social engineering",
+"B": "Spam",
+"C": "Anonymous keylogging",
+"D": "DDoS"
+},
+"answer": "A",
+"feedback": "Social engineering involves manipulating individuals to divulge confidential information, such as usernames and passwords."
+},
+{
+    "type": "MC",
+    "question": "What type of connection would be used to connect a printer directly to the network?",
+    "options": {
+        "A": "USB",
+        "B": "Serial",
+        "C": "Firewire",
+        "D": "Ethernet"
+    },
+    "answer": "D",
+    "feedback": "Ethernet is commonly used to connect printers directly to a network."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes a printer driver?",
+    "options": {
+        "A": "It is the configuration code that is sent to a printer to identify the operating system of the workstation.",
+        "B": "It is software that converts a document into the format that a printer can understand.",
+        "C": "It is cache inside a printer that stores documents to be printed in a queue.",
+        "D": "It is the interface in Windows that identifies a unique printer attached to the workstation."
+    },
+    "answer": "B",
+    "feedback": "A printer driver is software that converts documents into a format the printer can process."
+},
+{
+    "type": "MC",
+    "question": "What is the purpose of the Additional Drivers button in the Sharing tab of the Printer Properties?",
+    "options": {
+        "A": "To add additional drivers for other operating systems",
+        "B": "To add additional drivers for other printers connected to the computer",
+        "C": "To add additional drivers for duplex printing",
+        "D": "To add additional drivers for other printers in the network"
+    },
+    "answer": "A",
+    "feedback": "The Additional Drivers button allows adding drivers for different operating systems."
+},
+{
+    "type": "MC",
+    "question": "What are two probable causes for printer paper jams? (Choose two.)",
+    "options": {
+        "A": "Misaligned print heads",
+        "B": "The wrong type of paper",
+        "C": "An incorrect print driver",
+        "D": "A defective print cartridge",
+        "E": "High humidity"
+    },
+    "answer": ["B", "E"],
+    "feedback": "High humidity and incorrect paper types are common causes of printer paper jams."
+},
+{
+    "type": "MC",
+    "question": "What is a characteristic of thermal inkjet nozzles?",
+    "options": {
+        "A": "The vibration of the crystal controls the flow of ink.",
+        "B": "The heat creates a bubble of steam in the chamber.",
+        "C": "Heat is applied to the ink reservoir of each nozzle.",
+        "D": "A charge is applied to the printhead."
+    },
+    "answer": "B",
+    "feedback": "Thermal inkjet nozzles use heat to create a bubble of steam that propels the ink onto the paper."
+},
+{
+    "type": "MC",
+    "question": "Which factor affects the speed of an inkjet printer?",
+    "options": {
+        "A": "The cost of the inkjet cartridges",
+        "B": "The quality of the paper",
+        "C": "The size of printer power supply",
+        "D": "The desired quality of the image"
+    },
+    "answer": "D",
+    "feedback": "The desired quality of the image affects the speed of an inkjet printer; higher quality slows down printing."
+},
+{
+    "type": "MC",
+    "question": "In laser printing, what is the name of the process of applying toner to the latent image on the drum?",
+    "options": {
+        "A": "Transferring",
+        "B": "Fusing",
+        "C": "Charging",
+        "D": "Developing"
+    },
+    "answer": "D",
+    "feedback": "In laser printing, developing is the process where toner is applied to the latent image on the drum."
+},
+{
+    "type": "MC",
+    "question": "A user discovers that an inkjet color printer is printing different colors from those that are shown on the screen. What can be done to solve this problem?",
+    "options": {
+        "A": "Adjust the printer spool.",
+        "B": "Replace the fuser.",
+        "C": "Replace the drum.",
+        "D": "Calibrate the printer."
+    },
+    "answer": "D",
+    "feedback": "Calibrating the printer resolves color mismatch issues between the screen and printed output."
+},
+{
+    "type": "MC",
+    "question": "A librarian is complaining about the following printer issue: The printer control panel displays no image. What are two possible causes of this issue? (Choose two.)",
+    "options": {
+        "A": "The printer is using the wrong cable.",
+        "B": "The printer does not have enough RAM.",
+        "C": "The printer is not turned on.",
+        "D": "The room temperature is above normal.",
+        "E": "The contrast of the screen may be set too low."
+    },
+    "answer": ["C", "E"],
+    "feedback": "The printer not being turned on or the screen contrast being too low are common causes of this issue."
+},
+{
+    "type": "MC",
+    "question": "A school is installing a new shared printer but the printer is not showing up on the list of available printers. What should the technician do to resolve the issue?",
+    "options": {
+        "A": "Configure the printer for duplex printing.",
+        "B": "Manually add the printer IP address.",
+        "C": "Power cycle the printer.",
+        "D": "Reset the page counter.",
+        "E": "Update the OS."
+    },
+    "answer": "B",
+    "feedback": "Manually adding the printer's IP address can resolve issues when the printer does not appear in the list of available printers."
+},
+{
+    "type": "MC",
+    "question": "What device setting is used to share the cellular WAN connection of a phone in order to allow other devices to connect to the Internet?",
+    "options": {
+        "A": "Mobile hotspot",
+        "B": "Wake on LAN",
+        "C": "Wi-Fi",
+        "D": "Airplane mode"
+    },
+    "answer": "A",
+    "feedback": "The mobile hotspot setting allows a phone to share its cellular WAN connection with other devices via Wi-Fi."
+},
+{
+    "type": "MC",
+    "question": "What is the purpose of a digitizer in a mobile device?",
+    "options": {
+        "A": "To convert analog video signals to digital ones",
+        "B": "To convert AC to DC",
+        "C": "To convert user touch actions to digital input signals",
+        "D": "To convert digital music to analog for headphone delivery"
+    },
+    "answer": "C",
+    "feedback": "A digitizer translates touch actions on the screen into digital signals for the device to process."
+},
+{
+    "type": "MC",
+    "question": "A technician has been asked to decide which laptop components should be cleaned on a monthly basis as part of a maintenance routine. What are two examples of components that should be included? (Choose two.)",
+    "options": {
+        "A": "RAM",
+        "B": "CPU",
+        "C": "Keyboard",
+        "D": "Optical drive",
+        "E": "Exterior case"
+    },
+    "answer": ["C", "E"],
+    "feedback": "The exterior case and keyboard are exposed to dirt and debris and should be cleaned regularly."
+},
+{
+    "type": "MC",
+    "question": "Which specialized mobile device is commonly used with VR and AR?",
+    "options": {
+        "A": "Fitness monitor",
+        "B": "E-reader",
+        "C": "Smart watch",
+        "D": "Headset"
+    },
+    "answer": "D",
+    "feedback": "VR and AR applications often require a specialized headset to provide an immersive experience."
+},
+{
+    "type": "MC",
+    "question": "A technician is configuring a device and the device shows that it is pairing. Which mobile technology is being used?",
+    "options": {
+        "A": "Zigbee",
+        "B": "Tethering",
+        "C": "Bluetooth",
+        "D": "Wi-Fi"
+    },
+    "answer": "C",
+    "feedback": "Bluetooth is a wireless technology used for pairing devices and enabling data transfer over short distances."
+},
+{
+    "type": "MC",
+    "question": "Which laptop component would be considered an FRU?",
+    "options": {
+        "A": "External card reader",
+        "B": "SODIMM",
+        "C": "Display",
+        "D": "Battery"
+    },
+    "answer": "C",
+    "feedback": "A display is considered a Field Replaceable Unit (FRU) as it can be replaced without specialized tools or facilities."
+},
+{
+    "type": "MC",
+    "question": "Which characteristic should be considered when a replacement mobile device battery is being selected?",
+    "options": {
+        "A": "It has the same power ratings.",
+        "B": "It is from the same manufacturer.",
+        "C": "It provides a warranty.",
+        "D": "It is a mini-ATX form factor."
+    },
+    "answer": "A",
+    "feedback": "Replacement batteries must have the same power ratings as the original to ensure compatibility and performance."
+},
+{
+    "type": "MC",
+    "question": "Which type of RAM modules are designed for the space limitations of laptops?",
+    "options": {
+        "A": "SIMMs",
+        "B": "SODIMMs",
+        "C": "SRAM",
+        "D": "DIMMs"
+    },
+    "answer": "B",
+    "feedback": "SODIMMs are smaller RAM modules designed specifically for laptops and other compact systems."
+},
+{
+    "type": "MC",
+    "question": "A technician working on a cell phone must provide documentation regarding the phone. Where would the technician find the IMSI information?",
+    "options": {
+        "A": "On the SIM card or programmed on the phone",
+        "B": "On the phone information label",
+        "C": "Within phone contacts",
+        "D": "Under the battery"
+    },
+    "answer": "A",
+    "feedback": "The IMSI is typically found on the SIM card or stored electronically on the phone."
+},
+{
+    "type": "MC",
+    "question": "What is a characteristic of laptop motherboards?",
+    "options": {
+        "A": "Laptop motherboards are proprietary.",
+        "B": "Laptop motherboards use standard form factors.",
+        "C": "Laptop motherboard components are compatible with desktop motherboards.",
+        "D": "Laptop motherboards use the same form factors as desktop motherboards."
+    },
+    "answer": "A",
+    "feedback": "Laptop motherboards are typically proprietary, meaning they are designed for specific laptop models."
+},
+{
+    "type": "MC",
+    "question": "Which step would be important in the removal of laptop memory?",
+    "options": {
+        "A": "Gently press down on the memory module until it releases from the slot.",
+        "B": "Align the memory module notch at a 45-degree angle and press to release.",
+        "C": "Attach an AC adapter before starting the procedure.",
+        "D": "Press outward on the clips that hold the memory module."
+    },
+    "answer": "D",
+    "feedback": "Pressing outward on the clips releases the memory module, allowing it to be removed safely."
+},
+{
+    "type": "MC",
+    "question": "Where is an integrated microphone normally located on a laptop?",
+    "options": {
+        "A": "In the top of the display",
+        "B": "Under the keyboard near the pointing device or touchpad",
+        "C": "Near the exterior on either side of the keyboard by the plastic frame",
+        "D": "By the exterior ports"
+    },
+    "answer": "A",
+    "feedback": "Integrated microphones are usually located at the top of the display near the webcam."
+},
+{
+    "type": "MC",
+    "question": "Which two statements are true of a laptop CPU when compared to a desktop CPU? (Choose two.)",
+    "options": {
+        "A": "Laptop CPUs consume more power.",
+        "B": "Laptop CPUs operate at higher clock speeds.",
+        "C": "Laptop CPUs use smaller cooling devices.",
+        "D": "Laptop CPUs are interchangeable with desktop CPUs.",
+        "E": "Laptop CPUs are designed to produce less heat."
+    },
+    "answer": ["C", "E"],
+    "feedback": "Laptop CPUs are designed to produce less heat and use smaller cooling devices to fit the compact design of laptops."
+},
+{
+    "type": "MC",
+    "question": "What could be used in conjunction with a laptop in order to read flash media?",
+    "options": {
+        "A": "SSD",
+        "B": "Card reader",
+        "C": "SO-DIMM",
+        "D": "M.2 card"
+    },
+    "answer": "B",
+    "feedback": "A card reader is used to access data stored on flash media, such as SD cards."
+},
+{
+    "type": "MC",
+    "question": "Which app is used to synchronize data to an iOS-based mobile device?",
+    "options": {
+        "A": "SMTP",
+        "B": "iTunes",
+        "C": "MIME",
+        "D": "Auto Sync"
+    },
+    "answer": "B",
+    "feedback": "iTunes is the app used to synchronize data, such as music and backups, to an iOS device."
+},
+{
+    "type": "MC",
+    "question": "A technician has been called on site to help a user who has a laptop problem. At which point should the technician look online for additional possible solutions to a laptop problem?",
+    "options": {
+        "A": "After questioning the user",
+        "B": "Before establishing a theory of probable cause",
+        "C": "After implementing preventive measures",
+        "D": "After testing a theory to determine the cause"
+    },
+    "answer": "B",
+    "feedback": "The technician should look online for solutions while establishing a theory of probable cause."
+},
+{
+    "type": "MC",
+    "question": "Which ACPI state turns the CPU and RAM off and copies the contents of RAM to a temporary file on the hard disk?",
+    "options": {
+        "A": "S0",
+        "B": "S3",
+        "C": "S4",
+        "D": "S1",
+        "E": "S2"
+    },
+    "answer": "C",
+    "feedback": "ACPI state S4 (Hibernate) turns off the CPU and RAM, saving the RAM contents to a temporary file on the hard disk."
+},
+{
+    "type": "MC",
+    "question": "To clean laptops, which two products are recommended? (Choose two.)",
+    "options": {
+        "A": "Cotton swabs",
+        "B": "Car wax",
+        "C": "Rubbing alcohol",
+        "D": "Mild cleaning solution",
+        "E": "Ammonia"
+    },
+    "answer": ["A", "D"],
+    "feedback": "Cotton swabs and mild cleaning solutions are safe and effective for cleaning laptops."
+},
+{
+    "type": "MC",
+    "question": "Which protocol can be used to transfer messages from an email server to an email client?",
+    "options": {
+        "A": "HTTP",
+        "B": "POP3",
+        "C": "SMTP",
+        "D": "SNMP"
+    },
+    "answer": "B",
+    "feedback": "POP3 is a protocol used to transfer messages from an email server to an email client."
+},
+{
+    "type": "MC",
+    "question": "What are two methods typically used on a mobile device to provide internet connectivity? (Choose two.)",
+    "options": {
+        "A": "Z-Wave",
+        "B": "Cellular",
+        "C": "Wi-Fi",
+        "D": "GPS",
+        "E": "Zigbee"
+    },
+    "answer": ["B", "C"],
+    "feedback": "Cellular and Wi-Fi are the two most common methods for providing internet connectivity on mobile devices."
+},
+{
+    "type": "MC",
+    "question": "An analyst wants to communicate with the company while exercising and be able to track personal physical activity. What technology, product, or setting allows this task to be accomplished?",
+    "options": {
+        "A": "QoS",
+        "B": "Smartwatch",
+        "C": "Wi-Fi calling",
+        "D": "Geotagging"
+    },
+    "answer": "B",
+    "feedback": "A smartwatch allows communication and tracks physical activity while exercising."
+},
+{
+    "type": "MC",
+    "question": "A technician is working on a laptop and an error message about decryption appears when opening an email. What is a probable cause for this situation?",
+    "options": {
+        "A": "Bluetooth is activated.",
+        "B": "The security certificate is not recognized.",
+        "C": "The Num Lock key is depressed.",
+        "D": "The battery is low."
+    },
+    "answer": "B",
+    "feedback": "The security certificate not being recognized can cause decryption issues when opening an email."
+},
+{
+    "type": "MC",
+    "question": "What type of connection would be used to connect a printer directly to the network?",
+    "options": {
+        "A": "USB",
+        "B": "Serial",
+        "C": "Firewire",
+        "D": "Ethernet"
+    },
+    "answer": "D",
+    "feedback": "Ethernet is commonly used to connect printers directly to a network."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes a printer driver?",
+    "options": {
+        "A": "It is the configuration code that is sent to a printer to identify the operating system of the workstation.",
+        "B": "It is software that converts a document into the format that a printer can understand.",
+        "C": "It is cache inside a printer that stores documents to be printed in a queue.",
+        "D": "It is the interface in Windows that identifies a unique printer attached to the workstation."
+    },
+    "answer": "B",
+    "feedback": "A printer driver converts a document into a format that a printer can process."
+},
+{
+    "type": "MC",
+    "question": "What is the purpose of the Additional Drivers button in the Sharing tab of the Printer Properties?",
+    "options": {
+        "A": "To add additional drivers for other operating systems",
+        "B": "To add additional drivers for other printers connected to the computer",
+        "C": "To add additional drivers for duplex printing",
+        "D": "To add additional drivers for other printers in the network"
+    },
+    "answer": "A",
+    "feedback": "The Additional Drivers button allows you to install drivers for other operating systems to support shared printers."
+},
+{
+    "type": "MC",
+    "question": "What are two probable causes for printer paper jams? (Choose two.)",
+    "options": {
+        "A": "Misaligned print heads",
+        "B": "The wrong type of paper",
+        "C": "An incorrect print driver",
+        "D": "A defective print cartridge",
+        "E": "High humidity"
+    },
+    "answer": ["B", "E"],
+    "feedback": "High humidity and using the wrong type of paper are common causes of printer paper jams."
+},
+{
+    "type": "MC",
+    "question": "What is a characteristic of thermal inkjet nozzles?",
+    "options": {
+        "A": "The vibration of the crystal controls the flow of ink.",
+        "B": "The heat creates a bubble of steam in the chamber.",
+        "C": "Heat is applied to the ink reservoir of each nozzle.",
+        "D": "A charge is applied to the printhead."
+    },
+    "answer": "B",
+    "feedback": "Thermal inkjet nozzles use heat to create a bubble of steam that forces ink onto the paper."
+},
+{
+    "type": "MC",
+    "question": "Which factor affects the speed of an inkjet printer?",
+    "options": {
+        "A": "The cost of the inkjet cartridges",
+        "B": "The quality of the paper",
+        "C": "The size of printer power supply",
+        "D": "The desired quality of the image"
+    },
+    "answer": "D",
+    "feedback": "The desired quality of the image determines the speed of the inkjet printer; higher quality takes more time."
+},
+{
+    "type": "MC",
+    "question": "In laser printing, what is the name of the process of applying toner to the latent image on the drum?",
+    "options": {
+        "A": "Transferring",
+        "B": "Fusing",
+        "C": "Charging",
+        "D": "Developing"
+    },
+    "answer": "D",
+    "feedback": "Developing is the process where toner is applied to the latent image on the drum in laser printing."
+},
+{
+    "type": "MC",
+    "question": "A user discovers that an inkjet color printer is printing different colors from those that are shown on the screen. What can be done to solve this problem?",
+    "options": {
+        "A": "Adjust the printer spool.",
+        "B": "Replace the fuser.",
+        "C": "Replace the drum.",
+        "D": "Calibrate the printer."
+    },
+    "answer": "D",
+    "feedback": "Calibrating the printer resolves issues with color mismatches between the screen and printed output."
+},
+{
+    "type": "MC",
+    "question": "A librarian is complaining about the following printer issue: The printer control panel displays no image. What are two possible causes of this issue? (Choose two.)",
+    "options": {
+        "A": "The printer is using the wrong cable.",
+        "B": "The printer does not have enough RAM.",
+        "C": "The printer is not turned on.",
+        "D": "The room temperature is above normal.",
+        "E": "The contrast of the screen may be set too low."
+    },
+    "answer": ["C", "E"],
+    "feedback": "The printer being turned off or having its screen contrast set too low are common causes of this issue."
+},
+{
+    "type": "MC",
+    "question": "A school is installing a new shared printer but the printer is not showing up on the list of available printers. What should the technician do to resolve the issue?",
+    "options": {
+        "A": "Configure the printer for duplex printing.",
+        "B": "Manually add the printer IP address.",
+        "C": "Power cycle the printer.",
+        "D": "Reset the page counter.",
+        "E": "Update the OS."
+    },
+    "answer": "B",
+    "feedback": "Manually adding the printer's IP address can resolve issues when the printer is not visible in the available printers list."
+},
+{
+    "type": "MC",
+    "question": "What corrective action would a technician take in response to a print spooler error?",
+    "options": {
+        "A": "Update the printer driver",
+        "B": "Reboot the printer",
+        "C": "Clean the printer",
+        "D": "Restart the print spooler"
+    },
+    "answer": "D",
+    "feedback": "Restarting the print spooler often resolves issues where print jobs are stuck or failing."
+},
+{
+    "type": "MC",
+    "question": "A small company is moving towards sharing printers to reduce the number of printers used within the company. The technician has security concerns. What security risk is associated with sharing a printer?",
+    "options": {
+        "A": "Dumpster diving",
+        "B": "Replay attacks",
+        "C": "Shoulder surfing",
+        "D": "Data privacy"
+    },
+    "answer": "D",
+    "feedback": "Sharing printers can pose a data privacy risk as print jobs may be intercepted or viewed by unauthorized users."
+},
+{
+    "type": "MC",
+    "question": "A technician recorded that a new fuser roller unit was installed in a laser printer to solve a printing problem. Which step in the troubleshooting process did the technician just perform?",
+    "options": {
+        "A": "Identifying the problem",
+        "B": "Verifying the solution and system functionality",
+        "C": "Documenting findings, actions, and outcomes",
+        "D": "Testing a theory to determine the cause of the problem"
+    },
+    "answer": "C",
+    "feedback": "Documenting findings is a critical part of the troubleshooting process to maintain a clear record of actions taken."
+},
+{
+    "type": "MC",
+    "question": "How can the life of a thermal printer be extended?",
+    "options": {
+        "A": "Keep the paper dry in a low humidity environment.",
+        "B": "Clean the inside of the printer with a vacuum cleaner with a HEPA filter.",
+        "C": "Clean the heating element regularly with isopropyl alcohol.",
+        "D": "Wipe the outside of the printer with a damp cloth."
+    },
+    "answer": "C",
+    "feedback": "Regular cleaning of the heating element with isopropyl alcohol helps maintain the performance and longevity of a thermal printer."
+},
+{
+    "type": "MC",
+    "question": "What corrective action should be taken if a printer is printing faded images?",
+    "options": {
+        "A": "Secure loose printer cables",
+        "B": "Update the print driver",
+        "C": "Clean the printer",
+        "D": "Replace the toner cartridge"
+    },
+    "answer": "D",
+    "feedback": "Replacing the toner cartridge resolves issues with faded prints as the toner supply may be depleted."
+},
+{
+    "type": "MC",
+    "question": "Which is a characteristic of a Type 1 hypervisor?",
+    "options": {
+        "A": "Installed on an existing operating system",
+        "B": "Best suited for consumers and not for an enterprise environment",
+        "C": "Installed directly on a server",
+        "D": "Does not require management console software"
+    },
+    "answer": "C",
+    "feedback": "Type 1 hypervisors are installed directly on a server, providing efficient resource management and are typically used in enterprise environments."
+},
+{
+    "type": "MC",
+    "question": "Which type of Hypervisor is implemented when a user with a laptop running the Mac OS installs a Windows virtual OS instance?",
+    "options": {
+        "A": "Bare metal",
+        "B": "Type 2",
+        "C": "Type 1",
+        "D": "Virtual machine"
+    },
+    "answer": "B",
+    "feedback": "A Type 2 hypervisor is used in environments where the host operating system, such as Mac OS, runs a virtual OS instance, like Windows."
+},
+{
+    "type": "MC",
+    "question": "A small company is considering moving many of its data center functions to the cloud. What are three advantages of this plan? (Choose three.)",
+    "options": {
+        "A": "The company can increase processing and storage capacity as needed and then decrease capacity when it is no longer needed.",
+        "B": "Cloud services are billed at a fixed fee no matter how much processing and storage are used by the company.",
+        "C": "The company does not need to be concerned about how to handle increasing data storage and processing demands with in-house data center equipment.",
+        "D": "The company only needs to pay for the amount of processing and storage capacity that it uses.",
+        "E": "Single-tenant data centers can easily grow to accommodate increasing data storage requirements.",
+        "F": "Cloud services enable the company to own and administer its own servers and storage devices."
+    },
+    "answer": ["A", "C", "D"],
+    "feedback": "Cloud computing allows businesses to scale resources as needed, reduces hardware concerns, and bills based on usage."
+},
+{
+    "type": "MC",
+    "question": "A freelance reporter wishes to use a service that allows files to be accessed at any time from any device. Whenever the reporter starts the laptop and connects to the internet, the files stored on the laptop must be synchronized with the service automatically. Which solution will meet the requirements?",
+    "options": {
+        "A": "Virtual desktop infrastructure",
+        "B": "Dropbox",
+        "C": "Exchange Online",
+        "D": "Office 365"
+    },
+    "answer": "B",
+    "feedback": "Dropbox provides file synchronization and access from multiple devices, making it ideal for freelance reporters."
+},
+{
+    "type": "MC",
+    "question": "What is a difference between the functions of Cloud computing and virtualization?",
+    "options": {
+        "A": "Cloud computing separates the application from the hardware whereas virtualization separates the OS from the underlying hardware.",
+        "B": "Cloud computing provides services on web-based access whereas virtualization provides services on data access through virtualized Internet connections.",
+        "C": "Cloud computing utilizes data center technology whereas virtualization is not used in data centers.",
+        "D": "Cloud computing requires hypervisor technology whereas virtualization is a fault tolerance technology."
+    },
+    "answer": "A",
+    "feedback": "Cloud computing separates applications from hardware, while virtualization separates the OS from the underlying hardware."
+},
+{
+    "type": "MC",
+    "question": "An international civil engineering association has members from all over the world. The research division of the association plans to have a cloud-based service to share research ideas and to promote collaboration among members in multiple divisions of the association. Which cloud model is suitable for them?",
+    "options": {
+        "A": "Hybrid",
+        "B": "Community",
+        "C": "Public",
+        "D": "Private"
+    },
+    "answer": "B",
+    "feedback": "A community cloud is ideal for organizations sharing similar needs, like promoting collaboration among association members."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes a characteristic of cloud computing?",
+    "options": {
+        "A": "Applications can be accessed over the Internet by individual users or businesses using any device, anywhere in the world.",
+        "B": "Investment in new infrastructure is required in order to access the cloud.",
+        "C": "Devices can connect to the Internet through existing electrical wiring.",
+        "D": "A business can connect directly to the Internet without the use of an ISP."
+    },
+    "answer": "A",
+    "feedback": "Cloud computing allows users to access applications over the Internet from any location using any compatible device."
+},
+{
+    "type": "MC",
+    "question": "A training company offers many application courses based on Windows. The company is looking for a solution to provide a hands-on learning and practice environment to remote learners. The goal is to provide a uniform learning environment to all users. Which cloud-based solution would help the company to achieve the goal?",
+    "options": {
+        "A": "Office 365",
+        "B": "Virtual desktop infrastructure",
+        "C": "Virtual application stream",
+        "D": "Google Drive"
+    },
+    "answer": "B",
+    "feedback": "A virtual desktop infrastructure allows remote learners to access a uniform environment for training purposes."
+},
+{
+    "type": "MC",
+    "question": "What are two advantages of using PC virtualization? (Choose two.)",
+    "options": {
+        "A": "It prevents viruses and worms from functioning in a virtualized environment.",
+        "B": "It allows multiple operating systems to run on a single PC simultaneously.",
+        "C": "It allows network threat identification.",
+        "D": "It can provide cost savings.",
+        "E": "It boosts the performance of the host machine through virtualization."
+    },
+    "answer": ["B", "D"],
+    "feedback": "PC virtualization allows multiple operating systems to run on a single PC and provides cost savings by reducing hardware needs."
+},
+{
+    "type": "MC",
+    "question": "A software company has groups of developers located in different cities around the world. The company is using a cloud-based development environment so that all developers can access the same software development tools. Which cloud service is used by the company?",
+    "options": {
+        "A": "IaaS",
+        "B": "ITaaS",
+        "C": "SaaS",
+        "D": "PaaS"
+    },
+    "answer": "D",
+    "feedback": "PaaS provides a development environment in the cloud, enabling developers to collaborate and access the same tools."
+},
+{
+    "type": "MC",
+    "question": "A computer user logs a problem stating that the computer is emitting a loud clicking noise. Which device should the technician check first?",
+    "options": {
+        "A": "Hard drive",
+        "B": "Power supply",
+        "C": "CPU",
+        "D": "Motherboard"
+    },
+    "answer": "A",
+    "feedback": "A loud clicking noise is often a sign of a failing hard drive and should be checked immediately."
+},
+{
+    "type": "MC",
+    "question": "What is the best way to determine if a CPU fan is spinning properly?",
+    "options": {
+        "A": "Spin the blades of the fan quickly with a finger.",
+        "B": "Visually inspect the fan when the power is on to ensure it is spinning.",
+        "C": "Listen for the sound of the fan spinning when the power is on.",
+        "D": "Spray compressed air on the fan to make the blades spin."
+    },
+    "answer": "B",
+    "feedback": "Visually inspecting the fan while the power is on ensures it is functioning correctly without risking damage."
+},
+{
+    "type": "MC",
+    "question": "A user has noticed that the hard drive LED on the front of the computer has stopped working. However, the computer seems to be functioning normally. What is the most likely cause of the problem?",
+    "options": {
+        "A": "The motherboard BIOS needs to be updated.",
+        "B": "The hard drive LED cable has come loose from the motherboard.",
+        "C": "The power supply is not providing enough voltage to the motherboard.",
+        "D": "The hard drive data cable is malfunctioning."
+    },
+    "answer": "B",
+    "feedback": "The hard drive LED cable may have come loose from the motherboard, causing the indicator to stop working."
+},
+{
+    "type": "MC",
+    "question": "A helpdesk technician takes a call, 'Good morning, this is the helpdesk. My name is Greg. How may I help you today?' The frantic caller states, 'My computer will not turn on and I have a presentation in 15 minutes.' The technician responds, 'Now calm down and let us see what we can do.' The technician then proceeds to lead the caller through the process of checking power cables and power lights. Which troubleshooting step is being used at this point?",
+    "options": {
+        "A": "Identify the problem.",
+        "B": "Implement a solution.",
+        "C": "Establish a plan of action to resolve the problem.",
+        "D": "Verify full system functionality and, if applicable, implement preventive measures.",
+        "E": "Establish a theory of probable cause."
+    },
+    "answer": "A",
+    "feedback": "Identifying the problem is the first step in the troubleshooting process."
+},
+{
+    "type": "MC",
+    "question": "A specific computer has an issue that could not be resolved by the help desk technician. The on-site technician finds that Windows updates have been disabled. The technician re-enables the update service, configures the computer for automatic updates, downloads and installs all missing updates, ensures the computer boots successfully, and verifies with the customer that the issue has been resolved. Which step, if any, is next?",
+    "options": {
+        "A": "Verify full system functionality and, if applicable, implement preventive measures.",
+        "B": "No further action is needed.",
+        "C": "Test the theory to determine the cause.",
+        "D": "Document the findings, actions, and outcomes.",
+        "E": "Establish a plan of action to resolve the problem and implement the solution."
+    },
+    "answer": "D",
+    "feedback": "Documenting the findings and solutions ensures a complete record of the troubleshooting process."
+},
+{
+    "type": "MC",
+    "question": "What are three benefits of computer preventive maintenance? (Choose three.)",
+    "options": {
+        "A": "Elimination of the need for repairs",
+        "B": "Improvement in data protection",
+        "C": "Time savings for technicians making repairs",
+        "D": "Improvement in RAM access time",
+        "E": "Extension of the life of components",
+        "F": "Reduction in the number of equipment failures"
+    },
+    "answer": ["E", "F"],
+    "feedback": "Preventive maintenance extends the life of components and reduces the likelihood of equipment failures."
+},
+{
+    "type": "MC",
+    "question": "A computer technician performed a number of actions to correct a problem. Some actions did not solve the problem, but eventually a solution was found. What should be documented?",
+    "options": {
+        "A": "Only the solution, because this solved the problem",
+        "B": "Everything that was done to try to solve the problem",
+        "C": "Only the failed attempts, so that future technicians will know what not to try",
+        "D": "A description of the problem and solution"
+    },
+    "answer": "B",
+    "feedback": "Documenting all steps ensures a complete record of actions taken, which can help with future troubleshooting."
+},
+{
+    "type": "MC",
+    "question": "A technician is troubleshooting a 4-year-old computer that takes a long time to boot and identifies that the BIOS rediscovers all the hardware at every boot. What action would fix this problem?",
+    "options": {
+        "A": "Reset the BIOS using the CMOS jumper.",
+        "B": "Replace the CMOS battery.",
+        "C": "Launch Device Manager to discover new hardware.",
+        "D": "Start the computer with the last known good configuration."
+    },
+    "answer": "B",
+    "feedback": "Replacing the CMOS battery resolves issues with BIOS settings being lost after the computer is powered off."
+},
+{
+    "type": "MC",
+    "question": "A customer asks for a solution to a printer problem that is beyond the knowledge level of the technician. What should the technician do?",
+    "options": {
+        "A": "Ask the customer to call again when another technician can provide a solution to the problem.",
+        "B": "Try to fix the problem anyway.",
+        "C": "Tell the customer to call the printer manufacturer to fix the problem.",
+        "D": "Gather as much information as possible and escalate the problem."
+    },
+    "answer": "D",
+    "feedback": "Escalating the problem with complete information ensures that the issue is addressed by someone with the necessary expertise."
+},
+{
+    "type": "MC",
+    "question": "After consulting the manufacturer manuals, a technician applies a series of recommended solutions that resolve a problem with a workstation computer. What is the next step in the troubleshooting process that the technician should perform?",
+    "options": {
+        "A": "Determine the next steps to resolve the problem.",
+        "B": "Document the findings, actions, and outcomes.",
+        "C": "Verify the solution and confirm full system functionality.",
+        "D": "Test the theory of probable cause."
+    },
+    "answer": "C",
+    "feedback": "Verifying the solution ensures that the system is functioning correctly before documenting the findings."
+},
+{
+    "type": "MC",
+    "question": "What should a technician do before beginning any troubleshooting steps on a customer computer?",
+    "options": {
+        "A": "Document the findings.",
+        "B": "Perform a data backup.",
+        "C": "Establish a plan of action.",
+        "D": "Identify the problem."
+    },
+    "answer": "B",
+    "feedback": "Because a technician could be held liable for any data loss as a result of working on a customer computer, a backup should be performed before beginning any troubleshooting."
+},
+{
+    "type": "MC",
+    "question": "If a technician is unable to create a backup of data on a customer computer, what three pieces of information should the technician include on the liability release form signed by the customer before beginning work? (Choose three.)",
+    "options": {
+        "A": "A description of the problem",
+        "B": "The components used in the repair",
+        "C": "A description of the work to be performed",
+        "D": "The steps required to resolve the problem",
+        "E": "Permission to work on the computer without a current backup available",
+        "F": "A release from liability if data is lost or corrupted"
+    },
+    "answer": ["C", "E", "F"],
+    "feedback": "The liability release form should describe the work, include permission to proceed, and release the technician from liability for data loss."
+},
+{
+    "type": "MC",
+    "question": "During what step in the troubleshooting process does the technician demonstrate to the customer how the solution corrected the problem?",
+    "options": {
+        "A": "Establish a plan of action to resolve the problem.",
+        "B": "Document the findings, actions, and outcomes.",
+        "C": "Establish a theory of probable cause.",
+        "D": "Verify full system functionality."
+    },
+    "answer": "D",
+    "feedback": "Demonstrating the solution to the customer occurs during the verification of full system functionality."
+},
+{
+    "type": "MC",
+    "question": "When troubleshooting a computer, where can a technician find updated information about errors caused by the system, the user, or the software?",
+    "options": {
+        "A": "Device Manager",
+        "B": "Event Viewer",
+        "C": "The BIOS",
+        "D": "Vendor diagnostic tools"
+    },
+    "answer": "B",
+    "feedback": "The Event Viewer contains detailed logs about system, user, or software errors that occur on a computer."
+},
+{
+    "type": "MC",
+    "question": "An employee reports that each time a workstation is started it locks up after about 5 minutes of use. What is the most likely cause of the problem?",
+    "options": {
+        "A": "The CPU is overheating.",
+        "B": "The RAM is malfunctioning.",
+        "C": "The hard disk is failing.",
+        "D": "The power supply fails to provide adequate voltage and current."
+    },
+    "answer": "A",
+    "feedback": "Overheating of the CPU can cause the system to lock up shortly after startup."
+},
+{
+    "type": "MC",
+    "question": "What is an active cooling solution for a PC?",
+    "options": {
+        "A": "Use a painted computer case.",
+        "B": "Reduce the speed of the CPU.",
+        "C": "Add a heatsink to the CPU.",
+        "D": "Add an additional case fan."
+    },
+    "answer": "D",
+    "feedback": "Adding an additional case fan actively cools the PC by improving airflow and reducing internal temperatures."
+},
+{
+    "type": "MC",
+    "question": "Why is it important to ground both computers and network devices?",
+    "options": {
+        "A": "To facilitate the flow of current from the power supply to the computer case.",
+        "B": "To ensure that the power supply is limited to an output of 110V DC.",
+        "C": "To ensure that both the power supplied and the power used is in sync with the ground voltage.",
+        "D": "To provide a path of least resistance for stray current."
+    },
+    "answer": "D",
+    "feedback": "Grounding devices provides a safe path for stray current, protecting both the equipment and users from electrical hazards."
+},
+{
+    "type": "MC",
+    "question": "Which type of device would be used on a laptop to verify the identity of a user?",
+    "options": {
+        "A": "A touch screen",
+        "B": "A MIDI device",
+        "C": "A digitizer",
+        "D": "A biometric identification device"
+    },
+    "answer": "D",
+    "feedback": "Biometric identification devices, such as fingerprint scanners, are used to verify a user's identity on laptops."
+},
+{
+    "type": "MC",
+    "question": "What three voltages are commonly provided by the power supply to the various components inside the computer? (Choose three.)",
+    "options": {
+        "A": "24 volts",
+        "B": "5 volts",
+        "C": "9 volts",
+        "D": "3.3 volts",
+        "E": "48 volts",
+        "F": "12 volts"
+    },
+    "answer": ["B", "D", "F"],
+    "feedback": "PC power supplies typically provide 3.3V, 5V, and 12V outputs for various components inside the computer."
+},
+{
+    "type": "MC",
+    "question": "Which two activities are normally controlled by the Northbridge part of the chipset? (Choose two.)",
+    "options": {
+        "A": "Access to the RAM",
+        "B": "Communication between the CPU and the hard drive",
+        "C": "Communication between the CPU and the sound card",
+        "D": "Communication between the CPU and the I/O ports",
+        "E": "Access to the video card"
+    },
+    "answer": ["A", "E"],
+    "feedback": "The Northbridge chipset controls high-speed communication, such as access to RAM and the video card."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes the proper use of an anti-static wrist strap?",
+    "options": {
+        "A": "An anti-static wrist strap should make contact with the skin.",
+        "B": "The anti-static wrist strip should not be attached to any grounded object.",
+        "C": "An anti-static wrist strap should not be used in conjunction with an antistatic mat.",
+        "D": "For optimum grounding, the clip should be attached to a painted section of the computer case."
+    },
+    "answer": "A",
+    "feedback": "An anti-static wrist strap should always make direct contact with the skin to properly ground the user."
+},
+{
+    "type": "MC",
+    "question": "From which type of data storage does the CPU load information for processing during normal operation?",
+    "options": {
+        "A": "RAM",
+        "B": "Hard drive",
+        "C": "SSD",
+        "D": "ROM"
+    },
+    "answer": "A",
+    "feedback": "The CPU loads information from RAM during normal operation because it is much faster than other types of storage."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes a characteristic of SRAM in a PC?",
+    "options": {
+        "A": "It is used for cache memory.",
+        "B": "It has a connector with 240 pins.",
+        "C": "It is used as main RAM in a PC.",
+        "D": "It has the highest power consumption."
+    },
+    "answer": "A",
+    "feedback": "SRAM is used for cache memory because it is faster and does not need to be refreshed like DRAM."
+},
+{
+    "type": "MC",
+    "question": "Hard drives in a grocery warehouse keep failing because of vibrations in the warehouse environment. What would be a possible solution for this high failure rate?",
+    "options": {
+        "A": "Install a more powerful power supply in each computer.",
+        "B": "Install each computer in a specialized high airflow case.",
+        "C": "Install an SSD drive in each computer.",
+        "D": "Install an antistatic mat under each computer."
+    },
+    "answer": "C",
+    "feedback": "Installing SSDs instead of HDDs resolves issues caused by vibrations, as SSDs have no moving parts."
+},
+{
+    "type": "MC",
+    "question": "What is an active cooling solution for a PC?",
+    "options": {
+        "A": "Use a painted computer case.",
+        "B": "Reduce the speed of the CPU.",
+        "C": "Add a heatsink to the CPU.",
+        "D": "Add an additional case fan."
+    },
+    "answer": "D",
+    "feedback": "Adding an additional case fan actively cools the PC by improving airflow and reducing internal temperatures."
+},
+{
+    "type": "MC",
+    "question": "Why is it important to ground both computers and network devices?",
+    "options": {
+        "A": "To facilitate the flow of current from the power supply to the computer case.",
+        "B": "To ensure that the power supply is limited to an output of 110V DC.",
+        "C": "To ensure that both the power supplied and the power used is in sync with the ground voltage.",
+        "D": "To provide a path of least resistance for stray current."
+    },
+    "answer": "D",
+    "feedback": "Grounding devices provides a safe path for stray current, protecting both the equipment and users from electrical hazards."
+},
+{
+    "type": "MC",
+    "question": "Which type of device would be used on a laptop to verify the identity of a user?",
+    "options": {
+        "A": "A touch screen",
+        "B": "A MIDI device",
+        "C": "A digitizer",
+        "D": "A biometric identification device"
+    },
+    "answer": "D",
+    "feedback": "Biometric identification devices, such as fingerprint scanners, are used to verify a user's identity on laptops."
+},
+{
+    "type": "MC",
+    "question": "What three voltages are commonly provided by the power supply to the various components inside the computer? (Choose three.)",
+    "options": {
+        "A": "24 volts",
+        "B": "5 volts",
+        "C": "9 volts",
+        "D": "3.3 volts",
+        "E": "48 volts",
+        "F": "12 volts"
+    },
+    "answer": ["B", "D", "F"],
+    "feedback": "PC power supplies typically provide 3.3V, 5V, and 12V outputs for various components inside the computer."
+},
+{
+    "type": "MC",
+    "question": "Which two activities are normally controlled by the Northbridge part of the chipset? (Choose two.)",
+    "options": {
+        "A": "Access to the RAM",
+        "B": "Communication between the CPU and the hard drive",
+        "C": "Communication between the CPU and the sound card",
+        "D": "Communication between the CPU and the I/O ports",
+        "E": "Access to the video card"
+    },
+    "answer": ["A", "E"],
+    "feedback": "The Northbridge chipset controls high-speed communication, such as access to RAM and the video card."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes the proper use of an anti-static wrist strap?",
+    "options": {
+        "A": "An anti-static wrist strap should make contact with the skin.",
+        "B": "The anti-static wrist strip should not be attached to any grounded object.",
+        "C": "An anti-static wrist strap should not be used in conjunction with an antistatic mat.",
+        "D": "For optimum grounding, the clip should be attached to a painted section of the computer case."
+    },
+    "answer": "A",
+    "feedback": "An anti-static wrist strap should always make direct contact with the skin to properly ground the user."
+},
+{
+    "type": "MC",
+    "question": "From which type of data storage does the CPU load information for processing during normal operation?",
+    "options": {
+        "A": "RAM",
+        "B": "Hard drive",
+        "C": "SSD",
+        "D": "ROM"
+    },
+    "answer": "A",
+    "feedback": "The CPU loads information from RAM during normal operation because it is much faster than other types of storage."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes a characteristic of SRAM in a PC?",
+    "options": {
+        "A": "It is used for cache memory.",
+        "B": "It has a connector with 240 pins.",
+        "C": "It is used as main RAM in a PC.",
+        "D": "It has the highest power consumption."
+    },
+    "answer": "A",
+    "feedback": "SRAM is used for cache memory because it is faster and does not need to be refreshed like DRAM."
+},
+{
+    "type": "MC",
+    "question": "Hard drives in a grocery warehouse keep failing because of vibrations in the warehouse environment. What would be a possible solution for this high failure rate?",
+    "options": {
+        "A": "Install a more powerful power supply in each computer.",
+        "B": "Install each computer in a specialized high airflow case.",
+        "C": "Install an SSD drive in each computer.",
+        "D": "Install an antistatic mat under each computer."
+    },
+    "answer": "C",
+    "feedback": "Installing SSDs instead of HDDs resolves issues caused by vibrations, as SSDs have no moving parts."
+},
+{
+    "type": "MC",
+    "question": "A technician has been asked to order a replacement internal SATA HDD. Between which two form factors will the technician have to choose? (Choose two.)",
+    "options": {
+        "A": "5.5 inch (13.97 cm)",
+        "B": "6.25 inch (15.88 cm)",
+        "C": "2.25 inch (5.72 cm)",
+        "D": "3.5 inch (8.89 cm)",
+        "E": "2.5 inch (6.35 cm)"
+    },
+    "answer": ["D", "E"],
+    "feedback": "Internal SATA hard drives commonly come in 3.5-inch and 2.5-inch form factors."
+},
+{
+    "type": "MC",
+    "question": "A technician has been asked to upgrade a processor and needs to do some research. The computer is just a couple of years old. What are two types of processor packages that could be used inside the computer? (Choose two.)",
+    "options": {
+        "A": "LGA",
+        "B": "PCIe",
+        "C": "PGA",
+        "D": "GDDR",
+        "E": "ISA"
+    },
+    "answer": ["A", "C"],
+    "feedback": "Modern processors typically use either LGA (Land Grid Array) or PGA (Pin Grid Array) packages."
+},
+{
+    "type": "MC",
+    "question": "A student is looking to add memory in order to speed up a tower computer. Which type of memory module should the student be looking for?",
+    "options": {
+        "A": "DIMM",
+        "B": "SODIMM",
+        "C": "DIP",
+        "D": "SIMM"
+    },
+    "answer": "A",
+    "feedback": "DIMMs (Dual Inline Memory Modules) are commonly used in tower computers to expand memory."
+},
+{
+    "type": "MC",
+    "question": "While shopping for a replacement motherboard, a customer decides to also purchase a new mechanical hard drive and asks the technical salesperson for advice. Which storage interface should the salesperson recommend for the motherboard and new drive?",
+    "options": {
+        "A": "IDE",
+        "B": "EIDE",
+        "C": "SATA",
+        "D": "RAID 5"
+    },
+    "answer": "C",
+    "feedback": "SATA is the standard interface used for modern mechanical hard drives and motherboards."
+},
+{
+    "type": "MC",
+    "question": "Which type of motherboard expansion slot sends data one bit at a time over a serial bus?",
+    "options": {
+        "A": "RAM",
+        "B": "PCIe",
+        "C": "PATA",
+        "D": "PCI"
+    },
+    "answer": "B",
+    "feedback": "PCIe (Peripheral Component Interconnect Express) sends data over a serial bus, offering faster communication than older parallel technologies."
+},
+{
+    "type": "MC",
+    "question": "Which PC motherboard bus is used to connect the CPU to RAM and other motherboard components?",
+    "options": {
+        "A": "SATA",
+        "B": "PCIe",
+        "C": "Front-side",
+        "D": "PCI"
+    },
+    "answer": "C",
+    "feedback": "The front-side bus connects the CPU to RAM, expansion cards, and other motherboard components."
+},
+{
+    "type": "MC",
+    "question": "Where is buffered memory commonly used?",
+    "options": {
+        "A": "Gaming laptops",
+        "B": "Business PCs",
+        "C": "Tablets",
+        "D": "Servers",
+        "E": "Gaming computers"
+    },
+    "answer": "D",
+    "feedback": "Buffered memory, also known as registered memory, is commonly used in servers where stability and reliability are crucial."
+},
+{
+    "type": "MC",
+    "question": "How should a technician dispose of an empty inkjet printer cartridge?",
+    "options": {
+        "A": "Give it back to the customer.",
+        "B": "Throw it away.",
+        "C": "Refill it.",
+        "D": "Follow local regulations for disposal."
+    },
+    "answer": "D",
+    "feedback": "Empty inkjet printer cartridges should be disposed of according to local environmental regulations."
+},
+{
+    "type": "MC",
+    "question": "What is a function of the BIOS?",
+    "options": {
+        "A": "Performs a check on all internal components",
+        "B": "Provides graphic capabilities for games and applications",
+        "C": "Enables a computer to connect to a network",
+        "D": "Provides temporary data storage for the CPU"
+    },
+    "answer": "A",
+    "feedback": "The BIOS performs a Power-On Self Test (POST) to check the internal components of a computer during startup."
+},
+{
+    "type": "MC",
+    "question": "What are two reasons for installing a second hard disk drive inside an existing computer? (Choose two.)",
+    "options": {
+        "A": "To store the system swap file",
+        "B": "To allow access to a secondary display output",
+        "C": "To store BIOS configuration settings",
+        "D": "To increase CPU speed",
+        "E": "To support a RAID array"
+    },
+    "answer": ["A", "E"],
+    "feedback": "Installing a second hard disk drive can support a RAID array or store the system swap file to improve performance."
+},
+{
+    "type": "MC",
+    "question": "A technician has just finished assembling a new computer. When the computer is powered up for the first time, the POST discovers a problem. How does the POST indicate the error?",
+    "options": {
+        "A": "It locks the keyboard.",
+        "B": "The LED on the front of the computer case flashes a number of times.",
+        "C": "It places an error message in the BIOS.",
+        "D": "It issues a number of short beeps."
+    },
+    "answer": "D",
+    "feedback": "When the POST discovers a problem, it typically issues a series of short beeps to indicate the nature of the issue."
+},
+{
+    "type": "MC",
+    "question": "What is the purpose of LoJack?",
+    "options": {
+        "A": "It allows the owner of a device to remotely locate, lock, or delete all files from the device.",
+        "B": "It ensures that a computer will only boot an operating system that is trusted by the motherboard manufacturer.",
+        "C": "It encrypts data on hard drives to prevent access without the correct password.",
+        "D": "It provides passwords for different levels of access to the BIOS."
+    },
+    "answer": "A",
+    "feedback": "LoJack allows device owners to remotely locate, lock, or delete files from their devices in case of theft or loss."
+},
+{
+    "type": "MC",
+    "question": "Which two components are commonly replaced when a computer system with a newer motherboard is being upgraded? (Choose two.)",
+    "options": {
+        "A": "CPU",
+        "B": "RAM",
+        "C": "Hard disk drive",
+        "D": "CMOS battery",
+        "E": "Optical drive",
+        "F": "Adapter card"
+    },
+    "answer": ["A", "B"],
+    "feedback": "Upgrading a motherboard typically requires replacing the CPU and RAM to ensure compatibility."
+},
+{
+    "type": "MC",
+    "question": "Which security feature in modern CPUs protects memory areas that contain part of the operating system from malware attacks?",
+    "options": {
+        "A": "Execute disable bit",
+        "B": "Encryption",
+        "C": "LoJack",
+        "D": "TPM"
+    },
+    "answer": "A",
+    "feedback": "The execute disable bit protects memory areas that contain critical parts of the operating system from malware attacks."
+},
+{
+    "type": "MC",
+    "question": "Which two considerations would be of the greatest importance when building a workstation that will run multiple virtual machines? (Choose two.)",
+    "options": {
+        "A": "Amount of RAM",
+        "B": "Number of CPU cores",
+        "C": "Powerful video card",
+        "D": "High-end sound card",
+        "E": "Water cooling"
+    },
+    "answer": ["A", "B"],
+    "feedback": "Virtual machines require a large amount of RAM and multiple CPU cores to run efficiently."
+},
+{
+    "type": "MC",
+    "question": "A data analyst has asked a technician to help protect locally stored data by installing a RAID. What is the minimum number of drives the technician has to install if configuring a RAID level 1?",
+    "options": {
+        "A": "10",
+        "B": "7",
+        "C": "2",
+        "D": "6"
+    },
+    "answer": "C",
+    "feedback": "RAID 1, which mirrors data for redundancy, requires a minimum of two drives."
+},
+{
+    "type": "MC",
+    "question": "A technician has been asked to configure several computers with RAID. The customer wants RAID and full drive capacity, but does not care about a drive failure, because all data is constantly backed up. The computer where the RAID is to be installed only has room for two drives. Which RAID should the technician install?",
+    "options": {
+        "A": "RAID 0",
+        "B": "RAID 8",
+        "C": "RAID 7",
+        "D": "RAID 4"
+    },
+    "answer": "A",
+    "feedback": "RAID 0 provides full drive capacity and performance improvement but offers no redundancy."
+},
+{
+    "type": "MC",
+    "question": "A technician is selecting a server that will be used by a cloud provider to provide fault tolerance for large quantities of stored data. What is a major consideration that needs to be taken into account?",
+    "options": {
+        "A": "Dual-fan power supply",
+        "B": "Smart card reader",
+        "C": "RAID",
+        "D": "Thunderbolt connector"
+    },
+    "answer": "C",
+    "feedback": "RAID configurations ensure fault tolerance by providing redundancy for large quantities of stored data."
+},
+{
+    "type": "MC",
+    "question": "A technician wishes to deploy Windows 10 Pro upgrade to a group of employee PCs on the network and ensure that the user state migrates successfully. Which tool would the technician use to do this?",
+    "options": {
+        "A": "Windows Easy Transfer",
+        "B": "Windows 10 Update Assistant",
+        "C": "User State Migration",
+        "D": "PCmover Express"
+    },
+    "answer": "C",
+    "feedback": "The User State Migration Tool is specifically designed for transferring user states during a Windows OS upgrade."
+},
+{
+    "type": "MC",
+    "question": "Which statement accurately describes the GUID partition table?",
+    "options": {
+        "A": "It is commonly used in computers with UEFI firmware.",
+        "B": "It is not supported by Windows 10 Home edition.",
+        "C": "It cannot be used in a multiboot environment.",
+        "D": "It is 512 bytes long and contains the boot loader."
+    },
+    "answer": "A",
+    "feedback": "The GUID partition table is commonly used in systems with UEFI firmware, offering features like larger partition sizes and better reliability."
+},
+{
+    "type": "MC",
+    "question": "Which command line utility was developed by Microsoft to allow users to transfer files and settings to a new edition of Windows OS during an upgrade to Windows 10?",
+    "options": {
+        "A": "Windows Upgrade Assistant",
+        "B": "User State Migration Tool",
+        "C": "PCmover Express",
+        "D": "Windows Easy Transfer"
+    },
+    "answer": "D",
+    "feedback": "Windows Easy Transfer is a Microsoft tool designed to migrate files and settings to a new edition of Windows."
+},
+{
+    "type": "MC",
+    "question": "What are two types of computer user interface? (Choose two.)",
+    "options": {
+        "A": "CLI",
+        "B": "PnP",
+        "C": "API",
+        "D": "OpenGL",
+        "E": "GUI"
+    },
+    "answer": ["A", "E"],
+    "feedback": "The two primary types of user interfaces are CLI (Command Line Interface) and GUI (Graphical User Interface)."
+},
+{
+    "type": "MC",
+    "question": "Which key, when pressed during the boot process, will allow the user to choose to start Windows in safe mode?",
+    "options": {
+        "A": "F8",
+        "B": "Esc",
+        "C": "Windows",
+        "D": "F1"
+    },
+    "answer": "A",
+    "feedback": "Pressing F8 during the boot process allows the user to access advanced boot options, including safe mode."
+},
+{
+    "type": "MC",
+    "question": "Which component of a CPU architecture allows the CPU immediate access to data?",
+    "options": {
+        "A": "Cache",
+        "B": "Registers",
+        "C": "CMOS",
+        "D": "RAM"
+    },
+    "answer": "B",
+    "feedback": "Registers provide the CPU with immediate access to data, ensuring fast processing."
+},
+{
+    "type": "MC",
+    "question": "What feature of an operating system allows it to support two or more CPUs?",
+    "options": {
+        "A": "Multiuser support",
+        "B": "Multitasking",
+        "C": "Multiprocessing",
+        "D": "Multithreading"
+    },
+    "answer": "C",
+    "feedback": "Multiprocessing enables an operating system to support two or more CPUs simultaneously, enhancing performance."
+},
+{
+    "type": "MC",
+    "question": "Which statement describes the master boot record (MBR)?",
+    "options": {
+        "A": "It is a process to create a file system in a partition or volume for file storage.",
+        "B": "It is a section of an extended partition on an MBR. It can be used to separate information for administrative purposes.",
+        "C": "It takes the first 512 bytes on the disk and contains the boot loader, an executable program that allows a user to choose from multiple operating systems.",
+        "D": "It is a type of disk with the ability to create volumes that span across more than one disk even if the unallocated space is noncontiguous."
+    },
+    "answer": "C",
+    "feedback": "The Master Boot Record (MBR) resides in the first 512 bytes of the disk and contains the boot loader, enabling operating system selection."
+},
+{
+    "type": "MC",
+    "question": "A support technician wants to upgrade a system to Windows 10 but is unsure whether the hardware and software on the existing system are compatible. What tool or utility would be the best choice for the user?",
+    "options": {
+        "A": "Upgrade Assistant",
+        "B": "User State Migration Tool",
+        "C": "Get Windows 10 app",
+        "D": "Cortana Virtual Assistant"
+    },
+    "answer": "A",
+    "feedback": "The Upgrade Assistant checks the hardware and software compatibility of a system for upgrading to Windows 10."
+}
+
+
+
+
+
+]
