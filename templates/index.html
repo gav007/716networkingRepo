@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="welcome">
+  <h1>Zetta Delta Mind</h1>
+  <p>Choose a tool to begin:</p>
+
+  <div class="tool-links">
+    <h2>Select a Quiz</h2>
+    <div class="quiz-options">
+      <a href="/quiz?quiz=network"  class="btn">🖥️ Network Quiz</a>
+      <a href="/quiz?quiz=hardware" class="btn">🔧 Hardware Quiz</a>
+      <a href="/quiz?quiz=security" class="btn">🔒 Security Quiz</a>
+      <a href="/quiz?quiz=custom"   class="btn">🧠 Custom Quiz</a>
+    </div>
+
+    <h2>Other Tools</h2>
+    <div class="tool-links">
+      <a href="/calculator" class="btn">🔧 Electronics Calculator</a>
+      <a href="/opamp"      class="btn">📈 Wave-Rectifier Simulator</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

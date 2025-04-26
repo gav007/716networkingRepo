@@ -1,0 +1,577 @@
+[
+    {
+        "question": "What is meant by Full-Duplex Data transmission?",
+        "options": [
+            "A. Data can only travel in one direction at a time",
+            "B. Data can travel in both directions simultaneously",
+            "C. Data must be compressed before transmission",
+            "D. Data is encrypted for security"
+        ],
+        "answer": "B",
+        "explanation": "Full-duplex communication allows data to be transmitted in both directions at the same time, like a phone call where both people can talk and listen simultaneously. This is more efficient than half-duplex (one direction at a time) or simplex (one-way only) systems, and it's commonly used in Ethernet switches and fiber optics."
+    },
+    {
+        "question": "Which IEEE 802.11 wireless standards operate only in the 5 GHz range?",
+        "options": [
+            "A. 802.11b and 802.11g",
+            "B. 802.11a and 802.11ac",
+            "C. 802.11n only",
+            "D. 802.11ax and 802.11b"
+        ],
+        "answer": "B",
+        "explanation": "802.11a and 802.11ac standards operate exclusively in the 5 GHz band, offering higher speeds and less interference compared to the crowded 2.4 GHz band. These are ideal for high-throughput applications like video streaming and are used in modern dual-band routers"
+    },
+    {
+        "question": "Typically what type of fibre optic cable is used for long distance high speed communications?",
+        "options": [
+            "A. Multimode fiber",
+            "B. Copper twisted pair",
+            "C. Single-mode fiber",
+            "D. Coaxial cable"
+        ],
+        "answer": "C",
+        "explanation": "Single-mode fiber has a smaller core diameter and uses laser light, allowing data to travel much farther with less attenuation and dispersion. It's the standard for telecommunications backbones and long-haul data links, unlike multimode fiber, which is best for shorter distances."
+    },
+    {
+        "question": "Typically what light source is used for short distance communications?",
+        "options": [
+            "A. Infrared laser",
+            "B. LED",
+            "C. Microwave",
+            "D. Halogen lamp"
+        ],
+        "answer": "B",
+        "explanation": "LEDs (Light Emitting Diodes) are cost-effective and commonly used as light sources in multimode fiber for short-range applications like LANs within buildings. Lasers, by contrast, are used for long-distance single-mode fiber due to their coherent light"
+    },
+    {
+        "question": "What is an advantage of digital communication systems?",
+        "options": [
+            "A. Requires no power",
+            "B. Less immune to noise",
+            "C. Can be encrypted easily",
+            "D. Requires analog signals only"
+        ],
+        "answer": "C",
+        "explanation": " Digital communication can be easily encrypted, making it more secure and reliable than analog systems. It also supports error detection and correction, contributing to more robust data integrity, especially in network and cellular systems."
+    },
+    {
+        "question": "In Twisting Cables, why are the pairs of wires twisted?",
+        "options": [
+            "A. To increase bandwidth",
+            "B. To prevent breakage",
+            "C. To reduce electromagnetic interference (EMI)",
+            "D. To reduce power consumption"
+        ],
+        "answer": "C",
+        "explanation": "Twisting wire pairs reduces electromagnetic interference (EMI) and crosstalk by ensuring the two conductors pick up noise equally, allowing it to be cancelled out. This principle is key in Ethernet cabling (e.g., CAT5e, CAT6) to maintain signal integrity."
+    },
+    {
+        "question": "Wireless networks can use which frequency bands?",
+        "options": [
+            "A. 1 GHz only",
+            "B. 2.4 GHz and 5 GHz",
+            "C. 10 GHz only",
+            "D. 900 MHz only"
+        ],
+        "answer": "B",
+        "explanation": "Wireless networks (Wi-Fi) operate mainly on 2.4 GHz (longer range, more interference) and 5 GHz (shorter range, faster speeds, less congestion). Newer standards like 802.11ax (Wi-Fi 6) can use both to improve performance."
+    },
+    {
+        "question": "Which is a type of dispersion in fibre cables?",
+        "options": [
+            "A. Reflective",
+            "B. Modal",
+            "C. Conductive",
+            "D. Radiative"
+        ],
+        "answer": "B",
+        "explanation": "Modal dispersion occurs in multimode fiber, where different light modes travel at different speeds, causing signal distortion. It's a key reason multimode fiber is limited to short distances, unlike single-mode fiber"
+    },
+    {
+        "question": "Which of the following does not cause signal loss in wireless signals?",
+        "options": [
+            "A. Interference",
+            "B. Distance",
+            "C. Amplification",
+            "D. Obstructions"
+        ],
+        "answer": "C",
+        "explanation": "Amplification boosts signal strength and helps overcome losses due to interference, distance, and physical obstructions. It’s often used in Wi-Fi extenders and repeater systems, making it an exception to causes of signal degradation."
+    },
+    {
+        "question": "Single mode fiber typically uses what as their light source?",
+        "options": [
+            "A. LED",
+            "B. Incandescent lamp",
+            "C. Laser diode",
+            "D. Fluorescent bulb"
+        ],
+        "answer": "C",
+        "explanation": "Laser diodes emit highly focused, coherent light, ideal for long-distance and high-bandwidth transmission through single-mode fibers. Their precision and power make them essential for internet backbone and telecom networks."
+    },
+    {
+        "question": "What is the main difference between CAT 5e and CAT 7 cable?",
+        "options": [
+            "A. CAT 5e supports higher power delivery",
+            "B. CAT 7 has better shielding and supports higher data rates",
+            "C. CAT 5e is fiber-based",
+            "D. CAT 7 is used only for telephone systems"
+        ],
+        "answer": "B",
+        "explanation": "CAT 7 cables have superior shielding and performance characteristics, supporting speeds up to 10 Gbps and better noise resistance. CAT 5e supports only 1 Gbps. CAT 7 is more suitable for data centers and high-speed environments."
+    },
+    {
+        "question": "What is 0.0000000001234 written in scientific notation?",
+        "options": [
+            "A. 1.234 \u00d7 10\u207b\u2079",
+            "B. 1.234 \u00d7 10\u207b\u00b9\u2070",
+            "C. 1.234 \u00d7 10\u207b\u00b9\u00b9",
+            "D. 1.234 \u00d7 10\u207b\u2077"
+        ],
+        "answer": "C",
+        "explanation": "Moving the decimal point 11 places to the right gives 1.234 × 10⁻¹¹. Scientific notation is essential in tech for representing very small values, such as wavelengths in optics or current in microelectronics."
+    },
+    {
+        "question": "What is 1010-0111-0100 binary in Hexadecimal?",
+        "options": [
+            "A. 2B4",
+            "B. A74",
+            "C. 174C",
+            "D. AE4"
+        ],
+        "answer": "B",
+        "explanation": "Grouping binary into 4-bit chunks from right to left gives: 1010 = A, 0111 = 7, 0100 = 4 → Result: A74. This conversion is widely used in network addressing (e.g., MAC, IPv6) and low-level hardware programming."
+
+    },
+    {
+        "question": "Fiber Optic cables are typically used for which type of premises cabling?",
+        "options": [
+            "A. Horizontal cabling",
+            "B. Backbone cabling",
+            "C. Patch cabling",
+            "D. Peripheral cabling"
+        ],
+        "answer": "B",
+        "explanation": "Backbone cabling connects buildings and network segments over long distances, and fiber optics are ideal here due to their high bandwidth, low latency, and EMI resistance. Horizontal cabling (like Ethernet) handles connections within rooms or floors."
+    },
+    {
+        "question": "The cladding used in most fibre optic cables is what in diameter?",
+        "options": [
+            "A. 62.5 \u00b5m",
+            "B. 125 \u00b5m",
+            "C. 8.3 \u00b5m",
+            "D. 250 \u00b5m"
+        ],
+        "answer": "B",
+        "explanation": "The cladding surrounds the fiber core and has a standard diameter of 125 micrometres (µm). Its purpose is to keep the light signal contained within the core by using total internal reflection. This standard size is consistent across both single-mode and multimode fibers, while the core diameter varies (e.g., 8.3 µm for single-mode, 50 or 62.5 µm for multimode)."
+    },
+    {
+        "question": "What is the SI unit of frequency?",
+        "options": [
+            "A. Ampere",
+            "B. Newton",
+            "C. Watt",
+            "D. Hertz"
+        ],
+        "answer": "D",
+        "explanation": "The Hertz (Hz) is the SI unit for frequency and measures cycles per second. It's used across various domains: network signals (e.g., 2.4 GHz Wi-Fi), CPU clock speeds, and AC power systems. Named after Heinrich Hertz, it's fundamental in understanding wave-based communication."
+    },
+    {
+        "question": "1 Giga Byte can be written in engineering notation as?",
+        "options": [
+            "A. 1 \u00d7 10\u2079 bytes",
+            "B. 1 \u00d7 10\u2076 bytes",
+            "C. 1 \u00d7 10\u00b3 bytes",
+            "D. 1 \u00d7 10\u00b9\u00b2 bytes"
+        ],
+        "answer": "A",
+        "explanation": "In engineering notation, 1 Gigabyte = 1,000,000,000 bytes = 1 × 10⁹ bytes. Note: While binary-based computing sometimes uses 2³⁰ bytes (1,073,741,824 bytes) for 1 GiB, the engineering (decimal) definition uses powers of 10, which is common in data transfer rates, storage capacities, and telecom standards."
+    },
+    {
+        "question": "What is QAM (Quadrature Amplitude Modulation)?",
+        "options": [
+            "A. A digital-only modulation method using phase",
+            "B. A fiber optic amplification method",
+            "C. A modulation method combining amplitude and phase",
+            "D. A wireless transmission protocol"
+        ],
+        "answer": "C",
+        "explanation": "QAM combines amplitude and phase modulation, allowing multiple bits to be transmitted per symbol. It’s widely used in Wi-Fi, digital TV, cable modems, and 4G/5G systems. For example, 64-QAM represents 6 bits per symbol, improving data efficiency over bandwidth."
+    },
+    {
+        "question": "Which of the following light source wavelengths is used in fibre optic communications?",
+        "options": [
+            "A. 500 nm",
+            "B. 650 nm",
+            "C. 850 nm",
+            "D. 300 nm"
+        ],
+        "answer": "C",
+        "explanation": "The 850 nm wavelength is commonly used in multimode fiber systems for short-range optical communication, such as in LANs. Other typical wavelengths include 1310 nm and 1550 nm, which are used in single-mode fibers for longer distances due to lower attenuation."
+    },
+    {
+        "question": "Effectively a copper cable acts as what type of filter?",
+        "options": [
+            "A. High pass filter",
+            "B. Low pass filter",
+            "C. Band pass filter",
+            "D. All-pass filter"
+        ],
+        "answer": "B",
+        "explanation": "Copper cables naturally behave as low-pass filters, allowing low-frequency signals to pass while attenuating higher frequencies due to skin effect and inductive reactance. This limits their performance over long distances and is why signal equalization or fiber optic alternatives are used for high-speed data."
+    },
+    {
+        "question": "What is the main difference between CAT 5e and CAT 7 cable?",
+        "options": [
+            "A. CAT 5e supports higher power delivery",
+            "B. CAT 7 has better shielding and supports higher data rates",
+            "C. CAT 5e is fiber-based",
+            "D. CAT 7 is used only for telephone systems"
+        ],
+        "answer": "B",
+        "explanation": "CAT 7 cables offer superior shielding, typically with individual shielding per pair and an overall shield, minimizing crosstalk and EMI. They support 10 Gbps at 100 meters and higher frequencies than CAT 5e (which maxes out at 1 Gbps). CAT 7 is ideal for high-performance network backbones or data centers."
+    },
+    {
+        "question": "What is 0.0000000001234 written in scientific notation?",
+        "options": [
+            "A. 1.234 \u00d7 10\u207b\u2079",
+            "B. 1.234 \u00d7 10\u207b\u00b9\u2070",
+            "C. 1.234 \u00d7 10\u207b\u00b9\u00b9",
+            "D. 1.234 \u00d7 10\u207b\u2077"
+        ],
+        "answer": "C",
+        "explanation": "To express 0.0000000001234 in scientific notation, count 11 decimal places to the right: 1.234 × 10⁻¹¹. Scientific notation is crucial for handling extremely small (e.g., wavelengths, capacitance) or large values (e.g., frequencies) in engineering contexts."
+    },
+    {
+        "question": "What is 101001110100 binary in Hexadecimal?",
+        "options": [
+            "A. 2B4",
+            "B. A74",
+            "C. 174C",
+            "D. AE4"
+        ],
+        "answer": "B",
+        "explanation": "Break the binary into 4-bit groups: 1010 = A, 0111 = 7, 0100 = 4 → A74."
+    },
+    {
+        "question": "Fiber Optic cables are typically used for which type of premises cabling?",
+        "options": [
+            "A. Horizontal cabling",
+            "B. Backbone cabling",
+            "C. Patch cabling",
+            "D. Peripheral cabling"
+        ],
+        "answer": "B",
+        "explanation": "Fiber optic is commonly used in backbone cabling to connect telecom rooms, data centers, and floors within buildings, due to its high bandwidth and long-distance capabilities. Horizontal cabling typically uses copper (e.g., CAT 6) for device-to-outlet connections."
+    },
+
+    {
+        "question": "What is a characteristic of the 2.4GHz frequency band?",
+        "options": [
+            "A. It supports more non-overlapping channels than 5GHz",
+            "B. It has better range but more interference",
+            "C. It is used only in military applications",
+            "D. It is faster than 5GHz"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: 'It has better range but more interference', which directly matches the definition or characteristic described in the question."
+    },
+    {
+        "question": "What is the decimal equivalent of the binary number 1011001?",
+        "options": [
+            "A. 89",
+            "B. 91",
+            "C. 79",
+            "D. 73"
+        ],
+        "answer": "A",
+        "explanation": "To convert binary 1011001 to decimal - 1*64 + 0*32 + 1*16 + 1*8 + 0*4 + 02 + 1*1 = 89"
+    },
+    {
+        "question": "Which type of cable is recommended for Horizontal Cabling?",
+        "options": [
+            "A. Coaxial",
+            "B. Cat 3",
+            "C. Cat 6a",
+            "D. Fiber only"
+        ],
+        "answer": "C",
+        "explanation": "Category 6a (Augmented) cable is ideal for horizontal cabling, offering up to 10 Gbps over 100 meters and reduced crosstalk. It's preferred in structured cabling systems connecting work areas to telecom closets."
+    },
+    {
+        "question": "Which does not cause attenuation in fibre optics?",
+        "options": [
+            "A. Bending",
+            "B. Splicing",
+            "C. Reflection",
+            "D. Electrical Resistance"
+        ],
+        "answer": "D",
+        "explanation": "Fiber optics transmit light, not electricity, so electrical resistance has no effect. Attenuation arises from bending, splicing losses, and reflection, impacting signal strength and distance."
+    },
+    {
+        "question": "Fibre optics use what region of the spectrum as their light source?",
+        "options": [
+            "A. UV",
+            "B. Infrared",
+            "C. X-Ray",
+            "D. Microwave"
+        ],
+        "answer": "B",
+        "explanation": "Fiber optics typically operate in the infrared spectrum (e.g., 850 nm, 1310 nm, 1550 nm) because it offers lower attenuation and efficient signal transmission in glass fibers."
+    },
+    {
+        "question": "Which property of light is a key component in operation of fiber optic cables?",
+        "options": [
+            "A. Absorption",
+            "B. Reflection",
+            "C. Total Internal Reflection",
+            "D. Diffusion"
+        ],
+        "answer": "C",
+        "explanation": "Total internal reflection traps light within the core, guiding it efficiently over long distances. This core principle enables high-bandwidth communication using optical fibers."
+    },
+    {
+        "question": "Which answer best describes S/FTP cable?",
+        "options": [
+            "A. Unshielded with foil pairs",
+            "B. Braided shield and foil around pairs",
+            "C. Foiled only with UTP pairs",
+            "D. Shielded pair with coax core"
+        ],
+        "answer": "B",
+        "explanation": "S/FTP (Shielded Foiled Twisted Pair) includes individual foil shielding for each pair and an overall braided shield, offering superior protection from EMI in high-performance networking."
+    },
+    {
+        "question": "The cable that runs from the wall socket to the Equipment room is called what?",
+        "options": [
+            "A. Horizontal cable",
+            "B. Patch lead",
+            "C. Backbone cable",
+            "D. Drop cable"
+        ],
+        "answer": "A",
+        "explanation": "The run from a work‑area outlet (wall socket) to the telecom/ equipment room is by definition horizontal cabling."
+    },
+    {
+        "question": "What is 761500000 written in engineering notation?",
+        "options": [
+            "A. 76.15 \u00d7 10^6",
+            "B. 7.615 \u00d7 10^8",
+            "C. 761.5 \u00d7 10^6",
+            "D. 761.5 \u00d7 10^3"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: '7.615 \u00d7 10^8'"
+    },
+    {
+        "question": "What is an advantage of Fiber optic cable over Copper cable?",
+        "options": [
+            "A. Less costly",
+            "B. Better flexibility",
+            "C. Greater bandwidth and distance",
+            "D. Simpler connectors"
+        ],
+        "answer": "C",
+        "explanation": "The correct answer is C: 'Greater bandwidth and distance'"
+    },
+    {
+        "question": "A communications cable has an attenuation of -1.5 dB/km. Calculate the attenuation of a 3 km length of cable.",
+        "options": [
+            "A. -4.5 dB",
+            "B. -3.0 dB",
+            "C. -1.5 dB",
+            "D. -6.0 dB"
+        ],
+        "answer": "A",
+        "explanation": "Attenuation = Rate × Distance = -1.5 dB/km × 3 km = -4.5 dB. This value shows the cumulative signal loss over distance, crucial for link budget calculations."
+    },
+    {
+        "question": "Which is attenuation of a signal?",
+        "options": [
+            "A. Increase in signal amplitude",
+            "B. Loss of signal strength during transmission",
+            "C. Frequency interference in the medium",
+            "D. Reflection of signals back to the source"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: 'Loss of signal strength during transmission'"
+    },
+    {
+        "question": "Which of the following is a cable test measure value?",
+        "options": [
+            "A. Bandwidth",
+            "B. Attenuation",
+            "C. IP Address",
+            "D. MAC Address"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: 'Attenuation'"
+    },
+    {
+        "question": "A 5 volt 100MHz signal was sent down a wire of length 100m. At the end the voltage was measured at 0.25 volt. What is the Insertion Loss in dB?",
+        "options": [
+            "A. -6 dB",
+            "B. -12 dB",
+            "C. -20 dB",
+            "D. -25 dB"
+        ],
+        "answer": "D",
+        "explanation": "Insertion loss (dB) = 20 * log₁₀(Vout / Vin) correct answer is D rounded"
+    },
+    {
+        "question": "Most residential Broadband connections are usually Asynchronous DSL (ADSL). What does asynchronous mean?",
+        "options": [
+            "A. Download and upload speeds are equal",
+            "B. Download speed is higher than upload speed",
+            "C. Upload speed is higher than download speed",
+            "D. No data is transmitted in real-time"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: 'Download speed is higher than upload speed'"
+    },
+    {
+        "question": "Which of the following is not a characteristic of Single mode fiber as compared to Multi mode?",
+        "options": [
+            "A. Higher bandwidth",
+            "B. Longer distance",
+            "C. Lower cost",
+            "D. Uses laser light source"
+        ],
+        "answer": "C",
+        "explanation": "The correct answer is C: 'Lower cost'"
+    },
+    {
+        "question": "Which of the following is not a cabling standard?",
+        "options": [
+            "A. TIA/EIA-568",
+            "B. ISO/IEC 11801",
+            "C. IEEE 802.3",
+            "D. USB-C"
+        ],
+        "answer": "D",
+        "explanation": "USB-C is a connector/interface standard, not a structured cabling standard. The others (TIA/EIA-568, ISO/IEC 11801, IEEE 802.3) define cabling and transmission specifications"
+    },
+    {
+        "question": "Molecular level irregularities in the glass structure cause what?",
+        "options": [
+            "A. Absorption",
+            "B. Reflection",
+            "C. Refraction",
+            "D. Scattering"
+        ],
+        "answer": "D",
+        "explanation": "Rayleigh scattering occurs due to microscopic irregularities in the glass, causing signal dispersion and attenuation in fiber optics, especially at shorter wavelengths."
+    },
+    {
+        "question": "What is 0.025V in millivolts (mV)?",
+        "options": [
+            "A. 2.5 mV",
+            "B. 25 mV",
+            "C. 0.25 mV",
+            "D. 250 mV"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: '25 mV'"
+    },
+    {
+        "question": "Which channels are non-overlapping in the 2.4GHz band?",
+        "options": [
+            "A. 1, 3, 5",
+            "B. 1, 6, 11",
+            "C. 2, 5, 8",
+            "D. 3, 8, 13"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: '1, 6, 11'"
+    },
+    {
+        "question": "A communications cable has an attenuation of -1.5 dB/km. Calculate the attenuation of a 3 km length of cable.",
+        "options": [
+            "A. -4.5 dB",
+            "B. -3.0 dB",
+            "C. -1.5 dB",
+            "D. -6.0 dB"
+        ],
+        "answer": "A",
+        "explanation": "The correct answer is A: '-4.5 dB'"
+    },
+   
+    {
+        "question": "The maximum recommended length of Horizontal Cabling is?",
+        "options": [
+            "A. 50 meters",
+            "B. 100 meters",
+            "C. 90 meters plus patch cables",
+            "D. 150 meters"
+        ],
+        "answer": "C",
+        "explanation": "The correct answer is C: '90 meters plus patch cables'"
+    },
+    {
+        "question": "Losses in an optical fiber can be caused by what?",
+        "options": [
+            "A. Scattering",
+            "B. Bending",
+            "C. Absorption",
+            "D. All of the above"
+        ],
+        "answer": "D",
+        "explanation": "The correct answer is D: 'All of the above'"
+    },
+    {
+        "question": "Typical delay for CAT 5e UTP is approx what per meter?",
+        "options": [
+            "A. 5 nanoseconds",
+            "B. 0.5 milliseconds",
+            "C. 1 microsecond",
+            "D. 0.1 seconds"
+        ],
+        "answer": "A",
+        "explanation": "The correct answer is A: '5 nanoseconds'"
+    },
+    {
+        "question": "In new installations what is the most common copper cable type used?",
+        "options": [
+            "A. Cat 3",
+            "B. Cat 5e",
+            "C. Cat 6a",
+            "D. Cat 7"
+        ],
+        "answer": "C",
+        "explanation": "The correct answer is C: 'Cat 6a'"
+    },
+    {
+        "question": "Which description best describes Horizontal Cabling?",
+        "options": [
+            "A. Cables running between floors",
+            "B. Cables connecting desktops to patch panel",
+            "C. Backbone cabling",
+            "D. Fiber optic core cables"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is B: 'Cables connecting desktops to patch panel'"
+    },
+    {
+        "question": "What is the frequency of this waveform (1 cycle in 1ms)?",
+        "options": [
+            "A. 1 kHz",
+            "B. 100 Hz",
+            "C. 10 kHz",
+            "D. 1 Hz"
+        ],
+        "answer": "A",
+        "explanation": "The correct answer is A: '1 kHz'"
+    },
+    {
+        "question": "What type of Modulation is this? (showing combined amplitude and phase changes)",
+        "options": [
+            "A. ASK",
+            "B. FSK",
+            "C. PSK",
+            "D. QAM"
+        ],
+        "answer": "D",
+        "explanation": "The correct answer is D: 'QAM'"
+    }
+]

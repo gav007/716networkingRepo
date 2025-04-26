@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}OpAmp / Rectifier Simulator{% endblock %}
+
+{% block content %}
+<section class="opamp-form">
+  <h1>Rectifier Simulation</h1>
+  <form action="/simulate-opamp" method="POST">
+    <label>Rectifier Type:</label>
+    <select name="rectifier_type" required>
+      <option value="half">Half-Wave</option>
+      <option value="full">Full-Wave</option>
+    </select><br><br>
+
+    <label>Input Voltage (VRMS):</label>
+    <input type="number" step="any" name="vrms" required><br><br>
+
+    <label>Frequency (Hz):</label>
+    <input type="number" step="any" name="frequency" required><br><br>
+
+    <label>Diode Drop Voltage (V):</label>
+    <input type="number" step="any" name="diode_drop" required><br><br>
+
+    <button type="submit">Simulate</button>
+  </form>
+</section>
+{% endblock %}

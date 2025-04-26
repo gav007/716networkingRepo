@@ -1221,7 +1221,7 @@
       "D": "Increase the PC's memory"
     },
     "answer": "C",
-    "explanation": "When a PC is moved across VLANs, the port on the new switch needs to be reconfigured to ensure it is part of the correct VLAN that the employee’s PC was initially on."
+    "explanation": "When a PC is moved across VLANs, the port on the new switch needs to be reconfigured to ensure it is part of the correct VLAN that the employeeï¿½s PC was initially on."
   },
   {
     "type": "MC",

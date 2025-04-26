@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}OpAmp Simulation Result{% endblock %}
+
+{% block content %}
+<section class="simulation-result">
+  <h1>Simulation Result</h1>
+  <img src="{{ url_for('static', filename='images/rectifier_plot.png') }}"
+       alt="Rectifier Output Graph"
+       style="width:90%; max-width:800px;">
+  <p><a href="/opamp" class="btn">Simulate Again</a></p>
+</section>
+{% endblock %}

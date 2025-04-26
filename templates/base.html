@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Add TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Your custom style -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <title>{% block title %}Zetta Delta Mind{% endblock %}</title>
+  <title>{% block title %}Zetta Delta Mind{% endblock %}</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% block extra_css %}{% endblock %}
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="logo">Zetta Delta Mind</div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <nav class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/quiz">Quiz</a></li>
+          <li><a href="/calculator">Calculator</a></li>
+          <li><a href="/opamp">Wave-Rectifier</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  {% block extra_js %}{% endblock %}
+
+  <footer>
+    <p>&copy; 2025 Zetta Delta Mind | 
+       <a href="https://netacad.com" target="_blank">NetAcad</a>
+    </p>
+  </footer>
+</body>
+</html>
